@@ -38,3 +38,10 @@ integer = ord('a')
 ''.join(e for e in string if e.isalpha())
 ```
 
+# Integers
+
+```python
+
+max = sys.maxsize
+min = -sys.maxsize - 1
+```
