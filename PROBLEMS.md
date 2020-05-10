@@ -13,8 +13,11 @@
 - [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
 - 153.find-minimum-in-rotated-sorted-array.py
 - rotated JOE
+
+# W3
+
 - [two-sum](https://leetcode.com/problems/two-sum/)
 - [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- [sort-colors](https://leetcode.com/problems/sort-colors/)
+- [sort-colors II]
 - [partition array]
 - [kth largest element]
