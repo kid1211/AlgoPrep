@@ -11,13 +11,13 @@
 - [last-position-of-target](http://www.lintcode.com/problem/last-position-of-target)
 - [first-bad-version](http://www.lintcode.com/problem/first-bad-version) - not done
 - [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
-- 153.find-minimum-in-rotated-sorted-array.py
-- rotated JOE
+- [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 # W3
 
 - [two-sum](https://leetcode.com/problems/two-sum/)
 - [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- [sort-colors II]
-- [partition array]
-- [kth largest element]
+- [sort-colors-ii Lintcode](https://www.lintcode.com/problem/sort-colors-ii/description)
+- [partition-array Lintcode](https://www.lintcode.com/problem/partition-array/description)
+- [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
