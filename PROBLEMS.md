@@ -11,3 +11,4 @@
 - [last-position-of-target](http://www.lintcode.com/problem/last-position-of-target)
 - [first-bad-version](http://www.lintcode.com/problem/first-bad-version) - not done
 - [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
+- 153.find-minimum-in-rotated-sorted-array.py

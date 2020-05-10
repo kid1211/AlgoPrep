@@ -1,4 +1,10 @@
-from typing import List
+#
+# @lc app=leetcode id=658 lang=python3
+#
+# [658] Find K Closest Elements
+#
+
+# @lc code=start
 
 
 class Solution:
@@ -12,86 +18,56 @@ class Solution:
 
         if end == 0:
             return arr
-        # all other cases, we need to sort based on the closes env
-
-        # test first module
-        # self.testFindClosestElement()
-        self.testFindKClosestElement()
 
         # then two pointer find the array
 
-        return []
+        closestIndexes = self.findTwoClosestElement(arr, x, start, end)
+        return sorted(self.findKClosestElement(arr, x, closestIndexes[0], closestIndexes[1], k))
+
+    # return an array for k elements
+    def findKClosestElement(self, arr, target, left, right, k):
+        length = len(arr)
+        rtn = []
+
+        def isSafe(index):
+            return index < length and index >= 0
+
+        while isSafe(left) and isSafe(right) and len(rtn) < k:
+            leftEle, rightEle = arr[left], arr[right]
+
+            if abs(leftEle - target) <= abs(rightEle - target):
+                rtn.append(leftEle)
+                left -= 1
+            else:
+                rtn.append(rightEle)
+                right += 1
+
+        # done all left side or all right side
+        if len(rtn) == k:
+            return rtn
+        elif isSafe(left):
+            while isSafe(left) and len(rtn) < k:
+                rtn.append(arr[left])
+                left -= 1
+        else:
+            while isSafe(right) and len(rtn) < k:
+                rtn.append(arr[right])
+                right += 1
+
+        return rtn
 
     # return index of the closes k
-    def findClosestElement(self, arr, target, start, end):
+    def findTwoClosestElement(self, arr, target, start, end):
         if start + 1 < end:
             mid = (start + end) // 2
 
             if arr[mid] <= target:
-                return self.findClosestElement(arr, target, mid, end)
+                return self.findTwoClosestElement(arr, target, mid, end)
             else:
-                return self.findClosestElement(arr, target, start, mid)
+                return self.findTwoClosestElement(arr, target, start, mid)
 
-        if abs(arr[start] - target) <= abs(arr[end] - target):
-            return start
+        if abs(arr[start] - target) > abs(arr[end] - target) and (end + 1) < len(arr):
+            return (end, end + 1)
         else:
-            return end
-    # return an array for k elements
-
-    def findKClosestElement(self, arr, target, index, k):
-        return []
-
-    def testFindKClosestElement(self):
-        cases = 3
-        testArrys = [
-            [2, 3, 4, 6, 7, 9],
-            [2, 3, 6, 7, 9],
-            [2, 3, 4, 4, 6, 7, 9]
-        ]
-        testTarget = [
-            4,
-            4,
-            4
-        ]
-        expected = [
-            [4, 3, 6, 2],
-            [3, 2, 6, 7],
-            [4, 4, 3, 2]
-        ]
-
-        for i in range(cases):
-            for k in range(4):
-                rtn = findKClosestElement(testArrys[i], testTarget[i], 0, k)
-                print(f"TestCase {i} for {k} elements: ",
-                      rtn == expected[i][:k])
-        return
-
-    def testFindClosestElement(self):
-        cases = 2
-        testArrys = [
-            [2, 3, 4, 6, 7, 9],
-            [2, 3, 6, 7, 9]
-        ]
-        testX = [
-            4,
-            4
-        ]
-        expected = [
-            2,
-            1
-        ]
-
-        for i in range(cases):
-            start, end = 0, len(testArrys[i]) - 1
-            rtn = self.findClosestElement(testArrys[i], testX[i], start, end)
-            print(f"test cases {i}: ", expected[i] == rtn)
-        return
-
-
-# args = [
-#     [1,2,3,4,5]
-#     5,
-#     2
-# ]
-if __name__ == '__main__':
-    Solution.findClosestElements([1, 2, 3, 4, 5], 2, 2)
+            return (start, end)
+# @lc code=end
