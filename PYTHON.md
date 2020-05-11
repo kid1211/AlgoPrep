@@ -45,3 +45,5 @@ integer = ord('a')
 max = sys.maxsize
 min = -sys.maxsize - 1
 ```
+
+# Hashset is just Dict
