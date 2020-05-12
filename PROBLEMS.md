@@ -14,6 +14,7 @@
 - [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [](http://www.lintcode.com/problem/find-minimum-inrotated-sorted-array) - not done
 
 # W3
 

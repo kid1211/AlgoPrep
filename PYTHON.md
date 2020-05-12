@@ -47,3 +47,16 @@ min = -sys.maxsize - 1
 ```
 
 # Hashset is just Dict
+
+# Binary search - ooxx
+
+左边是o右边是×，题目简化成为判断什么是o什么是x
+
+1:24 video 2 -> ooxx境界
+1:35 video 2 -> 画图具象化
+
+# Mod in math
+
+foolowing apply to '+', '-', '*'
+
+(a + b) %c = a % c + b % c

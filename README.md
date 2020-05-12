@@ -5,6 +5,7 @@ Will be an on-going documentation
 # TODO
 
 - bubble sort
+- [counting sort](https://www.youtube.com/watch?v=OKd534EWcdk)
 - selection sort
 - merge sort
 - quick sort
