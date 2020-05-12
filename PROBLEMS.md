@@ -34,4 +34,10 @@
 
 ## W4
 
+- [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+  - use queue (python: dequeue)
+  - only array (drop array)
 - [number-of-islands](https://leetcode.com/problems/number-of-islands/)
+- word ladder read last
+- 最短路径 bfs
+- 有方向性的才可以 dynamic

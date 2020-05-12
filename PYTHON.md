@@ -62,3 +62,15 @@ min = -sys.maxsize - 1
 foolowing apply to '+', '-', '*'
 
 (a + b) %c = a % c + b % c
+
+## 有向的图和没有方向的图
+
+因为没有方向的图有可能会形成一个换所以需要visited hash map 
+
+# filter kind of
+
+```python
+
+start_nodes = [n for n in graph if indegree[n] == 0]
+
+```
