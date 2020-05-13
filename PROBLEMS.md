@@ -38,6 +38,7 @@
   - use queue (python: dequeue)
   - only array (drop array)
 - [number-of-islands](https://leetcode.com/problems/number-of-islands/)
-- word ladder read last
-- 最短路径 bfs
-- 有方向性的才可以 dynamic
+- [word-ladder](https://leetcode.com/problems/word-ladder/)
+- Topological sort
+- BFS is the best way to find shortest path compare to dfs
+- (need to be verified after we know dp) dp can only do graph that has directions

@@ -24,9 +24,8 @@ class Solution:
 
         while queue:
             level = []
-            length = len(queue)
 
-            for _ in range(length):
+            for _ in range(len(queue)):
                 node = queue.popleft()
                 level.append(node.val)
 
@@ -38,6 +37,5 @@ class Solution:
             result.append(level)
 
         return result
-
 
 # @lc code=end
