@@ -47,3 +47,4 @@
 
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
+- [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
