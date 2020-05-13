@@ -42,3 +42,8 @@
 - Topological sort
 - BFS is the best way to find shortest path compare to dfs
 - (need to be verified after we know dp) dp can only do graph that has directions
+
+## W5
+
+- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
+- [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
