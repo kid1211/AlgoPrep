@@ -19,47 +19,30 @@ class Solution:
         # find the smallest and come back
 
         stack = []
+        # dummy = TreeNode(0)
+        # dummy.right = root
+
         # on start
         node = root
 
-        while True:
+        for i in range(k - 1):
             while node:
                 stack.append(node)
                 node = node.left
-
             # at minimum
             if len(stack) <= 0:
-                return -1
+                return None
 
             node = stack.pop()
-            k -= 1
+            # k -= 1
 
-            if k == 0:
-                return node.val
+            # if k == 0:
+            #     return node.val
 
             node = node.right
+        print(stack)
 
-        return -5
-        # stack = [root]
-        # counter = 1
-        # node = root
-
-        # # in-order-traversal
-        # while True:
-        #     while node.left:
-        #         stack.append(node)
-        #         node = node.left
-
-        #     if len(stack) == 0:
-        #         break
-        #     node = stack.pop()
-        #     counter += 1
-        #     if not node:
-        #         break
-
-        #     if counter >= k:
-        #       return node.val
-
-        #     node = node.right
-
-        # return None
+        while node:
+            stack.append(node)
+            node = node.left
+        return stack[-1].val
