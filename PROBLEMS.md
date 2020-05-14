@@ -39,7 +39,7 @@
   - only array (drop array)
 - [number-of-islands](https://leetcode.com/problems/number-of-islands/)
 - [word-ladder](https://leetcode.com/problems/word-ladder/)
-- Topological sort
+- Topological sort -- Not done
 - BFS is the best way to find shortest path compare to dfs
 - (need to be verified after we know dp) dp can only do graph that has directions
 
@@ -48,3 +48,11 @@
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
+- [subsets](https://leetcode.com/problems/subsets)
+- [subsets-ii](https://leetcode.com/problems/subsets-ii)
+- [combinations](https://leetcode.com/problems/combinations)
+- [combination-sum](https://leetcode.com/problems/combination-sum)
+- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
+- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
+- [word-break-ii](https://leetcode.com/problems/word-break-ii)
+
