@@ -16,6 +16,16 @@
 - [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  - first position <= last position (need to hide this)
+- [maximum-number-in-mountain-sequence](http://www.lintcode.com/problem/maximum-number-in-mountain-sequence) 
+  - not done
+- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [search-for-a-range](http://www.lintcode.com/problem/search-for-a-range)
+- [smallest-rectangle-enclosing-black-pixels](http://www.lintcode.com/problems/smallest-rectangle-enclosing-black-pixels)
+- [find-peak-element](http://www.lintcode.com/problem/find-peak-element)
+- [powx-n](http://www.lintcode.com/problem/powx-n)
+- last Power
+- 
 
 ## W3
 
