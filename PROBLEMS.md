@@ -48,6 +48,8 @@
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
+
+## W6
 - [subsets](https://leetcode.com/problems/subsets)
 - [subsets-ii](https://leetcode.com/problems/subsets-ii)
 - [combinations](https://leetcode.com/problems/combinations)
