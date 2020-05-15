@@ -210,8 +210,15 @@
 
 ## W9
 
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
+- 839. Merge Two Sorted Interval Lists
+- 547. Intersection of Two Arrays
+- 138. Subarray Sum
+- 64. Merge Sorted Array
+- 41. Maximum Subarray
+- 944. Maximum  Submatrix
+- 931. Median of K sorted Arrays
+- 840. Range Sum Query - Mutable
+- 654. Sparse Matrix Multiplication
+- 577. Merge K Sorted Interval Lists
+- 486. Merge K Sorted Arrays
+- 65. Median of Two sorted Arrays
