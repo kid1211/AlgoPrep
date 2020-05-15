@@ -10,7 +10,7 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         result = []
-        self.dfs([], 0, result, sorted(nums))
+        self.dfs([], 0, result, nums)
         return result
 
     def dfs(self, current, index, result, nums):
