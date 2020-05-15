@@ -25,7 +25,6 @@
 - [find-peak-element](http://www.lintcode.com/problem/find-peak-element)
 - [powx-n](http://www.lintcode.com/problem/powx-n)
 - last Power
-- 
 
 ## W3
 
@@ -60,6 +59,7 @@
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
 
 ## W6
+
 - [subsets](https://leetcode.com/problems/subsets)
 - [subsets-ii](https://leetcode.com/problems/subsets-ii)
 - [combinations](https://leetcode.com/problems/combinations)
@@ -67,4 +67,3 @@
 - [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
 - [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 - [word-break-ii](https://leetcode.com/problems/word-break-ii)
-
