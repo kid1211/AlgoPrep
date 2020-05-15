@@ -49,6 +49,7 @@
 - 63. Search in Rotated Sorted Array II
 - 437. Copy Books
 - 183. Wood Cut
+- search in a big sorted Array
 
 ## W3
 
@@ -105,6 +106,15 @@
 - [sleep sort](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
 - [Spaghetti Sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
 - [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
+- 228. Middle of Linked List
+- 607. Two Sum III - Data structure design
+- 464. Sort integers II
+- 608. Two Sum II- Input array is sorted
+- 143. Sort Colors II
+- 57. 3Sum
+- 31. Partition Array
+- 5. Kth Largest Element
+- 93. Balanced Binary Tree
 
 ## W4
 
@@ -113,7 +123,7 @@
   - only array (drop array)
 - [number-of-islands](https://leetcode.com/problems/number-of-islands/)
 - [word-ladder](https://leetcode.com/problems/word-ladder/)
-- Topological sort -- Not done
+- 127. Topological sorting -- Not done
 - BFS is the best way to find shortest path compare to dfs
 - (need to be verified after we know dp) dp can only do graph that has directions
 - [clone-graph](https://www.lintcode.com/problem/clone-graph)
@@ -127,6 +137,7 @@
 - [connected-component-in-undirected-graph](http://www.lintcode.com/problem/connected-component-in-undirected-graph)
 - [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
 - [build-post-office-ii](http://www.lintcode.com/problem/build-post-office-ii)
+- 7. Serialize and Deserialize Binary Tree
 
 ## W5
 
@@ -164,8 +175,11 @@
 
 ## W7
 
+- 16. Permutations II
+- 15. Permutations
 - [](http://www.lintcode.com/problem/string-permutation-ii)
 - [](http://www.lintcode.com/problem/n-queens)
+- 34. N-Queens II
 - [](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
 - [](http://www.lintcode.com/problem/word-search-ii)
 - [](http://www.lintcode.com/problem/next-closest-time)
@@ -173,6 +187,8 @@
 - [](http://www.lintcode.com/problem/next-permutation-ii)
 - [](http://www.lintcode.com/problem/permutation-index)
 - [](http://www.lintcode.com/problem/permutation-index-ii)
+- 829. WordPattern II
+- 121. Word Ladder II
 
 ## W8
 
@@ -181,6 +197,16 @@
 - [](http://www.lintcode.com/problem/)
 - [](http://www.lintcode.com/problem/)
 - [](http://www.lintcode.com/problem/)
+- 642. Moving Average from Data Stream
+- 494. Implement Stack By Two Queues
+- 209. First Unique Character in a String
+- 657. Insert Delete GetRandom O(1)
+- 612. K Closest Points
+- 544. Top k Largest Numbers
+- 104. Merge K Sorted Lists
+- 40. Implement Queue by Two Stacks
+- 4. Ugly Number II
+- 134. LRU Cache
 
 ## W9
 
