@@ -177,16 +177,16 @@
 
 - 16. Permutations II
 - 15. Permutations
-- [](http://www.lintcode.com/problem/string-permutation-ii)
-- [](http://www.lintcode.com/problem/n-queens)
+- [string-permutation-ii](http://www.lintcode.com/problem/string-permutation-ii)
+- [n-queens](http://www.lintcode.com/problem/n-queens)
 - 34. N-Queens II
-- [](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
-- [](http://www.lintcode.com/problem/word-search-ii)
-- [](http://www.lintcode.com/problem/next-closest-time)
-- [](http://www.lintcode.com/problem/next-permutation)
-- [](http://www.lintcode.com/problem/next-permutation-ii)
-- [](http://www.lintcode.com/problem/permutation-index)
-- [](http://www.lintcode.com/problem/permutation-index-ii)
+- [letter-combinations-of-a-phone-number](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
+- [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
+- [next-closest-time](http://www.lintcode.com/problem/next-closest-time)
+- [next-permutation](http://www.lintcode.com/problem/next-permutation)
+- [next-permutation-ii](http://www.lintcode.com/problem/next-permutation-ii)
+- [permutation-index](http://www.lintcode.com/problem/permutation-index)
+- [permutation-index-ii](http://www.lintcode.com/problem/permutation-index-ii)
 - 829. WordPattern II
 - 121. Word Ladder II
 
