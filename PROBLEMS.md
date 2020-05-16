@@ -172,9 +172,9 @@
 - [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 - [word-break-ii](https://leetcode.com/problems/word-break-ii)
 - [](http://www.lintcode.com/problem/k-sum-ii)
-- [](http://www.lintcode.com/problem/wildcard-matching)
+- [wildcard-matching](http://www.lintcode.com/problem/wildcard-matching)
   - May 16
-- [](http://www.lintcode.com/problem/regular-expression-matching)
+- [regular-expression-matching](http://www.lintcode.com/problem/regular-expression-matching)
   - May 16
 - [](http://www.lintcode.com/problem/split-string)
 - [](http://www.lintcode.com/problem/word-break-ii)
