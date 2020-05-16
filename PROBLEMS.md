@@ -67,8 +67,10 @@
   - not done
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
   - not done
+  - May 16
 - [window-sum](http://www.lintcode.com/problem/window-sum)
   - not done
+  - May 16
 - [remove-duplicate-numbers-in-array](http://www.lintcode.com/problem/remove-duplicate-numbers-in-array)
   - not done
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
@@ -81,6 +83,7 @@
   - not done
 - [move-zeroes](http://www.lintcode.com/problem/move-zeroes)
   - not done
+  - May 16
 - [total-occurrence-of-target](http://www.lintcode.com/problem/total-occurrence-of-target)
   - not done
 - [valid-palindrome-ii](http://www.lintcode.com/problem/valid-palindrome-ii)
@@ -114,6 +117,7 @@
 - 57. 3Sum
 - 31. Partition Array
 - 5. Kth Largest Element
+  - May 16
 - 93. Balanced Binary Tree
 
 ## W4
@@ -169,7 +173,9 @@
 - [word-break-ii](https://leetcode.com/problems/word-break-ii)
 - [](http://www.lintcode.com/problem/k-sum-ii)
 - [](http://www.lintcode.com/problem/wildcard-matching)
+  - May 16
 - [](http://www.lintcode.com/problem/regular-expression-matching)
+  - May 16
 - [](http://www.lintcode.com/problem/split-string)
 - [](http://www.lintcode.com/problem/word-break-ii)
 
