@@ -66,8 +66,6 @@
   - Counting Sort
   - not done
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-  - not done
-  - May 16
 - [window-sum](http://www.lintcode.com/problem/window-sum)
   - not done
   - May 16
