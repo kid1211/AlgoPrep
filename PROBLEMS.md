@@ -67,8 +67,6 @@
   - not done
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [window-sum](http://www.lintcode.com/problem/window-sum)
-  - not done
-  - May 16
 - [remove-duplicate-numbers-in-array](http://www.lintcode.com/problem/remove-duplicate-numbers-in-array)
   - not done
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
@@ -80,8 +78,6 @@
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
   - not done
 - [move-zeroes](http://www.lintcode.com/problem/move-zeroes)
-  - not done
-  - May 16
 - [total-occurrence-of-target](http://www.lintcode.com/problem/total-occurrence-of-target)
   - not done
 - [valid-palindrome-ii](http://www.lintcode.com/problem/valid-palindrome-ii)
@@ -112,10 +108,6 @@
 - 464. Sort integers II
 - 608. Two Sum II- Input array is sorted
 - 143. Sort Colors II
-- 57. 3Sum
-- 31. Partition Array
-- 5. Kth Largest Element
-  - May 16
 - 93. Balanced Binary Tree
 
 ## W4
@@ -196,27 +188,34 @@
 
 ## W8
 
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
-- [](http://www.lintcode.com/problem/)
 - 642. Moving Average from Data Stream
 - 494. Implement Stack By Two Queues
 - 209. First Unique Character in a String
 - 657. Insert Delete GetRandom O(1)
 - 612. K Closest Points
 - 544. Top k Largest Numbers
+- Top k Largest Numbers II
 - 104. Merge K Sorted Lists
 - 40. Implement Queue by Two Stacks
 - 4. Ugly Number II
 - 134. LRU Cache
+- [](http://www.lintcode.com/problem/subarray-sum)
+- [](http://www.lintcode.com/problem/copy-list-with-random-pointer)
+- [](http://www.lintcode.com/problem/anagrams)
+- [](http://www.lintcode.com/problem/longest-consecutive-sequence)
+- [](http://www.lintcode.com/problem/high-five)
+- [](http://www.lintcode.com/problem/merge-k-sorted-arrays)
+- [](http://www.lintcode.com/problem/data-stream-mdeian)
+- [](http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix)
 
 ## W9
 
 - 839. Merge Two Sorted Interval Lists
 - 547. Intersection of Two Arrays
+- Intersection of Two Arrays II
 - 138. Subarray Sum
+- [](http://www.lintcode.com/problem/submatrix-sum)
+-  [](http://www.lintcode.com/problem/range-sum-query-immutable)
 - 64. Merge Sorted Array
 - 41. Maximum Subarray
 - 944. Maximum  Submatrix
@@ -226,3 +225,6 @@
 - 577. Merge K Sorted Interval Lists
 - 486. Merge K Sorted Arrays
 - 65. Median of Two sorted Arrays
+- Binary indexed Tree
+- [](http://www.lintcode.com/problem/range-sum-query-immutable)
+- [](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock)
