@@ -163,9 +163,7 @@
 - [word-break-ii](https://leetcode.com/problems/word-break-ii)
 - [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 - [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
-  - May 16
 - [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
-  - May 16
 - [split-string](http://www.lintcode.com/problem/split-string)
 - [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
 
@@ -188,17 +186,17 @@
 
 ## W8
 
+- 104. Merge K Sorted Lists
+- 544. Top k Largest Numbers
+- 657. Insert Delete GetRandom O(1)
+- Top k Largest Numbers II
+- 134. LRU Cache
 - 642. Moving Average from Data Stream
 - 494. Implement Stack By Two Queues
 - 209. First Unique Character in a String
-- 657. Insert Delete GetRandom O(1)
 - 612. K Closest Points
-- 544. Top k Largest Numbers
-- Top k Largest Numbers II
-- 104. Merge K Sorted Lists
 - 40. Implement Queue by Two Stacks
 - 4. Ugly Number II
-- 134. LRU Cache
 - [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
 - [copy-list-with-random-pointer](http://www.lintcode.com/problem/copy-list-with-random-pointer)
 - [anagrams](http://www.lintcode.com/problem/anagrams)
@@ -214,8 +212,8 @@
 - 547. Intersection of Two Arrays
 - Intersection of Two Arrays II
 - 138. Subarray Sum
-- [](http://www.lintcode.com/problem/submatrix-sum)
-- [](http://www.lintcode.com/problem/range-sum-query-immutable)
+- [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
+- [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
 - 64. Merge Sorted Array
 - 41. Maximum Subarray
 - 944. Maximum  Submatrix
@@ -226,5 +224,5 @@
 - 486. Merge K Sorted Arrays
 - 65. Median of Two sorted Arrays
 - Binary indexed Tree
-- [](http://www.lintcode.com/problem/range-sum-query-immutable)
-- [](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock)
+- [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
+- [/best-time-to-buy-and-sell-stock](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock)
