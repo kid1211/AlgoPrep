@@ -180,7 +180,7 @@
 - [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
 - [next-closest-time](http://www.lintcode.com/problem/next-closest-time)
 - [next-permutation](http://www.lintcode.com/problem/next-permutation)
-- [next-permutation-ii](http://www.lintcode.com/problem/next-permutation-ii)
+- [next-permutation-ii](http://www.lint code.com/problem/next-permutation-ii)
 - [permutation-index](http://www.lintcode.com/problem/permutation-index)
 - [permutation-index-ii](http://www.lintcode.com/problem/permutation-index-ii)
 - 829. WordPattern II
@@ -215,7 +215,7 @@
 - Intersection of Two Arrays II
 - 138. Subarray Sum
 - [](http://www.lintcode.com/problem/submatrix-sum)
--  [](http://www.lintcode.com/problem/range-sum-query-immutable)
+- [](http://www.lintcode.com/problem/range-sum-query-immutable)
 - 64. Merge Sorted Array
 - 41. Maximum Subarray
 - 944. Maximum  Submatrix
