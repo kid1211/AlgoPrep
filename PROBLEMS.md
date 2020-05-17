@@ -186,17 +186,17 @@
 
 ## W8
 
-- 104. Merge K Sorted Lists
-- 544. Top k Largest Numbers
-- 657. Insert Delete GetRandom O(1)
-- Top k Largest Numbers II
-- 134. LRU Cache
-- 642. Moving Average from Data Stream
-- 494. Implement Stack By Two Queues
-- 209. First Unique Character in a String
-- 612. K Closest Points
-- 40. Implement Queue by Two Stacks
-- 4. Ugly Number II
+- [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
+- [544. Top k Largest Numbers]()
+- [657. Insert Delete GetRandom O(1)]()
+- [Top k Largest Numbers II]()
+- [134. LRU Cache]()
+- [642. Moving Average from Data Stream]()
+- [494. Implement Stack By Two Queues]()
+- [209. First Unique Character in a String]()
+- [612. K Closest Points]()
+- [40. Implement Queue by Two Stacks]()
+- [4. Ugly Number II]()
 - [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
 - [copy-list-with-random-pointer](http://www.lintcode.com/problem/copy-list-with-random-pointer)
 - [anagrams](http://www.lintcode.com/problem/anagrams)
