@@ -186,10 +186,10 @@
 
 ## W8
 
-- [657. Insert Delete GetRandom O(1)]()
-- [544. Top k Largest Numbers]()
-- [Top k Largest Numbers II]()
-- [134. LRU Cache]()
+- [657. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
+- [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/) - useless
+- [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/) - useless
+- [134. LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
 - [642. Moving Average from Data Stream]()
 - [494. Implement Stack By Two Queues]()
