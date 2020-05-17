@@ -15,7 +15,8 @@ class Solution:
         # [0 1 0 3 12]
         # [1 1 0 3 12]
         # [1 3 0 3 12]
-        # left is indecated teh sorted ones
+        # left is pointing the sorted ones
+        # what happen if all the char are not zeros
         left, right = 0, 0
 
         while right < length:

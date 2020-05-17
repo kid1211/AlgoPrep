@@ -147,10 +147,10 @@
 - [inorder-successor-in-bst](http://www.lintcode.com/problem/inorder-successor-in-bst)
 - [closest-binary-search-tree-value](http://www.lintcode.comproblem/closest-binary-search-tree-value)
 - [closest-binary-search-tree-value-ii](http:www.lintcode.com/problem/closest-bineary-search-tree-value-ii)
-- [](http://www.lintcode.com/problem/search-range-in-binary-search-tree)
-- [](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
-- [](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
-  - [suppliment](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
+- [search-range-in-binary-search-tree](http://www.lintcode.com/problem/search-range-in-binary-search-tree)
+- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
+- [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
+  - [supplement](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
 
 ## W6
 
@@ -161,13 +161,13 @@
 - [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
 - [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 - [word-break-ii](https://leetcode.com/problems/word-break-ii)
-- [](http://www.lintcode.com/problem/k-sum-ii)
+- [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 - [wildcard-matching](http://www.lintcode.com/problem/wildcard-matching)
   - May 16
 - [regular-expression-matching](http://www.lintcode.com/problem/regular-expression-matching)
   - May 16
-- [](http://www.lintcode.com/problem/split-string)
-- [](http://www.lintcode.com/problem/word-break-ii)
+- [split-string](http://www.lintcode.com/problem/split-string)
+- [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
 
 ## W7
 
@@ -180,7 +180,7 @@
 - [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
 - [next-closest-time](http://www.lintcode.com/problem/next-closest-time)
 - [next-permutation](http://www.lintcode.com/problem/next-permutation)
-- [next-permutation-ii](http://www.lint code.com/problem/next-permutation-ii)
+- [next-permutation-ii](http://www.lintcode.com/problem/next-permutation-ii)
 - [permutation-index](http://www.lintcode.com/problem/permutation-index)
 - [permutation-index-ii](http://www.lintcode.com/problem/permutation-index-ii)
 - 829. WordPattern II
@@ -199,14 +199,14 @@
 - 40. Implement Queue by Two Stacks
 - 4. Ugly Number II
 - 134. LRU Cache
-- [](http://www.lintcode.com/problem/subarray-sum)
-- [](http://www.lintcode.com/problem/copy-list-with-random-pointer)
-- [](http://www.lintcode.com/problem/anagrams)
-- [](http://www.lintcode.com/problem/longest-consecutive-sequence)
-- [](http://www.lintcode.com/problem/high-five)
-- [](http://www.lintcode.com/problem/merge-k-sorted-arrays)
-- [](http://www.lintcode.com/problem/data-stream-mdeian)
-- [](http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix)
+- [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
+- [copy-list-with-random-pointer](http://www.lintcode.com/problem/copy-list-with-random-pointer)
+- [anagrams](http://www.lintcode.com/problem/anagrams)
+- [longest-consecutive-sequence](http://www.lintcode.com/problem/longest-consecutive-sequence)
+- [high-five](http://www.lintcode.com/problem/high-five)
+- [merge-k-sorted-arrays](http://www.lintcode.com/problem/merge-k-sorted-arrays)
+- [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
+- [kth-smallest-number-in-sorted-matrix](http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix)
 
 ## W9
 

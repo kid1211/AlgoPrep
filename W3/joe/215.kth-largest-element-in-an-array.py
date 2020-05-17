@@ -31,7 +31,7 @@ class Solution:
                 nums[left], nums[right] = nums[right], nums[left]
                 left += 1
                 right -= 1
-
+        # [ start, right, pivot, left, end]
         if k <= right:
             return self.findKthLargestWithinRange(nums, k, start, right)
         elif left <= k:

@@ -1,9 +1,15 @@
 {
     "python.linting.enabled": true,
     "cSpell.words": [
+        "Bogosort",
         "Lintcode",
+        "geeksforgeeks",
+        "inorder",
         "nums",
+        "powx",
         "pqrs",
+        "strstr",
+        "subarray",
         "wxyz"
     ]
 }
