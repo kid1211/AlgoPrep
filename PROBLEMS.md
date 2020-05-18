@@ -208,21 +208,20 @@
 
 ## W9
 
-- 839. Merge Two Sorted Interval Lists
-- 547. Intersection of Two Arrays
-- Intersection of Two Arrays II
-- 138. Subarray Sum
+- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
+- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-list)
+- [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
+- [840. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)
+- [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+- [65. Median of Two sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 - [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
+- [best-time-to-buy-and-sell-stock](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock)
+- [Intersection of Two Arrays II]()
+- [64. Merge Sorted Array]()
+- [41. Maximum Subarray]()
+- [944. Maximum  Submatrix]()
+- [931. Median of K sorted Arrays]()
+- [577. Merge K Sorted Interval Lists]()
+- [486. Merge K Sorted Arrays]()
 - [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
-- 64. Merge Sorted Array
-- 41. Maximum Subarray
-- 944. Maximum  Submatrix
-- 931. Median of K sorted Arrays
-- 840. Range Sum Query - Mutable
-- 654. Sparse Matrix Multiplication
-- 577. Merge K Sorted Interval Lists
-- 486. Merge K Sorted Arrays
-- 65. Median of Two sorted Arrays
-- Binary indexed Tree
-- [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
-- [/best-time-to-buy-and-sell-stock](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock)
+- [Binary indexed Tree]()
