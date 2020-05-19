@@ -17,39 +17,6 @@
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
   - first position <= last position (need to hide this)
-- [maximum-number-in-mountain-sequence](http://www.lintcode.com/problem/maximum-number-in-mountain-sequence) 
-  - not done
-- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
-  - not done
-- [search-for-a-range](http://www.lintcode.com/problem/search-for-a-range)
-  - not done
-- [smallest-rectangle-enclosing-black-pixels](http://www.lintcode.com/problems/smallest-rectangle-enclosing-black-pixels)
-  - not done
-- [find-peak-element](http://www.lintcode.com/problem/find-peak-element)
-  - not done
-- [powx-n](http://www.lintcode.com/problem/powx-n)
-  - not done
-- fast Power
-  - not done
-- 235. Prime Factorization
-- 462. Total Occurrence of Target
-- 459. Closest Number in Sorted Array
-- 254. Drop Eggs
-- 28. Search a 2D Matrix
-- 14. First Position of Target
-- 414. Divide Two Integers
-- 61. Search for a Range
-- 38. Search a 2D Matrix II
-- 600. Smallest Rectangle Enclosing Black Pixels
-- 457. Classical Binary Search
-- 141. Sqrt(x)
-- 617. Maximum Average Subarray II
-- 586. Sqrt(x) II
-- 160. Find Minimum in Rotated Sorted Array II
-- 63. Search in Rotated Sorted Array II
-- 437. Copy Books
-- 183. Wood Cut
-- search in a big sorted Array
 
 ## W3
 
@@ -67,19 +34,95 @@
   - not done
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [window-sum](http://www.lintcode.com/problem/window-sum)
+
+## W4
+
+- [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+  - use queue (python: dequeue)
+  - only array (drop array)
+- [number-of-islands](https://leetcode.com/problems/number-of-islands/)
+- [word-ladder](https://leetcode.com/problems/word-ladder/)
+
+## W5
+
+- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
+- [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
+
+## W6
+
+- [subsets](https://leetcode.com/problems/subsets)
+- [subsets-ii](https://leetcode.com/problems/subsets-ii)
+- [combinations](https://leetcode.com/problems/combinations)
+- [combination-sum](https://leetcode.com/problems/combination-sum)
+- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
+- [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
+- [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
+
+## W7
+
+- [15. Permutations]()
+- [16. Permutations II]()
+- [n-queens](http://www.lintcode.com/problem/n-queens)
+- [string-permutation-ii](http://www.lintcode.com/problem/string-permutation-ii)
+- [34. N-Queens II]()
+- [letter-combinations-of-a-phone-number](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
+
+## W8
+
+- [657. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
+- [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/) - useless
+- [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/) - useless
+- [134. LRU Cache](https://leetcode.com/problems/lru-cache/)
+
+## W9
+
+- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
+- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-list)
+- [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
+
+
+# Problems to solve:
+
+## W1
+
+## W2
+
+- [maximum-number-in-mountain-sequence](http://www.lintcode.com/problem/maximum-number-in-mountain-sequence) 
+- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [search-for-a-range](http://www.lintcode.com/problem/search-for-a-range)
+- [smallest-rectangle-enclosing-black-pixels](http://www.lintcode.com/problems/smallest-rectangle-enclosing-black-pixels)
+- [find-peak-element](http://www.lintcode.com/problem/find-peak-element)
+- [powx-n](http://www.lintcode.com/problem/powx-n)
+- [fast Power]()
+- [235. Prime Factorization]()
+- [462. Total Occurrence of Target]()
+- [459. Closest Number in Sorted Array]()
+- [254. Drop Eggs]()
+- [28. Search a 2D Matrix]()
+- [14. First Position of Target]()
+- [414. Divide Two Integers]()
+- [61. Search for a Range]()
+- [38. Search a 2D Matrix II]()
+- [600. Smallest Rectangle Enclosing Black Pixels]()
+- [457. Classical Binary Search]()
+- [141. Sqrt(x)]()
+- [617. Maximum Average Subarray II]()
+- [586. Sqrt(x) II]()
+- [160. Find Minimum in Rotated Sorted Array II]()
+- [63. Search in Rotated Sorted Array II]()
+- [437. Copy Books]()
+- [183. Wood Cut]()
+- [search in a big sorted Array]()
+
+## W3
+
 - [remove-duplicate-numbers-in-array](http://www.lintcode.com/problem/remove-duplicate-numbers-in-array)
-  - not done
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
-  - not done
 - [linked-list-cycle](http://www.lintcode.com/problem/linked-list-cycle)
-  - not done
 - [linked-list-cycle-ii](http://www.lintcode.com/problem/linked-list-cycle-ii)
-  - not done
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
-  - not done
 - [move-zeroes](https://leetcode.com/problems/move-zeroes)
 - [total-occurrence-of-target](http://www.lintcode.com/problem/total-occurrence-of-target)
-  - not done
 - [valid-palindrome-ii](http://www.lintcode.com/problem/valid-palindrome-ii)
 - [two-sum-unique-pairs](http://www.lintcode.com/problem/two-sum-unique-pairs)
 - [3sum](http://www.lintcode.com/problem/3sum)
@@ -96,30 +139,25 @@
 - [interleaving-positive-and-negative-numbers](http://www.lintcode.com/problem/interleaving-positive-and-negative-numbers)
 - [sort-letters-by-case](http://www.lintcode.com/problem/sort-letters-by-case)
 - [sort-colors](http://www.lintcode.com/problem/sort-colors)
-- pancake sort
+- [pancake sort]()
   - [wiki](https://en.wikipedia.org/wiki/Pancake_sorting)
   - [geeksforgeeks](http://www.geeksforgeeks.org/pancake-sorting)
-- sleep sort
+- [sleep sort]()
 - [sleep sort](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
 - [Spaghetti Sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
 - [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
-- 228. Middle of Linked List
-- 607. Two Sum III - Data structure design
-- 464. Sort integers II
-- 608. Two Sum II- Input array is sorted
-- 143. Sort Colors II
-- 93. Balanced Binary Tree
+- [228. Middle of Linked List]()
+- [607. Two Sum III - Data structure design]()
+- [464. Sort integers II]()
+- [608. Two Sum II- Input array is sorted]()
+- [143. Sort Colors II]()
+- [93. Balanced Binary Tree]()
 
 ## W4
 
-- [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-  - use queue (python: dequeue)
-  - only array (drop array)
-- [number-of-islands](https://leetcode.com/problems/number-of-islands/)
-- [word-ladder](https://leetcode.com/problems/word-ladder/)
-- 127. Topological sorting -- Not done
-- BFS is the best way to find shortest path compare to dfs
-- (need to be verified after we know dp) dp can only do graph that has directions
+- [127. Topological sorting]()
+- [BFS is the best way to find shortest path compare to dfs]()
+- (need to be verified after we know dp, if dp can only do graph that has directions
 - [clone-graph](https://www.lintcode.com/problem/clone-graph)
 - [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
 - [course-schedule](http://www.lintcode.com/problem/course-schedule)
@@ -135,8 +173,6 @@
 
 ## W5
 
-- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
-- [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
 - [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
 - [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
@@ -154,42 +190,25 @@
 
 ## W6
 
-- [subsets](https://leetcode.com/problems/subsets)
-- [subsets-ii](https://leetcode.com/problems/subsets-ii)
-- [combinations](https://leetcode.com/problems/combinations)
-- [combination-sum](https://leetcode.com/problems/combination-sum)
-- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
 - [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 - [word-break-ii](https://leetcode.com/problems/word-break-ii)
 - [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
-- [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
-- [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
 - [split-string](http://www.lintcode.com/problem/split-string)
 - [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
 
 ## W7
 
-- 16. Permutations II
-- 15. Permutations
-- [string-permutation-ii](http://www.lintcode.com/problem/string-permutation-ii)
-- [n-queens](http://www.lintcode.com/problem/n-queens)
-- 34. N-Queens II
-- [letter-combinations-of-a-phone-number](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
 - [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
 - [next-closest-time](http://www.lintcode.com/problem/next-closest-time)
 - [next-permutation](http://www.lintcode.com/problem/next-permutation)
 - [next-permutation-ii](http://www.lintcode.com/problem/next-permutation-ii)
 - [permutation-index](http://www.lintcode.com/problem/permutation-index)
 - [permutation-index-ii](http://www.lintcode.com/problem/permutation-index-ii)
-- 829. WordPattern II
-- 121. Word Ladder II
+- [829. WordPattern II]()
+- [121. Word Ladder II]()
 
 ## W8
 
-- [657. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
-- [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/) - useless
-- [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/) - useless
-- [134. LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
 - [642. Moving Average from Data Stream]()
 - [494. Implement Stack By Two Queues]()
