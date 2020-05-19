@@ -209,7 +209,7 @@
 ## W9
 
 - [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
-- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-list)
+- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists)
 - [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
 - [840. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
