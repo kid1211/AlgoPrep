@@ -28,10 +28,7 @@
   - Selection Sort
   - Quick Sort
   - Merge Sort
-- [sort-colors-ii Lintcode](https://www.lintcode.com/problem/sort-colors-ii/description) - after learning sorting
-  - Quick Select
-  - Counting Sort
-  - not done
+- [sort-colors-ii Lintcode](https://www.lintcode.com/problem/sort-colors-ii/description)
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [window-sum](http://www.lintcode.com/problem/window-sum)
 
