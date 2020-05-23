@@ -78,6 +78,14 @@
 - [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
 
 
+# Todays problem
+- [127. Topological sorting]()
+- [course-schedule](http://www.lintcode.com/problem/course-schedule)
+- [graph-valid-tree](http://www.lintcode.com/problem/graph-valid-tree)
+- [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
+
+
+
 # Problems to solve:
 
 ## W1
