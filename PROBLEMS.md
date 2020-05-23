@@ -2,7 +2,6 @@
 
 ## Todays problems to solve
 
-- [course-schedule](http://www.lintcode.com/problem/course-schedule)
 - [graph-valid-tree](http://www.lintcode.com/problem/graph-valid-tree)
 - [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
 
