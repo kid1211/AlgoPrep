@@ -1,18 +1,20 @@
 # Algo Problems
 
-## Todays problems to solve
+## **Todays problems to solve**
 
 - [graph-valid-tree](http://www.lintcode.com/problem/graph-valid-tree)
 - [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
 
-## W1
+## **Problems completed**
+
+## Strings
 
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
 - [valid-palindrome](https://www.lintcode.com/problem/valid-palindrome)
 - [longest-palindromic-substring](https://www.lintcode.com/problem/longest-palindromic-substring)
 - [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
 
-## W2
+## Binary Search & LogN Algorithm
 
 - [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
 - [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target/)
@@ -23,7 +25,7 @@
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
   - first position <= last position (need to hide this)
 
-## W3
+## Two Pointer Algorithm
 
 - [two-sum](https://leetcode.com/problems/two-sum/)
 - [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
@@ -37,20 +39,22 @@
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [window-sum](http://www.lintcode.com/problem/window-sum)
 
-## W4
+## BFS & Topological Sort
 
 - [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
   - use queue (python: dequeue)
   - only array (drop array)
 - [number-of-islands](https://leetcode.com/problems/number-of-islands/)
 - [word-ladder](https://leetcode.com/problems/word-ladder/)
+- [127. Topological sorting](https://www.lintcode.com/problem/topological-sorting) 
+- [course-schedule](https://leetcode.com/problems/course-schedule)
 
-## W5
+## Binary Tree & Tree based DFS
 
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
 
-## W6
+## Combination based DFS
 
 - [subsets](https://leetcode.com/problems/subsets)
 - [subsets-ii](https://leetcode.com/problems/subsets-ii)
@@ -60,7 +64,7 @@
 - [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
 - [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
 
-## W7
+## Permutation based & Graph based DFS
 
 - [15. Permutations]()
 - [16. Permutations II]()
@@ -69,25 +73,28 @@
 - [34. N-Queens II]()
 - [letter-combinations-of-a-phone-number](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
 
-## W8
+## Data Structure - Stack, Queue, Hash, Heap
 
 - [657. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
 - [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/) - useless
 - [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/) - useless
 - [134. LRU Cache](https://leetcode.com/problems/lru-cache/)
 
-## W9
+## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
 - [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
 - [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-list)
 - [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
 
+## Dynamic Programming
 
-# Problems to solve:
+- NIL
 
-## W1
+## **Problems to solve**
 
-## W2
+## Strings
+
+## Binary Search & LogN Algorithm
 
 - [maximum-number-in-mountain-sequence](http://www.lintcode.com/problem/maximum-number-in-mountain-sequence) 
 - [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
@@ -116,7 +123,7 @@
 - [183. Wood Cut]()
 - [search in a big sorted Array]()
 
-## W3
+## Two Pointer Algorithm
 
 - [remove-duplicate-numbers-in-array](http://www.lintcode.com/problem/remove-duplicate-numbers-in-array)
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
@@ -155,12 +162,10 @@
 - [143. Sort Colors II]()
 - [93. Balanced Binary Tree]()
 
-## W4
+## BFS & Topological Sort
 
-- [127. Topological sorting](https://www.lintcode.com/problem/topological-sorting)
 - [clone-graph](https://www.lintcode.com/problem/clone-graph)
 - [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
-- [course-schedule](http://www.lintcode.com/problem/course-schedule)
 - [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
 - [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
 - [sequence-reconstruction](http://www.lintcode.com/problem/sequence-reconstruction)
@@ -171,7 +176,7 @@
 - [build-post-office-ii](http://www.lintcode.com/problem/build-post-office-ii)
 - 7. Serialize and Deserialize Binary Tree
 
-## W5
+## Binary Tree & Tree based DFS
 
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
 - [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
@@ -188,7 +193,7 @@
 - [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
   - [supplement](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
 
-## W6
+## Combination based DFS
 
 - [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 - [word-break](https://leetcode.com/problems/word-break)
@@ -196,7 +201,7 @@
 - [split-string](http://www.lintcode.com/problem/split-string)
 - [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
 
-## W7
+## Permutation based & Graph based DFS
 
 - [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
 - [next-closest-time](http://www.lintcode.com/problem/next-closest-time)
@@ -207,7 +212,7 @@
 - [829. WordPattern II]()
 - [121. Word Ladder II]()
 
-## W8
+## Data Structure - Stack, Queue, Hash, Heap
 
 - [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
 - [642. Moving Average from Data Stream]()
@@ -225,7 +230,7 @@
 - [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
 - [kth-smallest-number-in-sorted-matrix](http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix)
 
-## W9
+## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
 - [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
 - [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists)
@@ -244,3 +249,6 @@
 - [486. Merge K Sorted Arrays]()
 - [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
 - [Binary indexed Tree]()
+
+## Dynamic Programming
+- NIL
