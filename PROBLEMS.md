@@ -1,4 +1,11 @@
-# Problems to practice
+# Todays problems to solve
+- [127. Topological sorting]()
+- [course-schedule](http://www.lintcode.com/problem/course-schedule)
+- [graph-valid-tree](http://www.lintcode.com/problem/graph-valid-tree)
+- [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
+
+
+# Problems Done
 
 ## W1
 
@@ -76,14 +83,6 @@
 - [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
 - [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-list)
 - [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
-
-
-# Todays problem
-- [127. Topological sorting]()
-- [course-schedule](http://www.lintcode.com/problem/course-schedule)
-- [graph-valid-tree](http://www.lintcode.com/problem/graph-valid-tree)
-- [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
-
 
 
 # Problems to solve:
