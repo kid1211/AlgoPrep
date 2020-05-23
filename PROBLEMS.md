@@ -159,9 +159,7 @@
 
 ## W4
 
-- [127. Topological sorting]()
-- [BFS is the best way to find shortest path compare to dfs]()
-- (need to be verified after we know dp, if dp can only do graph that has directions
+- [127. Topological sorting](https://www.lintcode.com/problem/topological-sorting)
 - [clone-graph](https://www.lintcode.com/problem/clone-graph)
 - [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
 - [course-schedule](http://www.lintcode.com/problem/course-schedule)
