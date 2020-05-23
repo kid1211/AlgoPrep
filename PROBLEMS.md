@@ -188,7 +188,7 @@
 ## W6
 
 - [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
-- [word-break-ii](https://leetcode.com/problems/word-break-ii)
+- [word-break](https://leetcode.com/problems/word-break)
 - [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 - [split-string](http://www.lintcode.com/problem/split-string)
 - [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
