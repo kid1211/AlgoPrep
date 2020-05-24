@@ -1,6 +1,13 @@
 # Algo Problems
 
 ## **Todays problems to solve**
+<<<<<<< HEAD
+=======
+- [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
+- [validate-binary-search-tree](http://www.lintcode.com/problem/validate-binary-search-tree)
+- [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
+- [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
+>>>>>>> todays dfs questions
 
 ## **Problems completed**
 
@@ -46,6 +53,7 @@
 - [127. Topological sorting](https://www.lintcode.com/problem/topological-sorting) 
 - [course-schedule](https://leetcode.com/problems/course-schedule)
 - [graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)
+- [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
 ## Binary Tree & Tree based DFS
 
@@ -165,7 +173,6 @@
 - [clone-graph](https://www.lintcode.com/problem/clone-graph)
 - [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
 - [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
-- [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
 - [sequence-reconstruction](http://www.lintcode.com/problem/sequence-reconstruction)
 - [search-graph-nodes](http://www.lintcode.com/problem/search-graph-nodes)
 - [connected-component-in-undirected-graph](http://www.lintcode.com/problem/connected-component-in-undirected-graph)
