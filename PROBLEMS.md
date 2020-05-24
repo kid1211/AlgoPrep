@@ -1,6 +1,7 @@
 # Algo Problems
 
 ## **Todays problems to solve**
+
 - [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
 - [validate-binary-search-tree](http://www.lintcode.com/problem/validate-binary-search-tree)
 - [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
@@ -8,7 +9,7 @@
 
 ## **Problems completed**
 
-## Strings
+## W1: Strings
 
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
 - [valid-palindrome](https://www.lintcode.com/problem/valid-palindrome)
@@ -26,7 +27,7 @@
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
   - first position <= last position (need to hide this)
 
-## Two Pointer Algorithm
+## W2: Two Pointer Algorithm
 
 - [two-sum](https://leetcode.com/problems/two-sum/)
 - [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
@@ -40,7 +41,7 @@
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [window-sum](http://www.lintcode.com/problem/window-sum)
 
-## BFS & Topological Sort
+## W3: BFS & Topological Sort
 
 - [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
   - use queue (python: dequeue)
@@ -52,7 +53,7 @@
 - [graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)
 - [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
-## Binary Tree & Tree based DFS
+## W4: Binary Tree & Tree based DFS
 
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
