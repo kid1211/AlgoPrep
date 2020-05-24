@@ -1,15 +1,12 @@
 # Algo Problems
 
-## **Todays problems to solve**
+## Todays problems to solve
 
-- [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
 - [validate-binary-search-tree](http://www.lintcode.com/problem/validate-binary-search-tree)
 - [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
 - [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
 
-## **Problems completed**
-
-## W1: Strings
+## Strings
 
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
 - [valid-palindrome](https://www.lintcode.com/problem/valid-palindrome)
@@ -27,7 +24,7 @@
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
   - first position <= last position (need to hide this)
 
-## W2: Two Pointer Algorithm
+## Two Pointer Algorithm
 
 - [two-sum](https://leetcode.com/problems/two-sum/)
 - [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
