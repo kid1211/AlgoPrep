@@ -1,13 +1,10 @@
 # Algo Problems
 
 ## **Todays problems to solve**
-<<<<<<< HEAD
-=======
 - [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
 - [validate-binary-search-tree](http://www.lintcode.com/problem/validate-binary-search-tree)
 - [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
 - [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
->>>>>>> todays dfs questions
 
 ## **Problems completed**
 
