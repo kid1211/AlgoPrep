@@ -2,9 +2,6 @@
 
 ## **Todays problems to solve**
 
-
-- [alien-dictionary](http://www.lintcode.com/problem/alien-dictionary)
-
 ## **Problems completed**
 
 ## Strings
