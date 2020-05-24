@@ -2,8 +2,7 @@
 
 ## Todays problems to solve
 
-- [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
-- [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
+- [remove-node-in-binary-search-tree](https://leetcode.com/problems/delete-node-in-a-bst)
 
 ## Strings
 
@@ -54,6 +53,7 @@
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
 - [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
+- [lowest-common-ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions)
 
 ## Combination based DFS
 
@@ -181,7 +181,6 @@
 - [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
 - [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
 - [binary-tree-paths](http://www.lintcode.com/problem/binary-tree-paths)
-- [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
 - [binary-search-tree-iterator](http://www.lintcode.com/problem/binary-search-tree-iterator)
 - [inorder-successor-in-bst](http://www.lintcode.com/problem/inorder-successor-in-bst)
 - [closest-binary-search-tree-value](http://www.lintcode.comproblem/closest-binary-search-tree-value)
