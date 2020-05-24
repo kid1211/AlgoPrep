@@ -2,7 +2,6 @@
 
 ## Todays problems to solve
 
-- [validate-binary-search-tree](http://www.lintcode.com/problem/validate-binary-search-tree)
 - [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
 - [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
 
@@ -54,6 +53,7 @@
 
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
+- [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
 
 ## Combination based DFS
 
@@ -180,7 +180,6 @@
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
 - [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
 - [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
-- [validate-binary-search-tree](http://www.lintcode.com/problem/validate-binary-search-tree)
 - [binary-tree-paths](http://www.lintcode.com/problem/binary-tree-paths)
 - [lowest-common-ancestor](http://www.lintcode.com/problem/lowest-common-ancestor)
 - [binary-search-tree-iterator](http://www.lintcode.com/problem/binary-search-tree-iterator)
