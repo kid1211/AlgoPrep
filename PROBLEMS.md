@@ -2,6 +2,12 @@
 
 ## Todays problems to solve
 
+- [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
+- [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
+- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
+- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
+
+
 ## Strings
 
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
