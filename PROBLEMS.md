@@ -5,7 +5,7 @@
 - [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
 - [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 - [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
-- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
+- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
 
 
 ## **Problems solved**
@@ -180,7 +180,7 @@
 - [connected-component-in-undirected-graph](http://www.lintcode.com/problem/connected-component-in-undirected-graph)
 - [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
 - [build-post-office-ii](http://www.lintcode.com/problem/build-post-office-ii)
-- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
+- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
 - 7. Serialize and Deserialize Binary Tree
 
 ## Binary Tree & Tree based DFS
