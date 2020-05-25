@@ -22,7 +22,7 @@ class Solution:
     def dfs(self, root):
         if not root:
             return
-        print(root.val)
+        # print(root.val)
         leftNode = self.dfs(root.left)
         rightNode = self.dfs(root.right)
 
