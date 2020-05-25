@@ -2,8 +2,6 @@
 
 ## Todays problems to solve
 
-- [remove-node-in-binary-search-tree](https://leetcode.com/problems/delete-node-in-a-bst)
-
 ## Strings
 
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
@@ -54,6 +52,7 @@
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
 - [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
 - [lowest-common-ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions)
+- [remove-node-in-binary-search-tree](https://leetcode.com/problems/delete-node-in-a-bst)
 
 ## Combination based DFS
 
