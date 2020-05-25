@@ -8,6 +8,8 @@
 - [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
 
 
+## **Problems solved**
+
 ## Strings
 
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
