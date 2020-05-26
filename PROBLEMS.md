@@ -2,10 +2,8 @@
 
 ## Todays problems to solve
 
-- [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
-- [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-- [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
-- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
+- [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
+- [longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring/)
 
 
 ## **Problems solved**
