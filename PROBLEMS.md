@@ -3,6 +3,7 @@
 ## Todays problems to solve
 
 - [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
+- [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
 - [longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring/)
 
 
