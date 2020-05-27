@@ -2,8 +2,6 @@
 
 ## Todays problems to solve
 
-- [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
-- [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
 - [longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring/)
 
 
@@ -15,6 +13,7 @@
 - [valid-palindrome](https://www.lintcode.com/problem/valid-palindrome)
 - [longest-palindromic-substring](https://www.lintcode.com/problem/longest-palindromic-substring)
 - [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
+- [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
 
 ## Binary Search & LogN Algorithm
 
@@ -52,6 +51,8 @@
 - [course-schedule](https://leetcode.com/problems/course-schedule)
 - [graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)
 - [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
+- [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
+- [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
 
 ## W4: Binary Tree & Tree based DFS
 
@@ -70,6 +71,7 @@
 - [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
 - [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
 - [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
+- [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
 
 ## Permutation based & Graph based DFS
 
@@ -177,7 +179,6 @@
 - [sequence-reconstruction](http://www.lintcode.com/problem/sequence-reconstruction)
 - [search-graph-nodes](http://www.lintcode.com/problem/search-graph-nodes)
 - [connected-component-in-undirected-graph](http://www.lintcode.com/problem/connected-component-in-undirected-graph)
-- [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
 - [build-post-office-ii](http://www.lintcode.com/problem/build-post-office-ii)
 - [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
 - 7. Serialize and Deserialize Binary Tree
