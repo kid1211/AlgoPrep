@@ -14,19 +14,23 @@ class Solution:
         # A x something
         init = len(B) // len(A)
         C = "".join([A * init])
-        # print(self.isMatch("aa", "aa"))
+        print(self.isMatch("aac", "aaac"))
         # "cabca"
         # "abc"
         for count in range(init, init + 3):
             # print(B, C)
-            # if B in C:
-            #     return count
-            if self.isMatch(B, C):
+            if B in C:
                 return count
+            # print(B, C)
+            # if self.isMatch(B, C):
+            #     return count
             C += A
         return -1
 
     def isMatch(self, tar, src):
+        if len(src) < len(tar):
+            return False
+
         def letterVal(l):
             return ord(l) - ord('a')
 
