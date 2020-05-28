@@ -2,7 +2,10 @@
 
 ## Todays problems to solve
 
-- [longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring/)
+- [same-tree](https://leetcode.com/problems/same-tree/)
+- [word-break](https://leetcode.com/problems/word-break)
+- [split-string](http://www.lintcode.com/problem/split-string)
+- [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 
 
 ## **Problems solved**
@@ -72,6 +75,7 @@
 - [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
 - [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
 - [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 
 ## Permutation based & Graph based DFS
 
@@ -102,6 +106,8 @@
 ## **Problems to solve**
 
 ## Strings
+
+- [longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring/)
 
 ## Binary Search & LogN Algorithm
 
@@ -200,7 +206,6 @@
 
 ## Combination based DFS
 
-- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 - [word-break](https://leetcode.com/problems/word-break)
 - [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 - [split-string](http://www.lintcode.com/problem/split-string)
