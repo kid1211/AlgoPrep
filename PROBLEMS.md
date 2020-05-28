@@ -179,6 +179,8 @@
 
 ## BFS & Topological Sort
 
+- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
+- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
 - [clone-graph](https://www.lintcode.com/problem/clone-graph)
 - [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
 - [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
@@ -190,6 +192,7 @@
 - 7. Serialize and Deserialize Binary Tree
 
 ## Binary Tree & Tree based DFS
+
 
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
 - [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
