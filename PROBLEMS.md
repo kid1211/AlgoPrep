@@ -2,6 +2,12 @@
 
 ## Todays problems to solve
 
+- [subsets](https://leetcode.com/problems/subsets)
+- [subsets-ii](https://leetcode.com/problems/subsets-ii)
+- [combinations](https://leetcode.com/problems/combinations)
+- [combination-sum](https://leetcode.com/problems/combination-sum)
+- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
+
 - [same-tree](https://leetcode.com/problems/same-tree/)
 - [word-break](https://leetcode.com/problems/word-break)
 - [split-string](http://www.lintcode.com/problem/split-string)
