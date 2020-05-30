@@ -77,3 +77,30 @@ start_nodes = [n for n in graph if indegree[n] == 0]
 
 <!-- intersection two arrays II
 maximum subarray -->
+
+# substring subarray, window -> 同向双指针
+
+同向双指针基本上都是o(n)，因为j不回头
+i - j > s, 然后 i + 1 - k > s, 那么j和k什么关系？ k肯定比i大 不然那就包含了
+同样的需要寄到心里面去 i - j的所有指 是 （j - i + 1)!
+
+模板
+```python
+j = 0
+for i in range(n):
+    while j < n and 当前subarray 不满足条件:
+        j += 1 # 拓展当前subarray
+    
+    if 当前满足条件:
+        # 全局打擂台， 看看是不是最优秀的
+    # 将numsi] 移出array，其实就是喜剧for loop
+
+```
+
+- [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)
+  - not sorted 
+    - quick selected 非在线版本
+    - 在线版本 heap
+  - sorted 
+    - k merge (heap) - not the best k比较小
+    - 二分答案 k比较大

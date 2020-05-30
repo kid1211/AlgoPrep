@@ -1,37 +1,45 @@
 class Solution:
     """
     @param: s: A string
-    @param: wordDict: A set of words.
-    @return: All possible sentences.
+    @param: dict: A dictionary of words dict
+    @return: A boolean
     """
 
-    def wordBreak(self, s, wordDict):
-        return self.dfs(s, wordDict, {})
+    def wordBreak(self, s, dict):
+        # write your code here
 
-    def dfs(self, s, wordDict, memo):
+        # because we need to have something to return to store in memoe
+        # updated in a way so we can get prefix's correspoinding substring
+
+        # because of that results is no longer needed
+        # same as current
+        return self.dfs(s, dict, {})
+
+    def dfs(self, s, dict, memo):
         if s in memo:
             return memo[s]
 
-        if s == "":
+        if len(s) == 0:
             return []
 
-        rtn = []
+        res = []
         for i in range(1, len(s) + 1):
             prefix = s[:i]
-            if not prefix in wordDict:
+            if not prefix in dict:
                 continue
-            # lint "code"
-            # lint "co de"
-            # all the pssible valid partition for the latter part of string
-            possiblePartition = self.dfs(s[i:], wordDict, memo)
-            for par in possiblePartition:
-                rtn.append(prefix + " " + par)
 
-        if s in wordDict:
-            rtn.append(s)
+            # with this prefix what are you getting back
+            permutations = self.dfs(s[i:], dict, memo)
 
-        memo[s] = rtn
-        return rtn
+            for permu in permutations:
+                res.append(prefix + " " + permu)
+
+        if s in dict:
+            res.append(s)
+
+        # print(s, res)
+        memo[s] = res
+        return res
 
 
 # "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"

@@ -13,7 +13,6 @@
 - [split-string](http://www.lintcode.com/problem/split-string)
 - [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 
-
 ## **Problems solved**
 
 ## Strings
@@ -271,3 +270,15 @@
 
 ## Dynamic Programming
 - NIL
+
+# Advanced Algo
+
+- [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
+- [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
+- [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
+- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
+- Remove Nth Node From End of List
+- Find the Middle of Linked List
+- Linked List Cycle I, II
+- [kth-smallest-numbers-in-unsorted-array](https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array)
+- [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)

@@ -7,13 +7,14 @@ class Solution:
 
     def wordBreak(self, s, dict):
         # write your code here
+        results = []
+        self.dfs([], s, dict, results)
+        return len(results) > 0
 
-        return True if self.dfs([], s, dict) else False
-
-    def dfs(self, current, s, dict):
-        print(current, s)
+    def dfs(self, current, s, dict, results):
         if len(s) == 0:
-            return True
+            results.append(current)
+            return
 
         for i in range(1, len(s) + 1):
             prefix = s[:i]
@@ -21,7 +22,5 @@ class Solution:
                 continue
 
             current.append(prefix)
-            result = self.dfs(current, s[i:], dict)
-            if result:
-                return True
+            return self.dfs(current, s[i:], dict, results)
             current.pop()
