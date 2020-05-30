@@ -2,6 +2,12 @@
 
 ## Todays problems to solve
 
+- [486. Merge K Sorted Arrays]()
+- [best-time-to-buy-and-sell-stock](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock)
+- [612. K Closest Points]()
+- [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
+
+
 - [subsets](https://leetcode.com/problems/subsets)
 - [subsets-ii](https://leetcode.com/problems/subsets-ii)
 - [combinations](https://leetcode.com/problems/combinations)
