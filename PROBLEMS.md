@@ -288,3 +288,5 @@
 - Linked List Cycle I, II
 - [kth-smallest-numbers-in-unsorted-array](https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array)
 - [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)
+- [kth-smallest-element-in-a-sorted-matrix](https://www.lintcode.com/problem/kth-smallest-element-in-a-sorted-matrix)
+- [kth-smallest-sum-in-two-sorted-arrays](https://www.lintcode.com/problem/kth-smallest-sum-in-two-sorted-arrays)
