@@ -6,6 +6,7 @@
 - [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [612. K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin)
 - [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
+- [median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 
 - [subsets](https://leetcode.com/problems/subsets)
