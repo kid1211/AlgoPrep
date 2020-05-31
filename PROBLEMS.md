@@ -275,10 +275,21 @@
 - [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
 - [Binary indexed Tree]()
 
-## Dynamic Programming
-- NIL
 
 # Advanced Algo
+
+## Union Find
+
+## Trie
+
+## Heap, Queue, monotonous stack 
+
+## Dichotomy fourth level real + scan line algo (Joe to get correct translation)
+
+## Dynamic Programming
+ -- Memory Search, backpack
+
+
 
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
 - [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
