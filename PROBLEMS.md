@@ -278,18 +278,7 @@
 
 # Advanced Algo
 
-## Union Find
-
-## Trie
-
-## Heap, Queue, monotonous stack 
-
-## Dichotomy fourth level real + scan line algo (Joe to get correct translation)
-
-## Dynamic Programming
- -- Memory Search, backpack
-
-
+## W1
 
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
 - [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
@@ -302,3 +291,40 @@
 - [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)
 - [kth-smallest-element-in-a-sorted-matrix](https://www.lintcode.com/problem/kth-smallest-element-in-a-sorted-matrix)
 - [kth-smallest-sum-in-two-sorted-arrays](https://www.lintcode.com/problem/kth-smallest-sum-in-two-sorted-arrays)
+- 609.Two Sum - Less than or equal to target
+- 382. Triangle Count
+- 5. kth largest Element
+
+## W2
+
+- 443. Number of islands
+- 591. Connecting Graph III
+- 590. Connecting Graph II
+- 589. Connecting Graph
+- 178. Graph Valid Tree
+- 473. Add and Search Word - Data structure design
+- 442. Implment Tri(prefix Tree)
+- 432 Find the weak Connected Component in the directed Graph
+- 431 Connected Component in Undirected Graph
+- 123. Word Search
+- 434 Number of Islands II
+- 132. Word Search II
+
+## W3 Data Structure II
+
+- 575. Decode String
+- 363. Trapping Rain Water
+- 40. Implment Queue by Two Stacks
+- 12. Min Stack
+- 360. Sliding Window Median
+
+## Union Find
+
+## Trie
+
+## Heap, Queue, monotonous stack 
+
+## Dichotomy fourth level real + scan line algo (Joe to get correct translation)
+
+## Dynamic Programming
+ -- Memory Search, backpack

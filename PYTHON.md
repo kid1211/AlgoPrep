@@ -104,3 +104,8 @@ for i in range(n):
   - sorted 
     - k merge (heap) - not the best k比较小
     - 二分答案 k比较大
+
+# Union Find
+
+O(1) Union, and o(1) find
+父亲表示法， 用哈希表记录每个节地那的父亲是谁，初始化的时候可以指向自己或者空 
