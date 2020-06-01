@@ -3,8 +3,8 @@
 ## Todays problems to solve
 
 - [http://www.lintcode.com/problem/search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
-- [617. Maximum Average Subarray II]()
-- [closest-binary-search-tree-value](http://www.lintcode.comproblem/closest-binary-search-tree-value)
+- [617. Maximum Average Subarray II](search-range-in-binary-search-tree)
+- [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description)
 - [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
 
 
