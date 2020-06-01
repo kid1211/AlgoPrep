@@ -2,6 +2,13 @@
 
 ## Todays problems to solve
 
+- [http://www.lintcode.com/problem/search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [617. Maximum Average Subarray II]()
+- [closest-binary-search-tree-value](http://www.lintcode.comproblem/closest-binary-search-tree-value)
+- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
+
+
+
 - [486. Merge K Sorted Arrays](https://www.lintcode.com/problem/merge-k-sorted-arrays)
 - [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [612. K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin)
@@ -281,9 +288,10 @@
 ## W1
 
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
-- [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
 - [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
 - [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
+- [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
+
 - Remove Nth Node From End of List
 - Find the Middle of Linked List
 - Linked List Cycle I, II
@@ -317,6 +325,13 @@
 - 40. Implment Queue by Two Stacks
 - 12. Min Stack
 - 360. Sliding Window Median
+
+
+
+## Sliding window pattern
+
+- [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
+- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
 
 ## Union Find
 
