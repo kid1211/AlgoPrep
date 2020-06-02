@@ -2,28 +2,11 @@
 
 ## Todays problems to solve
 
-- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
-- [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
-- [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description)
-- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
+- [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+- [https://leetcode.com/problems/longest-common-prefix/](https://leetcode.com/problems/longest-common-prefix/)
+- [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
+- [clone-graph](https://www.lintcode.com/problem/clone-graph)
 
-- [486. Merge K Sorted Arrays](https://www.lintcode.com/problem/merge-k-sorted-arrays)
-- [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
-- [612. K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin)
-- [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
-- [median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-
-
-- [subsets](https://leetcode.com/problems/subsets)
-- [subsets-ii](https://leetcode.com/problems/subsets-ii)
-- [combinations](https://leetcode.com/problems/combinations)
-- [combination-sum](https://leetcode.com/problems/combination-sum)
-- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
-
-- [same-tree](https://leetcode.com/problems/same-tree/)
-- [word-break](https://leetcode.com/problems/word-break)
-- [split-string](http://www.lintcode.com/problem/split-string)
-- [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 
 ## **Problems solved**
 
@@ -45,6 +28,8 @@
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [http://www.lintcode.com/problem/search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
+
   - first position <= last position (need to hide this)
 
 ## Two Pointer Algorithm
@@ -157,7 +142,6 @@
 - [600. Smallest Rectangle Enclosing Black Pixels]()
 - [457. Classical Binary Search]()
 - [141. Sqrt(x)]()
-- [617. Maximum Average Subarray II]()
 - [586. Sqrt(x) II]()
 - [160. Find Minimum in Rotated Sorted Array II]()
 - [63. Search in Rotated Sorted Array II]()
@@ -323,8 +307,6 @@
 - 40. Implment Queue by Two Stacks
 - 12. Min Stack
 - 360. Sliding Window Median
-
-
 
 ## Sliding window pattern
 
