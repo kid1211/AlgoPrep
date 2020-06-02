@@ -3,7 +3,7 @@
 ## Todays problems to solve
 
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
-- [https://leetcode.com/problems/longest-common-prefix/](https://leetcode.com/problems/longest-common-prefix/)
+- [longest-common-prefix/](https://leetcode.com/problems/longest-common-prefix/)
 - [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
 - [clone-graph](https://www.lintcode.com/problem/clone-graph)
 
