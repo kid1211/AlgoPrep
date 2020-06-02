@@ -43,6 +43,7 @@
 - [first-bad-version](http://www.lintcode.com/problem/first-bad-version)
 - [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [http://www.lintcode.com/problem/search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
   - first position <= last position (need to hide this)
 
@@ -73,6 +74,7 @@
 - [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 - [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
 - [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
+- [same-tree](https://leetcode.com/problems/same-tree/)
 
 ## W4: Binary Tree & Tree based DFS
 
@@ -81,6 +83,7 @@
 - [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
 - [lowest-common-ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions)
 - [remove-node-in-binary-search-tree](https://leetcode.com/problems/delete-node-in-a-bst)
+- [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description)
 
 ## Combination based DFS
 
@@ -93,6 +96,9 @@
 - [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
 - [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
 - [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
+- [word-break](https://leetcode.com/problems/word-break)
+- [split-string](http://www.lintcode.com/problem/split-string)
+- [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
 
 ## Permutation based & Graph based DFS
 
@@ -115,6 +121,10 @@
 - [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
 - [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-list)
 - [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
+- [486. Merge K Sorted Arrays](https://www.lintcode.com/problem/merge-k-sorted-arrays)
+- [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [612. K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin)
+- [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
 
 ## Dynamic Programming
 
@@ -207,9 +217,9 @@
 - [build-post-office-ii](http://www.lintcode.com/problem/build-post-office-ii)
 - [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
 - 7. Serialize and Deserialize Binary Tree
+- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
 
 ## Binary Tree & Tree based DFS
-
 
 - [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
 - [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
@@ -219,16 +229,13 @@
 - [inorder-successor-in-bst](http://www.lintcode.com/problem/inorder-successor-in-bst)
 - [closest-binary-search-tree-value](http://www.lintcode.comproblem/closest-binary-search-tree-value)
 - [closest-binary-search-tree-value-ii](http:www.lintcode.com/problem/closest-bineary-search-tree-value-ii)
-- [search-range-in-binary-search-tree](http://www.lintcode.com/problem/search-range-in-binary-search-tree)
 - [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
 - [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
   - [supplement](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
 
+
 ## Combination based DFS
 
-- [word-break](https://leetcode.com/problems/word-break)
-- [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
-- [split-string](http://www.lintcode.com/problem/split-string)
 - [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
 
 ## Permutation based & Graph based DFS
@@ -248,7 +255,6 @@
 - [642. Moving Average from Data Stream]()
 - [494. Implement Stack By Two Queues]()
 - [209. First Unique Character in a String]()
-- [612. K Closest Points]()
 - [40. Implement Queue by Two Stacks]()
 - [4. Ugly Number II]()
 - [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
@@ -262,22 +268,16 @@
 
 ## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
-- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
-- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists)
-- [654. Sparse Matrix Multiplication](https://www.lintcode.com/problem/sparse-matrix-multiplication)
 - [840. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
 - [65. Median of Two sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 - [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
-- [best-time-to-buy-and-sell-stock](http://www.lintcode.com/problem/best-time-to-buy-and-sell-stock)
 - [Intersection of Two Arrays II]()
 - [64. Merge Sorted Array]()
 - [41. Maximum Subarray]()
 - [944. Maximum  Submatrix]()
 - [931. Median of K sorted Arrays]()
 - [577. Merge K Sorted Interval Lists]()
-- [486. Merge K Sorted Arrays]()
-- [range-sum-query-immutable](http://www.lintcode.com/problem/range-sum-query-immutable)
 - [Binary indexed Tree]()
 
 
