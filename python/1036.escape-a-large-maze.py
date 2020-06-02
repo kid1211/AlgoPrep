@@ -7,7 +7,7 @@
 # @lc code=start
 from heapq import heappush, heappop
 
-
+# 20000
 class Solution:
     def isEscapePossible(self, blocked: List[List[int]], source: List[int], target: List[int]) -> bool:
         if len(blocked) == 0:
