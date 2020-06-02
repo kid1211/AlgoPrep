@@ -2,12 +2,10 @@
 
 ## Todays problems to solve
 
-- [http://www.lintcode.com/problem/search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
-- [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii/description)
+- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
 - [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description)
 - [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
-
-
 
 - [486. Merge K Sorted Arrays](https://www.lintcode.com/problem/merge-k-sorted-arrays)
 - [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
