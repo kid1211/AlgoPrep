@@ -5,7 +5,7 @@
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
 - [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
-- [clone-graph](https://www.lintcode.com/problem/clone-graph)
+- [clone-graph](https://leetcode.com/problems/clone-graph/)
 
 
 ## **Problems solved**
