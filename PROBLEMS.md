@@ -31,7 +31,7 @@
 - [first-bad-version](http://www.lintcode.com/problem/first-bad-version)
 - [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [http://www.lintcode.com/problem/search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
 
