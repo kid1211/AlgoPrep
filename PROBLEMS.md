@@ -292,7 +292,7 @@
 - 382. Triangle Count
 - 5. kth largest Element
 
-## W2
+## W2: Union Find && Trie
 
 - 443. Number of islands
 - 591. Connecting Graph III
@@ -320,9 +320,6 @@
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
 - [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
 
-## Union Find
-
-## Trie
 
 ## Heap, Queue, monotonous stack 
 
@@ -330,3 +327,4 @@
 
 ## Dynamic Programming
  -- Memory Search, backpack
+

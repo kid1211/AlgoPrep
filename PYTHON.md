@@ -43,7 +43,6 @@ integer = ord('a')
 ## Integers
 
 ```python
-
 max = sys.maxsize
 min = -sys.maxsize - 1
 ```
@@ -109,3 +108,44 @@ for i in range(n):
 
 O(1) Union, and o(1) find
 父亲表示法， 用哈希表记录每个节地那的父亲是谁，初始化的时候可以指向自己或者空 
+
+
+```python
+def find(self, node):
+  while self.father[node] != node:
+  node = self.father[node]
+```
+
+上面的问题是 做不到o1的查询 所以每次查询的时候要做路径压缩
+
+```python
+# 递归
+def find(self, node):
+  if node == self.father[node]:
+    return node
+  
+  self.father[node] = self.find(self.father[node])
+  return self.father[node]
+
+# 非递归 尽量非递归
+def find(self, node):
+  path = []
+  while self.father[node] != node:
+    path.append(node)
+    node = self.father[node]
+
+  for n in path:
+    self.father[n] = node
+  
+  return node
+
+# union
+def union(self, a, b):
+  self.father[self.find(a)] = self.find(b)
+
+class UnionFind:
+  def __init__(self, n):
+    self.father = {}
+    for i in range(1, n + 1):
+      self.father[i] = i 
+```
