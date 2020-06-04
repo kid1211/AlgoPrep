@@ -2,10 +2,14 @@
 
 ## Todays problems to solve
 
-- [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
-- [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
+- [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
+- [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
+- [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
+
+## Yesterdays pending
+
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
-- [clone-graph](https://leetcode.com/problems/clone-graph/)
 
 
 ## **Problems solved**
@@ -17,6 +21,7 @@
 - [longest-palindromic-substring](https://www.lintcode.com/problem/longest-palindromic-substring)
 - [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
 - [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
+- [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 ## Binary Search & LogN Algorithm
 
@@ -60,6 +65,7 @@
 - [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
 - [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
 - [same-tree](https://leetcode.com/problems/same-tree/)
+- [clone-graph](https://leetcode.com/problems/clone-graph/)
 
 ## W4: Binary Tree & Tree based DFS
 
@@ -110,6 +116,8 @@
 - [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [612. K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin)
 - [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
+- [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+
 
 ## Dynamic Programming
 
@@ -192,7 +200,6 @@
 
 - [network-delay-time](https://leetcode.com/problems/network-delay-time/)
 - [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
-- [clone-graph](https://www.lintcode.com/problem/clone-graph)
 - [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
 - [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
 - [sequence-reconstruction](http://www.lintcode.com/problem/sequence-reconstruction)
@@ -235,6 +242,7 @@
 
 ## Data Structure - Stack, Queue, Hash, Heap
 
+- [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
 - [642. Moving Average from Data Stream]()
 - [494. Implement Stack By Two Queues]()
@@ -253,7 +261,6 @@
 ## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
 - [840. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)
-- [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
 - [65. Median of Two sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 - [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
 - [Intersection of Two Arrays II]()
