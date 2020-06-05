@@ -6,9 +6,9 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 
 ## Todays problems to solve
 
-- [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
-- [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
-- [top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
+- [589. Connecting Graph](http://www.lintcode.com/problem/connecting-graph/)
+- [123. Word Search](https://leetcode.com/problems/word-search/)
+- [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 
 ## Yesterdays pending
@@ -54,6 +54,7 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 - [sort-colors-ii Lintcode](https://www.lintcode.com/problem/sort-colors-ii/description)
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [window-sum](http://www.lintcode.com/problem/window-sum)
+- [linked-list-cycle](http://www.lintcode.com/problem/linked-list-cycle)
 
 ## W3: BFS & Topological Sort
 
@@ -110,6 +111,7 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 - [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/) - useless
 - [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/) - useless
 - [134. LRU Cache](https://leetcode.com/problems/lru-cache/)
+- [top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
 
 ## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
@@ -165,7 +167,6 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 
 - [remove-duplicate-numbers-in-array](http://www.lintcode.com/problem/remove-duplicate-numbers-in-array)
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
-- [linked-list-cycle](http://www.lintcode.com/problem/linked-list-cycle)
 - [linked-list-cycle-ii](http://www.lintcode.com/problem/linked-list-cycle-ii)
 - [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
 - [move-zeroes](https://leetcode.com/problems/move-zeroes)
@@ -282,6 +283,7 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
 - [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
+- [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
 
 ## W1
 
