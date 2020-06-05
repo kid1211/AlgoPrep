@@ -309,7 +309,7 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 - [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
 - [accounts-merge](https://www.lintcode.com/problem./accounts-merge)
 
-- 443. Number of island s
+- 443. Number of island
 - 442. Implement Tri(prefix Tree)
 - 432 Find the weak Connected Component in the directed Graph
 - 431 Connected Component in Undirected Graph
@@ -326,8 +326,9 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 
 ## W3 Data Structure II
 
+- [363. Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water)
+
 - 575. Decode String
-- 363. Trapping Rain Water
 - 40. Implement Queue by Two Stacks
 - 12. Min Stack
 - 360. Sliding Window Median
