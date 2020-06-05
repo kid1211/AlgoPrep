@@ -1,5 +1,9 @@
 # Algo Problems
 
+## variant
+
+if there is multiple way to do it, at hint in the question, and randomly picc
+
 ## Todays problems to solve
 
 - [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
@@ -292,26 +296,36 @@
 - 382. Triangle Count
 - 5. kth largest Element
 
-## W2: Union Find && Trie
+## union find
 
-- 443. Number of islands
-- 591. Connecting Graph III
-- 590. Connecting Graph II
-- 589. Connecting Graph
-- 178. Graph Valid Tree
-- 473. Add and Search Word - Data structure design
-- 442. Implment Tri(prefix Tree)
+- [589. Connecting Graph](http://www.lintcode.com/problem/connecting-graph/)
+- [590. Connecting Graph II](http://www.lintcode.com/problem/connecting-graph-ii/)
+- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
+- [178. Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree)
+- [629 Minimum Spanning Tree](https://www.lintcode.com/problem/minimum-spanning-tree)
+- [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
+- [accounts-merge](https://www.lintcode.com/problem./accounts-merge)
+
+- 443. Number of island s
+- 442. Implement Tri(prefix Tree)
 - 432 Find the weak Connected Component in the directed Graph
 - 431 Connected Component in Undirected Graph
+- [set-union](https://www.lintcode.com/problem/set-union)
+- [surrounded-regions](https:/www.lintcode.com/problem/surrounded-regions)
+- [maximum-association-set](https://www.lintcode.com/problem/maximum-association-set)
+
+## Trie 比hashmap省空间
+
+- [Add and Search Word - Data structure design](https://www.lintcode.com/problem/add-adn-sear-word)
+- [word-squares](https://www.lintcode.com/problem/word-squares)
 - 123. Word Search
-- 434 Number of Islands II
-- 132. Word Search II
+- [132. Word Search II](https://www.lintcode.com/problem/word-search-ii)
 
 ## W3 Data Structure II
 
 - 575. Decode String
 - 363. Trapping Rain Water
-- 40. Implment Queue by Two Stacks
+- 40. Implement Queue by Two Stacks
 - 12. Min Stack
 - 360. Sliding Window Median
 

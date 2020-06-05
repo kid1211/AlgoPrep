@@ -106,9 +106,9 @@ for i in range(n):
 
 # Union Find
 
+## 实现
 O(1) Union, and o(1) find
 父亲表示法， 用哈希表记录每个节地那的父亲是谁，初始化的时候可以指向自己或者空 
-
 
 ```python
 def find(self, node):
@@ -148,4 +148,47 @@ class UnionFind:
     self.father = {}
     for i in range(1, n + 1):
       self.father[i] = i 
+```
+
+## minimm spanning tree
+先把边排序，从小到大 看看边有没有连通，没有就连通
+基本上连通的问题都是union find
+
+## union find 特点
+1. 合并两个集合
+2. 查询某个元素所在集合
+3. 判断两个元素是否在同一个集合
+4. 获得某个集合的元素个数
+5. 统计当前集合个数
+6. 只能是无向图maybe
+
+# Trie
+
+```python
+class TrieNode:
+  def __init__(self):
+    self.children = {}
+    self.is_word = False
+
+class Trie
+  def __init(self):
+    self.root = TrieNode()
+
+  def insert(self, word):
+    node = self.root
+    # 有点牛逼 node和c一起同步往下走
+    for c in word:
+      if c not in node.children:
+        node.children[c] = TrieNode()
+      node = node.children[c]
+    node.is_word = True
+  
+  def find(self, word):
+    node = self.root
+    for c in word:
+      node = node.chldren.get(c)
+      if node is None:
+        return None
+    return node
+
 ```
