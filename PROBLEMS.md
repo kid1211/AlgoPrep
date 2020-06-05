@@ -278,11 +278,14 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 
 # Advanced Algo
 
-## W1
+## Sliding window pattern
 
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
-- [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
 - [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
+
+## W1
+
+- [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
 - [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
 
 - Remove Nth Node From End of List
@@ -328,11 +331,10 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 - 40. Implement Queue by Two Stacks
 - 12. Min Stack
 - 360. Sliding Window Median
-
-## Sliding window pattern
-
-- [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
-- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
+- 364. Trapping Rain Water II
+- 510. Maximal Rectangle
+- 126. Max Tree
+- 122. Largest Rectangle in Histogram
 
 
 ## Heap, Queue, monotonous stack 
