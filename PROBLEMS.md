@@ -6,10 +6,11 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 
 ## Todays problems to solve
 
-- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
 - [123. Word Search](https://leetcode.com/problems/word-search/)
-- [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
+- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
+- [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+
 
 ## Yesterdays pending
 
