@@ -1,8 +1,6 @@
-# Algo Problems
+# Today Problems
 
-## variant
-
-if there is multiple way to do it, at hint in the question, and randomly picc
+## var1ay to do it, at hint in the question, and randomly picc
 
 ## Todays problems to solve
 
@@ -16,8 +14,7 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 
-
-## **Problems solved**
+# Problems solved
 
 ## Strings
 
@@ -330,12 +327,12 @@ if there is multiple way to do it, at hint in the question, and randomly picc
 ## W3 Data Structure II
 
 - [363. Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water)
+- [364. Trapping Rain Water II](http://www.lintcode.com/problem/trapping-rain-water-ii/)
 
 - 575. Decode String
 - 40. Implement Queue by Two Stacks
 - 12. Min Stack
 - 360. Sliding Window Median
-- 364. Trapping Rain Water II
 - 510. Maximal Rectangle
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram

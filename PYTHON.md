@@ -192,3 +192,10 @@ class Trie
     return node
 
 ```
+
+# 强化算法版第二课
+
+## heap + hashmap
+
+## trapping water I
+从左往右的最大值，和从右往左的最大值就能决定本格子有多少水
