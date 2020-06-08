@@ -4,7 +4,6 @@
 
 ## Todays problems to solve
 
-- [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [123. Word Search](https://leetcode.com/problems/word-search/)
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 - [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
@@ -127,6 +126,14 @@
 ## Dynamic Programming
 
 - NIL
+
+## Trie
+
+- [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+## Union Find (Disjoint-set)
+
+
 
 ## **Problems to solve**
 
