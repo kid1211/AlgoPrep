@@ -113,7 +113,7 @@ O(1) Union, and o(1) find
 ```python
 def find(self, node):
   while self.father[node] != node:
-  node = self.father[node]
+    node = self.father[node]
 ```
 
 上面的问题是 做不到o1的查询 所以每次查询的时候要做路径压缩
@@ -197,5 +197,8 @@ class Trie
 
 ## heap + hashmap
 
-## trapping water I
-从左往右的最大值，和从右往左的最大值就能决定本格子有多少水
+## trapping water
+
+第一层: 看左右最高值
+第二层: 双指针记录最高值，然后靠近矮的可以确定
+第三层： 2d的
