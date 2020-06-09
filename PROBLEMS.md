@@ -336,15 +336,48 @@
 ## W3 Data Structure II
 
 - [363. Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water)
+  - need to explain a bit
 - [364. Trapping Rain Water II](http://www.lintcode.com/problem/trapping-rain-water-ii/)
+  - super hard
+- [data-stream-median](http://www.lintcode.com/problem/data-stream-median/)
+- 12. Min Stack
+- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
+  - dfs
+  - stack
+- [largest-rectangle-in-histogram](http://www.lintcode.com/problem/largest-rectangle-in-histogram/)
+  - Monotonous stack (stack([1,2,8,10]).push(5) => stack([1,2,5]))
+- [maximal-rectangle](http://www.lintcode.com/problem/maximal-rectangle)
+- [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix)
+  - not related to topic
+- [max-tree](http://www.lintcode.com/problem/max-tree/)
 
 - 575. Decode String
 - 40. Implement Queue by Two Stacks
-- 12. Min Stack
+
 - 360. Sliding Window Median
 - 510. Maximal Rectangle
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram
+- 475. Binary Tree Maximum Path Sum II
+- 130. Heapify
+- 40. Implement Queue by Two Stacks
+- 12. Min Stack
+- 623. K Edit Distance
+- 510. Maximal Rectangle
+- 367. Expression Tree Build
+- 370. Convert Expression to Reverse Polish Notation
+- 369. Convert Expression to Polish Notation
+- 368. Expression Evaluation
+- 126. Max Tree
+- 122. Largest Rectangle in Histogram
+- 131. The Skyline Problem 
+- 360. sliding Window Median
+  - Treeset, 平衡二叉树， 红黑树， java relatively easy
+  - probably won't have time for this
+  - probably for a follow-ups
+
+- 362. Sliding Window Maximum
+
 
 
 ## Heap, Queue, monotonous stack 

@@ -202,3 +202,14 @@ class Trie
 第一层: 看左右最高值
 第二层: 双指针记录最高值，然后靠近矮的可以确定
 第三层： 2d的
+
+## trapping water II
+
+1. constructed a ring with all the outer most element
+2. find the lowest in the ring
+3. compare it with the inner ring, if it is smaller, shrink the ring on this part
+4. else you get your water, then move on
+
+## 有序哈希表 - LRU Cache
+
+collections.OrderedDict
