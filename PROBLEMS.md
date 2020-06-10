@@ -4,14 +4,18 @@
 
 ## Todays problems to solve
 
-- [123. Word Search](https://leetcode.com/problems/word-search/)
+- [max-tree](http://www.lintcode.com/problem/max-tree/)
+- [largest-rectangle-in-histogram](http://www.lintcode.com/problem/largest-rectangle-in-histogram/)
+- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
+- [363. Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water)
+
+
+## Yesterdays pending
+
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 - [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
 - [friend-circles](https://leetcode.com/problems/friend-circles/)
 - [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-
-
-## Yesterdays pending
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 
@@ -79,6 +83,7 @@
 - [lowest-common-ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions)
 - [remove-node-in-binary-search-tree](https://leetcode.com/problems/delete-node-in-a-bst)
 - [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description)
+- [123. Word Search](https://leetcode.com/problems/word-search/)
 
 ## Combination based DFS
 
@@ -330,7 +335,6 @@
 
 - [Add and Search Word - Data structure design](https://www.lintcode.com/problem/add-adn-sear-word)
 - [word-squares](https://www.lintcode.com/problem/word-squares)
-- 123. Word Search
 - [132. Word Search II](https://www.lintcode.com/problem/word-search-ii)
 
 ## W3 Data Structure II
