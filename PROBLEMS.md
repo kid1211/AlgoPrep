@@ -4,18 +4,15 @@
 
 ## Todays problems to solve
 
-- [max-tree](http://www.lintcode.com/problem/max-tree/)
-- [largest-rectangle-in-histogram](http://www.lintcode.com/problem/largest-rectangle-in-histogram/)
-- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
-- [363. Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water)
+Waiting for big V
 
-
-## Yesterdays pending
+## Vig - Yesterdays pending
 
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 - [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
 - [friend-circles](https://leetcode.com/problems/friend-circles/)
 - [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 
