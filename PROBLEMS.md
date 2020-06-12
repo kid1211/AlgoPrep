@@ -4,15 +4,21 @@
 
 ## Todays problems to solve
 
-Waiting for big V
+[maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
+[heapify](https://www.lintcode.com/problem/heapify/description)
+[implement-queue-by-two-stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/description)
+- [data-stream-median](http://www.lintcode.com/problem/data-stream-median/)
 
 ## Vig - Yesterdays pending
 
+- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
+
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
+
 - [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
 - [friend-circles](https://leetcode.com/problems/friend-circles/)
 - [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
+
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 
