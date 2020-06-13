@@ -1,9 +1,3 @@
-## Todays problems to solve
-
-- 282
-- 944
-- 281
-- 352
 
 ## Vig - Yesterdays pending
 
