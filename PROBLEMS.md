@@ -267,7 +267,7 @@
 - [642. Moving Average from Data Stream]()
 - [494. Implement Stack By Two Queues]()
 - [209. First Unique Character in a String]()
-- [40. Implement Queue by Two Stacks]()
+- [40. Implement Queue by Two Stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/)
 - [4. Ugly Number II]()
 - [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
 - [copy-list-with-random-pointer](http://www.lintcode.com/problem/copy-list-with-random-pointer)
@@ -293,6 +293,13 @@
 
 
 # Advanced Algo
+
+## Heap, Queue, monotonous stack 
+
+## Dichotomy fourth level real + scan line algo (Joe to get correct translation)
+
+## Dynamic Programming
+ -- Memory Search, backpack
 
 ## Sliding window pattern
 
@@ -359,15 +366,12 @@
 - [max-tree](http://www.lintcode.com/problem/max-tree/)
 
 - 575. Decode String
-- 40. Implement Queue by Two Stacks
 
-- 360. Sliding Window Median
 - 510. Maximal Rectangle
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram
 - 475. Binary Tree Maximum Path Sum II
 - 130. Heapify
-- 40. Implement Queue by Two Stacks
 - 12. Min Stack
 - 623. K Edit Distance
 - 510. Maximal Rectangle
@@ -377,20 +381,18 @@
 - 368. Expression Evaluation
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram
-- 131. The Skyline Problem 
+- 131. The Skyline Problem
 - 360. sliding Window Median
-  - Treeset, 平衡二叉树， 红黑树， java relatively easy
-  - probably won't have time for this
-  - probably for a follow-ups
-
+  - hash + heap
+  - Treeset (red-black tree)
 - 362. Sliding Window Maximum
+  - hash + heap -> pyhon 
+  - Treeset, Treemap (red-black tree)
+  - deque
 
+## W3: binary anser + interval
 
-
-## Heap, Queue, monotonous stack 
-
-## Dichotomy fourth level real + scan line algo (Joe to get correct translation)
-
-## Dynamic Programming
- -- Memory Search, backpack
-
+- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
+  - Treeset, Treemap (red-black tree)
+  - deque

@@ -210,6 +210,68 @@ class Trie
 3. compare it with the inner ring, if it is smaller, shrink the ring on this part
 4. else you get your water, then move on
 
+## maximum rectangle 2D
+
+- 一行一行来看
+- 每一行都对上的书字加起来 
+- maximum submax, 也是 把三维的图变成一维
+
+## max tree
+
+```pythong
+class Solution:
+  def maxTree(self, A):
+    if not A:
+      return None
+    
+    nodes = [TreeNode(num) for num in A + [sys.maxsize]]
+    stack = []
+
+    for index, num in enumerate(A + [sys.maxsize]):
+      while stack and A[stack[-1]] < num:
+      top = stack.pop()
+      left = A[stack[-1]] if stack else sys.maxsize
+
+      if left < num:
+        nodes[stack[-1]].right = nodes[top]
+      else:
+        nodes[index].left = nodes[top]
+      stack.append(index)
+    
+    # sys.maxsize's left child is the maximum number
+    return nodes[-1].left
+```
+
 ## 有序哈希表 - LRU Cache
 
 collections.OrderedDict
+
+## Sliding Window mediium
+
+红黑树！！！ pythong！！tree map
+1. 维护两个堆
+2. 小的那一半做一个最大堆， 大的那一半用一个最小堆 红黑树
+
+## sliding window maximum
+
+1. 红黑树
+2. min stack 类似的方法，， 用deque
+3. deque是双向链表实现的
+
+## min stack
+
+vs heap? pop不一样
+
+两个stack， 一个是实际数据，另一个是当时的最小值
+
+## sweep line
+
+1. 事件往往是以区间的形式存在
+2. 区间两端代表事件的开始和结束
+3. 需要排序
+
+扫描线的要点， 将起点和终点打散排序
+[[1,3], [2,4]] -> [[1, start], [2, start], [3, end],[4,end]]
+1. break down之后排序
+2. start+1,end-1, 就好了
+4. start/end可以有个小技巧用-1 和1 帮助排序
