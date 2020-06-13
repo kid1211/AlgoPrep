@@ -1,4 +1,5 @@
 # Today Problems
+- [Don't click this](./PROBLEMS.md#34)
 
 ## var1ay to do it, at hint in the question, and randomly picc
 
