@@ -4,9 +4,6 @@
 
 ## Todays problems to solve
 
-- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
-- [heapify](https://www.lintcode.com/problem/heapify/description)
-- [implement-queue-by-two-stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/description)
 - [data-stream-median](http://www.lintcode.com/problem/data-stream-median/)
 
 ## Vig - Yesterdays pending
@@ -138,6 +135,13 @@
 - [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ## Union Find (Disjoint-set)
+
+## Data structure II
+
+- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
+- [heapify](https://www.lintcode.com/problem/heapify/description)
+- [implement-queue-by-two-stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/description)
+
 
 ## **Problems to solve**
 
