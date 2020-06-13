@@ -1,9 +1,10 @@
+# Today Problems
+
+## var1ay to do it, at hint in the question, and randomly picc
+
 ## Todays problems to solve
 
-- 282
-- 944
-- 281
-- 352
+- [data-stream-median](http://www.lintcode.com/problem/data-stream-median/)
 
 ## Vig - Yesterdays pending
 
@@ -14,6 +15,7 @@
 - [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
 - [friend-circles](https://leetcode.com/problems/friend-circles/)
 - [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 
@@ -39,6 +41,7 @@
 - [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
 - [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
+
   - first position <= last position (need to hide this)
 
 ## Two Pointer Algorithm
@@ -124,6 +127,7 @@
 - [612. K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin)
 - [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+
 
 ## Dynamic Programming
 
@@ -289,6 +293,7 @@
 - [577. Merge K Sorted Interval Lists]()
 - [Binary indexed Tree]()
 
+
 # Advanced Algo
 
 ## Heap, Queue, monotonous stack 
@@ -368,7 +373,7 @@
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram
 - 475. Binary Tree Maximum Path Sum II
-- [heapify](https://www.lintcode.com/problem/heapify/description)
+- 130. Heapify
 - 12. Min Stack
 - 623. K Edit Distance
 - 510. Maximal Rectangle
@@ -378,11 +383,7 @@
 - 368. Expression Evaluation
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram
-- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
-- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
-  - Treeset, Treemap (red-black tree)
-  - deque
-
+- 131. The Skyline Problem
 - 360. sliding Window Median
   - hash + heap
   - Treeset (red-black tree)
@@ -393,3 +394,7 @@
 
 ## W3: binary anser + interval
 
+- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
+  - Treeset, Treemap (red-black tree)
+  - deque
