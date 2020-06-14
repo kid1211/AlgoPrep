@@ -261,7 +261,7 @@ collections.OrderedDict
 ## min stack
 
 vs heap? pop不一样
-
+ 
 两个stack， 一个是实际数据，另一个是当时的最小值
 
 ## sweep line
@@ -275,3 +275,44 @@ vs heap? pop不一样
 1. break down之后排序
 2. start+1,end-1, 就好了
 4. start/end可以有个小技巧用-1 和1 帮助排序
+
+## heap
+
+- siftup 我比我的父亲要小
+- siftdown 我比我的儿子要小
+
+## red-black tree
+
+need to do mind map
+hash-heap implmentation -> TheSkylineProblem
+
+## find peak element II
+
+1. 中间的地方找到peak 然后走下去 （去的那方向继续二分）
+2. 交替二分
+
+## +1 <=
+
+记得总结， 二分法是+1， quick sort是<=
+
+## 二分答案
+
+```python
+# 1 确定答案的范围
+start, end = 答案可能的值域范围
+
+while start + 1 < end:
+  # 猜答案
+  mid = (start + end) // 2
+
+  # 3. 检测答案
+  if should_be_smaller(mid): 
+    end = mid #4. 调账范围
+  else:
+    start = mid #4. 调整范围
+
+# 最后简则start 和end
+
+偏小先检查start
+偏大的先检查end
+```

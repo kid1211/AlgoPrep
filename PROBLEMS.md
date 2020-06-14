@@ -372,10 +372,6 @@
 - 368. Expression Evaluation
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram
-- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
-- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
-  - Treeset, Treemap (red-black tree)
-  - deque
 
 - 360. sliding Window Median
   - hash + heap
@@ -385,5 +381,16 @@
   - Treeset, Treemap (red-black tree)
   - deque
 
-## W3: binary anser + interval
+## W4: binary anser + interval
 
+- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
+  - Treeset, Treemap (red-black tree)
+  - deque
+- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
+- [time-intersection](https://www.lintcode.com/problem/time-intersection)
+- [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II)
+- [sqrtx](https://www.lintcode.com/problem/sqrtx)
+- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/)
+  - abs(number^2 - x) <= 1e-10
+- [wood-cut](http://www.lintcode.com/problem/wood-cut/)
