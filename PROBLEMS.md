@@ -269,6 +269,7 @@
 - [merge-k-sorted-arrays](http://www.lintcode.com/problem/merge-k-sorted-arrays)
 - [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
 - [kth-smallest-number-in-sorted-matrix](http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix)
+- [510. Maximal Rectangle (maximum-rectangle)]()
 
 ## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
@@ -381,7 +382,7 @@
   - Treeset, Treemap (red-black tree)
   - deque
 
-## W4: binary anser + interval
+## W4: binary anser + interval - NotPDF
 
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
 - [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
@@ -394,3 +395,34 @@
 - [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/)
   - abs(number^2 - x) <= 1e-10
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
+- [copy-book](https://www.lintcode.com/problem/copy-books)
+  - binary answer
+  - dynamic programming
+- [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
+- [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
+- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
+- [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
+  - quick slow pointer
+
+## W5: sliding array and memoization - NotPDF
+
+- [longest-continuous-increasing-subsequence](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence)
+- [longest-continuous-increasing-subsequence-ii](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence-ii)
+  - use sorting
+  - memoization
+- [coins-in-a-line](https://www.lintcode.com/problem/coins-in-a-line)
+- [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
+  - sliding array
+  - memoization
+
+- [house-robber](http://www.lintcode.com/en/problem/house-robber/)
+- [house-robber-ii](http://www.lintcode.com/en/problem/house-robber-ii/)
+- [maximal-square](https://www.lintcode.com/problem/maximal-square)
+- [longest-increasing-subsequence](https://www.lintcode.comproblem/longest-increasing-subsequence)
+- [climbing-stairs](https://www.lintcode.com/problem/climbing-stairs/)
+- [fibonacci](https://wwww.lintcode.com/problem/fibonacci)
+- [longest-increasing-subsequence](https://www.lintcode.com/problem/longest-increasing-subsequence)
+- [maximal-square-ii](https://www.lintcode.com/problem/maximal-square-ii)
+- [unique-paths](https://www.lintcode.com/problem/unique-paths)
+- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)

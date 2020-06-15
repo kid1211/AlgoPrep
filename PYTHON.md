@@ -316,3 +316,101 @@ while start + 1 < end:
 偏小先检查start
 偏大的先检查end
 ```
+
+## find the duplicate number
+
+1. 快慢指针，想象里面的数字是next index 肯定有环
+2. first number that smaller_than_or_equal_to(number) > number   nlogn
+
+## maximum average subarray
+
+思路是让他套一下 看看怎么样
+1. sliding window 让他符合一个什么条件，这个题目没有 
+2. prefix sum、
+3. average的问题可以总体减去平均值，然后sum=0
+
+## 滚动数组
+
+- house robber I/II
+- Maximal Square I/ii
+
+- fibonacci
+  - 传统1: f[i] = f[i-1] + f[i -2]
+  - 传统2: c = a+b; a = b; b = c
+  - 新方法: f[i%3] = f[(i-1)%3] + f[(i-2)%3]
+
+## 记忆化搜索
+
+- longest continous increasing subsequence
+- coin in a line i/ii/iii
+- 什么时候用记忆化搜索？
+- 状态转移特别麻烦，不是顺序性的
+- 初始化状态不是很容易找到
+- 缺点
+  - 耗费更多的空间，无法使用滚动数组优化
+  - 地柜深度可能会很深
+
+
+## 其他类型的动态规划
+
+- 矩阵形
+- 博弈形
+- 区间型
+
+## 动态规划的4点要素
+
+- 状态 state
+  - 最优解/maximum/minimum
+  - Yes/No
+  - Count(*)
+- 方程 function
+- 初始化 initialization 
+-. 答案 answer
+
+## house robber
+
+- 序列性动态规划
+- state
+  - f[i] 表示前i个房子中，偷盗的最大价值
+- function
+  - f[i] = 1. A[i-1] + max(f[i-2]...f[i])偷到地i个房子
+  -        2. f[i-1]不都地i个房子
+  - 总结为 f[i] = max(f[i-1], f[i-2] + A[i-1])
+- init 通常比数组要大1
+  - f[0] = 0
+  - f[i] = A[0]
+- anser
+  - f[n]
+
+## maximal square
+
+- 矩阵类型的题目
+  - 正方形用右下角作为定位角
+  - 长方形用左上角和右下角作为定位角
+- state: f[i][j] 表示已i,j 为右下角的正方形的最大边长
+- function: f[i][j] = min(f[i-1][j], f[i][j-1], f[i-1][j-1]) + 1 if matrix[i][j] == 1 else 0
+- init: f[0][i] = matrix[0][i]  f[i][0] = matrix[i][0]
+- ans: max(f[i][j])
+- function Optimal: i % 2, j doesn't
+- f[i][j] = min(f[(i-1)%2][j], f[i%2][j-1], f[(i-1)%2][j-1]) + 1 if matrix[i][j] == 1 else 0
+- f[0][i] = matrix[0][i] \\\\   f[i%2][0] = matrix[i][0]
+
+## 动态规划的视线方式
+
+- 循环（从小岛大递推）
+- 记忆化搜索（从大到小的搜索）
+  - 画搜索树
+  - 万金油
+
+## 博弈类dp
+
+- state: 先手是否能获胜/能够获胜获得的最大利益
+- function: 循环美剧先手的策略可能性
+- initialization: 最极限、最小的状态下的先手的值
+- answer: 整个问题先手是否可能获胜
+- notes: 先思考最小的状态，然后思考打的状态往小的递推，非常适合记忆化搜索
+
+## coins in line II
+
+- reverse step
+- look at answer
