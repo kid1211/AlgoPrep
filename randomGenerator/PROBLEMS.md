@@ -224,7 +224,7 @@
 - [364. Trapping Rain Water II](http://www.lintcode.com/problem/trapping-rain-water-ii/)
   - super hard
 - [data-stream-median](http://www.lintcode.com/problem/data-stream-median/)
-- 12. Min Stack
+- [12. Min Stack]()
 - [expression-expand](http://www.lintcode.com/problem/expression-expand/)
   - dfs
   - stack
@@ -234,29 +234,29 @@
 - [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix)
   - not related to topic
 - [max-tree](http://www.lintcode.com/problem/max-tree/)
-- 575. Decode String
-- 510. Maximal Rectangle
-- 126. Max Tree
-- 122. Largest Rectangle in Histogram
-- 475. Binary Tree Maximum Path Sum II
+- [575. Decode String]()
+- [510. Maximal Rectangle]()
+- [126. Max Tree]()
+- [122. Largest Rectangle in Histogram]()
+- [475. Binary Tree Maximum Path Sum II]()
 - [heapify](https://www.lintcode.com/problem/heapify/description)
-- 12. Min Stack
-- 623. K Edit Distance
-- 510. Maximal Rectangle
-- 367. Expression Tree Build
-- 370. Convert Expression to Reverse Polish Notation
-- 369. Convert Expression to Polish Notation
-- 368. Expression Evaluation
-- 126. Max Tree
-- 122. Largest Rectangle in Histogram
+- [12. Min Stack]()
+- [623. K Edit Distance]()
+- [510. Maximal Rectangle]()
+- [367. Expression Tree Build]()
+- [370. Convert Expression to Reverse Polish Notation]()
+- [369. Convert Expression to Polish Notation]()
+- [368. Expression Evaluation]()
+- [126. Max Tree]()
+- [122. Largest Rectangle in Histogram]()
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
 - [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
   - Treeset, Treemap (red-black tree)
   - deque
-- 360. sliding Window Median
+- [360. sliding Window Median]()
   - hash + heap
   - Treeset (red-black tree)
-- 362. Sliding Window Maximum
+- [362. Sliding Window Maximum]()
   - hash + heap -> pyhon 
   - Treeset, Treemap (red-black tree)
   - deque
