@@ -4,9 +4,8 @@ import subprocess
 
 EASY_MED_HARD_SUPER = (2, 2, 1, 0)
 executable = [
-    'git status',
     'main',
-    'git add .',
+    'git add README.md',
     'git commit -a -m \"Generated Question\"',
     'git push',
     'open https://github.com/kid1211/AlgoPrep#readme'
