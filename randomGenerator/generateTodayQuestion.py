@@ -83,9 +83,9 @@ if __name__ == "__main__":
         if (process.returncode != 0):
             sys.exit()
         if 'git status' in line:
-            status = process.stdout.read()
-            print(status)
-            if status != b'':
+            stdout, stderr = process.communicate()
+            if b"working tree clean" not in stdout:
+                print("\n\ngit not clean")
                 sys.exit()
         elif 'main' in line:
             main()
