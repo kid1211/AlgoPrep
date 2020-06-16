@@ -1,5 +1,16 @@
 import sys
 from random import randrange
+import subprocess
+
+EASY_MED_HARD_SUPER = (1, 1, 1, 1)
+executable = [
+    'git status',
+    'main',
+    'git add .',
+    'git commit -a -m \"Generated Question\"',
+    'git push',
+    'open https://github.com/kid1211/AlgoPrep#readme'
+]
 
 
 def query(lines, number):
@@ -35,6 +46,7 @@ def main():
             'super': [],
             'garbage': []
         }
+
         for line in file:
             if line == '\n':
                 continue
@@ -48,11 +60,13 @@ def main():
                 current = 'super'
             else:
                 sums[current].append(line)
+
+        easy, med, hard, super = EASY_MED_HARD_SUPER
         data = (
-            query(sums['easy'], 1) +
-            query(sums['medium'], 1) +
-            query(sums['hard'], 1) +
-            query(sums['super'], 1)
+            query(sums['easy'], easy) +
+            query(sums['medium'], med) +
+            query(sums['hard'], hard) +
+            query(sums['super'], super)
         )
 
     with open('README.md', 'w') as file:  # Use file to refer to the file object
@@ -62,8 +76,16 @@ def main():
 
 
 if __name__ == "__main__":
-    # if len(sys.argv) != 5:
-    #     exit()
-
-    # main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
-    main()
+    # main()
+    for line in executable:
+        process = subprocess.Popen(line, shell=True, stdout=subprocess.PIPE)
+        process.wait()
+        if (process.returncode != 0):
+            sys.exit()
+        if 'git status' in line:
+            status = process.stdout.read()
+            print(status)
+            if status != b'':
+                sys.exit()
+        elif 'main' in line:
+            main()
