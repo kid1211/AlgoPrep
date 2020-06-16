@@ -5,14 +5,13 @@ import subprocess
 EASY_MED_HARD_SUPER = (2, 2, 1, 0)
 executable = [
     'git add README.md',
-    'git commit -a -m \"Generated Question\"',
+    'git commit -m \"Generated Question\"',
     'git push',
     'open https://github.com/kid1211/AlgoPrep#readme'
 ]
 
 
 def query(lines, number):
-    print('yo')
     rtn = []
     selected = set()
     for _ in range(number):
