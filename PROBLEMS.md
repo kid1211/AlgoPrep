@@ -429,8 +429,20 @@
 
 ## Easy
 
+- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+
 ## Medium
+
+- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)
 
 ## Hard
 
+- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+
 ## Super
+
+- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)
