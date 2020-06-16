@@ -12,6 +12,7 @@ executable = [
 
 
 def query(lines, number):
+    print('yo')
     rtn = []
     selected = set()
     for _ in range(number):
