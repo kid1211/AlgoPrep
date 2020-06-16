@@ -2,7 +2,7 @@ import sys
 from random import randrange
 import subprocess
 
-EASY_MED_HARD_SUPER = (1, 1, 1, 1)
+EASY_MED_HARD_SUPER = (2, 2, 1, 0)
 executable = [
     'git status',
     'main',
