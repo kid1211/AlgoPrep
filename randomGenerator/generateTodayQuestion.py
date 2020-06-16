@@ -4,7 +4,6 @@ import subprocess
 
 EASY_MED_HARD_SUPER = (2, 2, 1, 0)
 executable = [
-    'main',
     'git add README.md',
     'git commit -a -m \"Generated Question\"',
     'git push',
@@ -75,7 +74,7 @@ def main():
 
 
 if __name__ == "__main__":
-    # main()
+    main()
     for line in executable:
         if line == 'main':
             main()
@@ -85,8 +84,3 @@ if __name__ == "__main__":
         process.wait()
         if (process.returncode != 0):
             sys.exit()
-        if 'git status' in line:
-            stdout, stderr = process.communicate()
-            if b"working tree clean" not in stdout:
-                print("\n\ngit not clean")
-                sys.exit()
