@@ -26,7 +26,7 @@ def query(lines, number):
 # def main(easy, medium, hard, super):
 def main():
     data = None
-    with open("randomGenerator/PROBLEMS.md") as file:  # Use file to refer to the file object
+    with open("PROBLEMS.md") as file:  # Use file to refer to the file object
         current = 'garbage'
         sums = {
             'easy': [],
@@ -55,7 +55,8 @@ def main():
             query(sums['super'], 1)
         )
 
-    with open('Today.md', 'w') as file:  # Use file to refer to the file object
+    with open('README.md', 'w') as file:  # Use file to refer to the file object
+        file.write('# Today\'s Problem\n\n')
         for line in data:
             file.write(line)
 

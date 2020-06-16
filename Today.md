@@ -1,5 +1,0 @@
-- [sort-an-array](https://leetcode.com/problems/sort-an-array/)
-  - Bubble Sort
-- [64. Merge Sorted Array]()
-- [move-zeroes](https://leetcode.com/problems/move-zeroes)
-- [12. Min Stack]()
