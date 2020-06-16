@@ -78,6 +78,10 @@ def main():
 if __name__ == "__main__":
     # main()
     for line in executable:
+        if line == 'main':
+            main()
+            continue
+
         process = subprocess.Popen(line, shell=True, stdout=subprocess.PIPE)
         process.wait()
         if (process.returncode != 0):
@@ -87,5 +91,3 @@ if __name__ == "__main__":
             if b"working tree clean" not in stdout:
                 print("\n\ngit not clean")
                 sys.exit()
-        elif 'main' in line:
-            main()
