@@ -414,3 +414,88 @@ while start + 1 < end:
 
 - reverse step
 - look at answer
+
+## coins in line III
+
+- state
+  - dp[i][j]现在地i道第j的硬币，先手可以最多取走的硬币总价值
+- function
+  - sum[i][j] 表示到第i到第j的硬币价值总和
+  - dp[i][j] = max(sum[i][j]-dp[i+1][j], sum[i][j] - dp[i][j-1])
+  - //或者携程 dp[i][j] = sum[i][j] - min(dp[i+1][j], dp[i][j-1 ])
+- initialize
+  - dp[i][j] = coins[i]
+- answer
+  - dp[0][n-1]
+
+- 动态规划右边的值要比左边的先计算，所以顺序就看这个
+
+## 动态规划下
+
+- 区间类dp
+  - stone game
+  - burst ballons
+  - scramble string *
+- 匹配类dp
+  - longest common subsequence
+  - edit distance
+  -k edit distance
+  - distinct subquence
+  - interleaving string
+- 背包类dp
+  - backpack i
+  - backpack ii
+  - k sum
+
+## 区间类dp
+
+1. 求一段区间的解 max/min/count
+2. 转移方程通过区间更新
+3. 大区间的值依赖于小区间
+
+## Stron-Game
+
+- state: dp[i][j] 表示ith到jth石子合并到一起的最小花费
+- function: 
+  - 预处理 sum[i][j], 表示ith到jth所有价值和
+  - dp[i][j] = min(dp[i][k] + dp[k+1][j] + sum[i][j])对于所有k处于 {i, j - 1}
+- initialize for each i dp[i][i] = 0
+- answer dp[0][n-1]
+
+## 区间动态规划的三种实现方式
+
+1. 先循环区间长度，再循环起点位置 - hard to remember  
+2. 起点倒过来循环，重点正过来循环
+3. 记忆化搜索
+
+目的：先计算小区间,在计算大区间
+
+```python
+# 1
+for length in range(2, n + 1):
+  for i in range(n - length + 1):
+    j = i + length - 1
+    # now we get (i, j)
+
+# 2
+for i in range(n - 1, -1, -1):
+  for j in range(i, n):
+    # now we get (i, j)
+
+# 3
+def memo_search(self, A, i, j, range_sum, memo):
+  if i == j:
+    return 0
+  
+  if (i, j) in memo:
+    return memo[(i, j)]
+  
+  score = sys.maxsize
+  for k in range(i, j):
+    left = self.memo_search(A, i, k, range_sum, memo)
+    right = self.memo_search(A, k + 1, j, range_sum, memo)
+    score = min(score, left + right + range_sum[i][j])
+
+  memo[(i, j)] = score
+  return score
+```

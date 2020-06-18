@@ -11,11 +11,38 @@
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 
+## Vig - New Pending
+
+- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
+  - interval dp
+  - memo
+- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
+  - Treeset, Treemap (red-black tree)
+  - deque
+- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
+- [time-intersection](https://www.lintcode.com/problem/time-intersection)
+- [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II)
+- [sqrtx](https://www.lintcode.com/problem/sqrtx)
+- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/)
+  - abs(number^2 - x) <= 1e-10
+- [wood-cut](http://www.lintcode.com/problem/wood-cut/)
+- [copy-book](https://www.lintcode.com/problem/copy-books)
+  - binary answer
+  - dynamic programming
+- [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
+- [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
+- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
+- [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
+  - quick slow pointer
+
 # Problems solved
 
 ## Strings
 
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
+  - with dp
+  - without dp
 - [valid-palindrome](https://www.lintcode.com/problem/valid-palindrome)
 - [longest-palindromic-substring](https://www.lintcode.com/problem/longest-palindromic-substring)
 - [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
@@ -414,6 +441,10 @@
 - [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
   - sliding array
   - memoization
+- [coins-in-a-line-iii](https://www.lintcode.com/problem/coins-in-a-line-iii)
+  - sliding array
+  - memoization
+- [430. Scrambling String]()
 
 - [house-robber](http://www.lintcode.com/en/problem/house-robber/)
 - [house-robber-ii](http://www.lintcode.com/en/problem/house-robber-ii/)
@@ -426,6 +457,12 @@
 - [unique-paths](https://www.lintcode.com/problem/unique-paths)
 - [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
 - [edit-distance](https://www.lintcode.com/problem/edit-distance)
+
+## W6 Interval DP, matching DP, backpack DP
+
+- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
+  - interval dp
+  - memo
 
 ## Easy
 
