@@ -507,11 +507,15 @@
   - remember it
 
 ## Easy
+
 20-6
+
 - [sqrtx](https://www.lintcode.com/problem/sqrtx)
 
 ## Medium
+
 20-6
+
 - [stone-game](http://www.lintcode.com/en/problem/stone-game/)
 - [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 
@@ -521,12 +525,13 @@
 - [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 
 ## Hard
-20-6
-- [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 
+20-6
+
+- [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
 - [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
 
-
 ## Super
+
 - [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
