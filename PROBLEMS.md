@@ -5,8 +5,6 @@
 
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 
-- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
-- [friend-circles](https://leetcode.com/problems/friend-circles/)
 - [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
@@ -21,10 +19,10 @@
   - Treeset, Treemap (red-black tree)
   - deque
 - [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
-- [time-intersection](https://www.lintcode.com/problem/time-intersection)
-- [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II)
+- [time-intersection](https://www.lintcode.com/problem/time-intersection) 403
+- [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II) 404
 - [sqrtx](https://www.lintcode.com/problem/sqrtx)
-- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/)
+- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/) 403
   - abs(number^2 - x) <= 1e-10
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [copy-book](https://www.lintcode.com/problem/copy-books)
@@ -155,6 +153,8 @@
 - [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ## Union Find (Disjoint-set)
+- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
+- [friend-circles](https://leetcode.com/problems/friend-circles/)
 
 ## Data structure II
 
@@ -346,7 +346,6 @@
 
 - [589. Connecting Graph](http://www.lintcode.com/problem/connecting-graph/)
 - [590. Connecting Graph II](http://www.lintcode.com/problem/connecting-graph-ii/)
-- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
 - [178. Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree)
 - [629 Minimum Spanning Tree](https://www.lintcode.com/problem/minimum-spanning-tree)
 - [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
@@ -508,25 +507,26 @@
   - remember it
 
 ## Easy
-
-June 20
-
-- [] ()
+20-6
+- [sqrtx](https://www.lintcode.com/problem/sqrtx)
 
 ## Medium
+20-6
+- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
+- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 
-June 20
-
-- [] ()
+- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
+- [copy-book](https://www.lintcode.com/problem/copy-books)
+- [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 
 ## Hard
+20-6
+- [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 
-June 20
+- [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
+- [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
 
-- [] ()
 
 ## Super
-
-June 20
-
-- [] ()
+- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
