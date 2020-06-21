@@ -453,7 +453,7 @@ while start + 1 < end:
 2. 转移方程通过区间更新
 3. 大区间的值依赖于小区间
 
-## Stron-Game
+## Stone-Game
 
 - state: dp[i][j] 表示ith到jth石子合并到一起的最小花费
 - function: 
@@ -499,3 +499,191 @@ def memo_search(self, A, i, j, range_sum, memo):
   memo[(i, j)] = score
   return score
 ```
+
+## 四边形不等式 w6 30:00
+
+- stone game
+- copy book
+
+## Burst Ballons - Interval
+
+从大到小，吹最后一个球的时候是确定的 那个乘以两个1，那就倒退
+
+- state  dp[i][j] 表示把ith到jth个气球打包的最大价值
+- function
+  - k 属于i,j 表示第k号气球最后打包
+  - score = arr[i -1 ] * arr[k] * arr[j + 1]
+  - dp[i][j] = max(dp[i][k-1] + dp[k+1][j] + score)
+- intiatization dp[i][i] = arr[i-1] * arr[i] * arr[i+1]
+- answer: dp[0][n-1]
+
+上面的太麻烦了 进阶到下面的
+
+- 讲两端加上 1
+- state: dp[i][j] 表示把(i+1)th到(j-1)th气球打包，剩下i,j的最大收益
+- function:
+  - 对于所有k属于 {i+1, j -1}, 表示kth气球最后打包
+  - score = arr[i] * arr[k] * arr[j]
+  - dp[i][j] = max(dp[i][k] + dp[k][j] + score)
+- initialization: dp[i][i] = 0
+- answer: dp[0][n-1]
+
+## Scramble String 还有动归四讲
+
+## 匹配性动态规划 
+
+- state: f[i][j] 代表了第一个sequence 的前i个数字/字符, 配上第二个sequnce的前j个
+- function: f[i][j] = 研究第i个和第j个的匹配关系（上， 左，左上， 三个状态)
+- initialization : f[i][0] 和 f[0][j]
+- answer f[n][m] min/max/数目/存在关系
+  - n + 1 或 m + 1， 记得考虑空字符串
+- n = s1.length()
+- m = s2.length()
+- 阶梯技巧花矩阵,填写矩阵
+
+## longest common subsequence
+
+- state: f[i][j] 表示前i个字符配上钱j个字符的lcs的长度
+- function: f[i][j] = max(f[i-1][j], f[i][j -1], f[i -1][j -1] + 1) // a[i-1] == b[j-1]
+  - max(f[i-1][j], f[i][j -1]) // a[i-1] != B[j-1]
+- initialize: f[i][0] = f[0][j] = 0
+- answer: f[n][m]
+
+## edit distance
+
+• state: f[i][j]表示A的前i个字符最少要用几次编辑可以变成B的前j个字符
+• function: f[i][j] = MIN(f[i-1][j]+1, f[i][j-1]+1, f[i-1][j-1]) // A[i - 1] == B[j - 1]
+• = MIN(f[i-1][j]+1, f[i][j-1]+1, f[i-1][j-1]+1) // A[i - 1] != B[j - 1]
+• initialize: f[i][0] = i, f[0][j] = j
+• answer: f[n][m]
+
+## Distinct Subsequence
+
+• state: f[i][j] 表示 S的前i个字符中选取T的前j个字符，有多少种方案
+• function: f[i][j] = f[i - 1][j] + f[i - 1][j - 1] // S[i-1] == T[j-1]
+• = f[i - 1][j] // S[i-1] != T[j-1]
+• initialize: f[i][0] = 1, f[0][j] = 0 (j > 0)
+• answer: f[n][m] (n = sizeof(S), m = sizeof(T))
+
+## Interleaving String
+
+state: f[i][j]表示s1的前i个字符和s2的前j个字符能否交替组成s3的前i+j个字符
+• function: f[i][j] = (f[i-1][j] && (s1[i-1]==s3[i+j-1]) ||
+• (f[i][j-1] && (s2[j-1]==s3[i+j-1])
+• initialize: f[i][0] = (s1[0..i-1] == s3[0..i-1])
+• f[0][j] = (s2[0..j-1] == s3[0..j-1])
+• answer: f[n][m], n = sizeof(s1), m = sizeof(s2)
+
+## 背包类dp
+
+1. 用值作为dp维度
+2. dp过程就是天蝎矩阵
+3. 可以滚动数组优化
+
+## backpack I
+
+State:
+• f[i][S] “前i”个物品，取出一些能否组成和为S
+• Function:
+• a[i-1] 是第i个物品下标是i-1
+• f[i][S] = f[i-1][S - a[i-1]] or f[i-1][S]
+• Intialize:
+• f[i][0] = true; f[0][1..target] = false
+• Answer:
+• 检查所有的f[n][j]
+• O(n*S) ， 滚动数组优化
+
+## backpack II
+
+• 状态 State
+• f[i][j] 表示前i个物品当中选一些物品组成容量最多为j的最大价值 (小于等于j)
+• 方程 Function
+• f[i][j] = max(f[i-1][j], f[i-1][j-A[i-1]] + V[i-1]);
+• 初始化 Intialization
+• f[0][0]=0;
+• 答案 Answer
+• f[n][s]
+• O(n*s)
+
+## backpack IV
+
+State:
+• f[i][S] “前i”个物品，取出一些能否组成和为S
+• Function:
+• a[i-1] 是第i个物品下标是i-1
+• k 是第i个物品选取的次数
+• f[i][S] = f[i-1][S - k*a[i-1]] or f[i-1][S]
+• Intialize:
+• f[i][0] = true; f[0][1..target] = false
+• Answer:
+• 答案是f[n][S]
+
+## k sum
+
+• n个数，取k个数，组成和为target
+• State:
+• f[i][j][t]前i个数取j个数出来能否和为t
+• Function:
+• f[i][j][t] = f[i - 1][j - 1][t - a[i-1]] + f[i - 1][j][t]
+• Intialization
+• f[i][0][0] = 1
+• Answer
+• f[n][k][target]
+
+## Minimum Adjustment Cost
+
+• State:
+• f[i][v] 前i个数，第i个数调整为v，满足相邻两数<=target，所需要的最小代价
+• Function:
+• f[i][v] = min(f[i-1][v’] + |A[i]-v|, |v-v’| <= target)
+• Answer:
+• f[n][a[n]-target~a[n]+target]
+• O(n * A * T)
+
+## summary dp
+
+区间类DP问题
+• 从大到小去思考
+• 主要是通过记忆化来直观理解DP的思路
+• 双序列类DP问题
+• 二维数组
+• 画出矩阵的表格，填写矩阵
+• 背包DP问题
+• 用值作为DP维度
+• DP过程就是填写矩阵
+• 可以滚动数组优化
+
+## SubArray Sum
+
+同向双指针 vs prefix sum
+
+同向双指针可以想象为一个窗口，找一个方法让这个窗口越来越大
+用prefix sum, 然后查某个东西相等，所以用hashmap
+subarray-sum-closest: 最接近的用tree set 红黑树 比他小的最大的书比他大的最小堆额书
+(tree set找的是值) vs (单调栈找的是位置)
+这道题可以prefix sum 然后排个序和下表一起拍
+
+## 考虑一下 关键字对应的算法
+
+## continuous-subarray-sum
+
+1. 本来知道的方法
+2. 扫一遍，遇到前面的前缀和是负数就扔掉用自己从新来
+
+## nlogn 方法
+
+还可以可以是算出区别带着下标sort
+
+## continuous-subarray-sum-ii
+
+- 枚举中心线
+- 复制一遍
+
+## quick select
+
+最差情况-> n*n
+
+## wiggle sort I && II
+
+I: 小的和大的换个位置 差不多这意思
+II: 思考的是大的部分和小的部分可以倒序如果sorted， 那我们真的需要完全sorted吗？不需要的话就rainbow sort 分三个部分 

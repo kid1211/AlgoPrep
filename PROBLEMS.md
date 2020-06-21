@@ -445,6 +445,8 @@
   - sliding array
   - memoization
 - [430. Scrambling String]()
+  - sliding array
+  - memoization
 
 - [house-robber](http://www.lintcode.com/en/problem/house-robber/)
 - [house-robber-ii](http://www.lintcode.com/en/problem/house-robber-ii/)
@@ -463,23 +465,68 @@
 - [stone-game](http://www.lintcode.com/en/problem/stone-game/)
   - interval dp
   - memo
+- [burst-balloons](https://www.lintcode.com/problem/burst-balloons/description)
+  - interval dp
+  - memo
+- [longest-common-subsequence](https://www.lintcode.com/problem/longest-common-subsequence)
+- [longest-common-substring](https://www.lintcode.com/problem/longest-common-substring)
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+- [back pack](https://www.lintcode.com/problem/backpack)
+  - rolling %
+  - use interval??
+- [back pack II](https://www.lintcode.com/problem/backpack-ii)
+
+- [back pack IV](https://www.lintcode.com/problem/backpack-iv)
+- [k-sum](http://www.lintcode.com/en/problem/k-sum/)
+- [distinct subsequence](https://www.lintcode.com/problem/distinct-subsequences)
+- [interleaving string](http://www.lintcode.com/problem/interleaving-string)
+- [k edit distance](http://www.lintcode.com/problem/k-edit-distance)
+- [minimum-adjustment-cost](http://www.lintcode.com/en/problem/minimum-adjustment-cost/)
+
+## W7 random Question
+
+- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
+- [subarray-sum-closest](https://www.lintcode.com/problem/subarray-sum-closest/)
+- [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum/)
+- [subarray-sum-ii](http://www.lintcode.com/problem/subarray-sum-ii/)
+- [continuous-subarray-sum](www.lintcode.com/problem/continuous-subarray-sum/)
+  - nlogn with data structure
+  - nlogn without data structure
+  - on
+- [maximum-subarray](www.lintcode.com/problem/maximum-subarray/)
+- [continuous-subarray-sum-ii](http://www.lintcode.com/problem/continuous-subarray-sum-ii/)
+- [stone-game-ii](http://www.lintcode.com/en/problem/stone-game-ii/)
+- [wiggle-sort](http://www.lintcode.com/problem/wiggle-sort/)
+- [wiggle-sort-ii](http://www.lintcode.com/problem/wiggle-sort-ii/)
+  - probably need to look at answer
+- [nuts-bolts-problem](http://www.lintcode.com/en/problem/nuts-bolts-problem/)
+- Iterator Below - has template
+- [flatten-list](http://www.lintcode.com/en/problem/flatten-list/)
+- [flatten-nested-list-iterator](http://www.lintcode.com/en/problem/flatten-nested-list-iterator/)
+- [flatten-2d-vector](http://www.lintcode.com/en/problem/flatten-2d-vector/)
+- [binary-search-tree-iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/)
+  - remember it
 
 ## Easy
 
-- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
-- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+June 20
+
+- [] ()
 
 ## Medium
 
-- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
-- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+June 20
+
+- [] ()
 
 ## Hard
 
-- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
-- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+June 20
+
+- [] ()
 
 ## Super
 
-- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
-- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+June 20
+
+- [] ()
