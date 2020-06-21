@@ -11,9 +11,6 @@
 
 ## Vig - New Pending
 
-- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
-  - interval dp
-  - memo
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
 - [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
   - Treeset, Treemap (red-black tree)
@@ -461,9 +458,6 @@
 
 ## W6 Interval DP, matching DP, backpack DP
 
-- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
-  - interval dp
-  - memo
 - [burst-balloons](https://www.lintcode.com/problem/burst-balloons/description)
   - interval dp
   - memo
@@ -517,6 +511,8 @@
 20-6
 
 - [stone-game](http://www.lintcode.com/en/problem/stone-game/)
+  - interval dp
+  - memo
 - [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
