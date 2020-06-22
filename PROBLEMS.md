@@ -22,9 +22,6 @@
 - [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/) 403
   - abs(number^2 - x) <= 1e-10
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
-- [copy-book](https://www.lintcode.com/problem/copy-books)
-  - binary answer
-  - dynamic programming
 - [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
 - [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
@@ -418,9 +415,6 @@
 - [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/)
   - abs(number^2 - x) <= 1e-10
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
-- [copy-book](https://www.lintcode.com/problem/copy-books)
-  - binary answer
-  - dynamic programming
 - [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
 - [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
@@ -517,7 +511,11 @@
 
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
 - [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
+
 - [copy-book](https://www.lintcode.com/problem/copy-books)
+  - binary answer
+  - dynamic programming
+
 - [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 
 ## Hard
