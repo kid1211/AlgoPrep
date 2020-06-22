@@ -496,26 +496,21 @@
 
 ## Easy
 
-20-6
-
 - [sqrtx](https://www.lintcode.com/problem/sqrtx)
+- [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
 
 ## Medium
-
-20-6
 
 - [stone-game](http://www.lintcode.com/en/problem/stone-game/)
   - interval dp
   - memo
-- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
-
-- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
-- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
-
 - [copy-book](https://www.lintcode.com/problem/copy-books)
   - binary answer
   - dynamic programming
 
+- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
+- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
 - [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 
 ## Hard
