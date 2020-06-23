@@ -500,11 +500,10 @@
 - [find-median-from-data-stream](https://www.lintcode.com/problem/find-median-from-data-stream)
 - [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
 - 360. sliding Window Median
-  - hash + heap
-  - Treeset (red-black tree)
+  - HashHeap or red-black tree
 
 ## Super
 
 - [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
-  - Treeset, Treemap (red-black tree)
+  - HashHeap or red-black tree
   - deque
