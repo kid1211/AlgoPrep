@@ -13,5 +13,6 @@
         "strstr",
         "subarray",
         "wxyz"
-    ]
+    ],
+    "python.formatting.provider": "yapf"
 }

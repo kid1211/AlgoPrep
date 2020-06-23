@@ -687,3 +687,7 @@ subarray-sum-closest: 最接近的用tree set 红黑树 比他小的最大的书
 
 I: 小的和大的换个位置 差不多这意思
 II: 思考的是大的部分和小的部分可以倒序如果sorted， 那我们真的需要完全sorted吗？不需要的话就rainbow sort 分三个部分 
+
+## heap
+
+https://www.youtube.com/watch?v=t0Cq6tVNRBA

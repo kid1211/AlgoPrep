@@ -11,14 +11,8 @@
 
 ## Vig - New Pending
 
-- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
-- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
-  - Treeset, Treemap (red-black tree)
-  - deque
-- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 - [time-intersection](https://www.lintcode.com/problem/time-intersection) 403
 - [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II) 404
-- [sqrtx](https://www.lintcode.com/problem/sqrtx)
 - [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/) 403
   - abs(number^2 - x) <= 1e-10
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
@@ -138,9 +132,6 @@
 - [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
 
-## Dynamic Programming
-
-- NIL
 
 ## Trie
 
@@ -305,15 +296,6 @@
 - [577. Merge K Sorted Interval Lists]()
 - [Binary indexed Tree]()
 
-# Advanced Algo
-
-## Heap, Queue, monotonous stack 
-
-## Dichotomy fourth level real + scan line algo (Joe to get correct translation)
-
-## Dynamic Programming
- -- Memory Search, backpack
-
 ## Sliding window pattern
 
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
@@ -394,9 +376,7 @@
 - 126. Max Tree
 - 122. Largest Rectangle in Histogram
 
-- 360. sliding Window Median
-  - hash + heap
-  - Treeset (red-black tree)
+
 - 362. Sliding Window Maximum
   - hash + heap -> pyhon 
   - Treeset, Treemap (red-black tree)
@@ -404,10 +384,7 @@
 
 ## W4: binary anser + interval - NotPDF
 
-- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
-- [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
-  - Treeset, Treemap (red-black tree)
-  - deque
+
 - [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 - [time-intersection](https://www.lintcode.com/problem/time-intersection)
 - [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II)
@@ -519,8 +496,15 @@
 
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
+
+- [find-median-from-data-stream](https://www.lintcode.com/problem/find-median-from-data-stream)
 - [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
+- 360. sliding Window Median
+  - hash + heap
+  - Treeset (red-black tree)
 
 ## Super
 
 - [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
+  - Treeset, Treemap (red-black tree)
+  - deque

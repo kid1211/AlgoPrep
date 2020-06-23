@@ -14,8 +14,7 @@
 
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
-        slow = head
-        fast = head
+        fast = slow = head
 
         while fast and fast.next and fast.next.next:
             fast = fast.next.next
