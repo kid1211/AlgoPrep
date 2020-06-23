@@ -691,3 +691,17 @@ II: 思考的是大的部分和小的部分可以倒序如果sorted， 那我们
 ## heap
 
 https://www.youtube.com/watch?v=t0Cq6tVNRBA
+
+balanced binary tree (top to bottom, left to write to fill)
+
+- Add
+  - add to the first spot
+  - sift up (check its father swap is smaller)
+- remove
+  - take the last value put it on root
+  - sift down (swap wich the smallest children)
+
+- represent heap in array
+- (index - 2) // 2 is the parent
+- index *2 + 1 is left child
+- index *2 + 2 is the right child
