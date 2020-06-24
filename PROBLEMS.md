@@ -484,11 +484,25 @@
 - [copy-book](https://www.lintcode.com/problem/copy-books)
   - binary answer
   - dynamic programming
-
 - [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
 - [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
 - [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
+
+- June 24
+- [coins-in-a-line](https://www.lintcode.com/problem/coins-in-a-line)
+- [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
+  - sliding array
+  - memoization
+- [back pack](https://www.lintcode.com/problem/backpack)
+  - rolling %
+  - use interval??
+- [back pack II](https://www.lintcode.com/problem/backpack-ii)
+
+- June 25
+- [longest-common-subsequence](https://www.lintcode.com/problem/longest-common-subsequence)
+- [longest-common-substring](https://www.lintcode.com/problem/longest-common-substring)
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)
 
 ## Hard
 
@@ -498,6 +512,11 @@
 - [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
 - [360. sliding Window Median](https://www.lintcode.com/problem/sliding-window-median)
   - HashHeap or red-black tree
+
+- June 25
+- [burst-balloons](https://www.lintcode.com/problem/burst-balloons/description)
+  - interval dp
+  - memo
 
 ## Super
 
