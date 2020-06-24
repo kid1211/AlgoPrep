@@ -492,7 +492,6 @@
 
 ## Hard
 
-20-6
 
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
