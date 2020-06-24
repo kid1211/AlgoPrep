@@ -1,3 +1,81 @@
+# class HashHeap:
+#     def __init__(self, desc = False):
+#         self.hashmap = dict()
+#         self.heap = []
+#         self.desc = desc
+    
+#     def push(self, value):
+#         self.heap.append(value)
+#         self.hashmap[value] = self.size - 1
+        
+#         # move it up
+#         self._sift_up(self.size - 1)
+    
+#     def pop(self):
+#         item = self.top
+#         self.remove(item)
+#         return item
+        
+#     def remove(self, val):
+#         if val not in self.hashmap:
+#             return
+        
+#         # swap the last and top
+#         idx = self.hashmap[val]
+#         self._swap(idx, self.size - 1)
+        
+#         # remove last
+#         del self.hashmap[val]
+#         self.heap.pop() # this is list pop, not heap pop
+        
+#         if idx < self.size:
+#             self._sift_up(idx)
+#             self._sift_down(idx)
+    
+#     @property
+#     def size(self):
+#         return len(self.heap)
+    
+#     @property
+#     def top(self):
+#         return self.heap[0]
+    
+#     def _sift_down(self, idx):
+#         if idx >= self.size:
+#             return
+#         while idx * 2 < self.size:
+#             smallest = idx
+#             left, right = idx * 2, idx * 2 + 1
+            
+#             # test out if order useful
+#             if self._compare(left, smallest):
+#                 smallest = left
+            
+#             if right < self.size and self._compare(right, smallest):
+#                 smallest = right
+            
+#             if smallest != idx:
+#                 self._swap(smallest, idx)
+            
+#             idx = smallest # continue
+    
+#     def _sift_up(self, idx):
+#         while idx != 0:
+#             parent = idx // 2
+#             if self._compare(idx, parent):
+#                 self._swap(idx, parent)
+#                 idx = parent
+
+#     def _swap(self, i, j):
+#         item1, item2 = self.heap[i], self.heap[j]
+#         self.heap[i], self.heap[j] = item2, item1
+#         self.hashmap[item1], self.hashmap[item2] = j, i
+    
+#     def _compare(self, leftIdx, rightIdx):
+#         return (
+#             self.heap[leftIdx] < self.heap[rightIdx] if not self.desc else
+#             self.heap[rightIdx] < self.heap[leftIdx]
+#             )
 class HashHeap:
     def __init__(self, desc=False):
         self.val2idx = dict()
@@ -8,8 +86,9 @@ class HashHeap:
     def size(self):
         return len(self.heap)
     
+    @property
     def top(self):
-        return self.heap[0] if self.heap else -1
+        return self.heap[0]
         
     def push(self, item):
         # add to last
@@ -82,7 +161,6 @@ class HashHeap:
             
             self._swap(index, smallest)
             index = smallest # continue
-    
 class Solution:
     """
     @param nums: A list of integers
@@ -93,41 +171,37 @@ class Solution:
         if not nums or len(nums) < k:
             return []
             
-        self.maxheap = HashHeap(desc=True)
+        self.maxheap = HashHeap(desc = True)
         self.minheap = HashHeap()
         
-        for i in range(0, k - 1):
+        for i in range(k - 1):
+            # adding a tuple is more unique than same value
             self.add((nums[i], i))
             
         medians = []
         for i in range(k - 1, len(nums)):
-            self.add((nums[i], i))
-            # print(self.maxheap.heap, self.median, self.minheap.heap)
-            medians.append(self.median)
+            temp = self.add((nums[i], i))
+            medians.append(temp)
             self.remove((nums[i - k + 1], i - k + 1))
-            # print(self.maxheap.heap, self.median, self.minheap.heap)
             
         return medians
-            
-    def add(self, item):
+    
+    def add(self, value):
         if self.maxheap.size > self.minheap.size:
-            self.minheap.push(item)
+            self.minheap.push(value)
         else:
-            self.maxheap.push(item)
-            
-        if self.maxheap.size == 0 or self.minheap.size == 0:
-            return
-            
-        if self.maxheap.top() > self.minheap.top():
+            self.maxheap.push(value)
+        
+        if self.minheap.size and self.maxheap.top > self.minheap.top:
             self.maxheap.push(self.minheap.pop())
             self.minheap.push(self.maxheap.pop())
         
-    def remove(self, item):
-        self.maxheap.remove(item)
-        self.minheap.remove(item)
-        if self.maxheap.size < self.minheap.size:
-            self.maxheap.push(self.minheap.pop())
+        return self.maxheap.top[0]
+    
+    def remove(self, value):
+        self.maxheap.remove(value)
+        self.minheap.remove(value)
         
-    @property
-    def median(self):
-        return self.maxheap.top()[0]
+        # adjust so that it balance out
+        if self.minheap.size > self.maxheap.size:
+            self.maxheap.push(self.minheap.pop())
