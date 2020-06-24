@@ -492,10 +492,8 @@
 
 ## Hard
 
-
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
-
 - [find-median-from-data-stream](https://www.lintcode.com/problem/find-median-from-data-stream)
 - [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
 - 360. sliding Window Median
