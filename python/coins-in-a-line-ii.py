@@ -3,69 +3,66 @@ class Solution:
     @param values: a vector of integers
     @return: a boolean which equals to true if the first player will win
     """
-
     def firstWillWin(self, values):
-        if not values:
-            return False
+        # we don't know if we should take 1 or 2 at start
+        # but we do know how we pick at last
         n = len(values)
-
-        if n < 3:
+        
+        if n < 2:
             return True
-
+            
         dp = [0] * 3
-        suffix_sum = [0] * 3
-        dp[(n - 1) % 3] = suffix_sum[(n - 1) % 3] = values[-1]
-
+        suffixSum = [0] * 3 # 3 in the future
+        
+        dp[(n - 1) % 3] = suffixSum[(n - 1) % 3] = values[-1]
+        print(dp)
         for i in range(n - 2, -1, -1):
-            rolling_sum = suffix_sum[(i + 1) % 3] + values[i]
-            suffix_sum[i % 3] = rolling_sum
-
-            dp[i % 3] = max(
-                rolling_sum - dp[(i + 1) % 3],
-                rolling_sum - dp[(i + 2) % 3]
-            )
-        return dp[0] > suffix_sum[0] - dp[0]
-
+            # dp[i + 1] has value
+            sums = suffixSum[(i + 1) % 3] + values[i]
+            suffixSum[i % 3] = sums
+            
+            # imagine 3 left, let the guy pick last one or last two
+            dp[i % 3] = sums - min(dp[(i + 1) % 3], dp[(i + 2) % 3])
+            print(dp)
+        # sums of all the coins picked best stragey from 0 -> n
+        return dp[0] > suffixSum[0] - dp[0]
 
 class Solution:
     """
     @param values: a vector of integers
     @return: a boolean which equals to true if the first player will win
     """
-
     def firstWillWin(self, values):
         # write your code here
-        if not values:
-            return False
-
-        if len(values) < 2:
-            return True
-        memo = {}
-        first, second = self.dfs(values, 0, memo)
-        print(memo)
-        return first > second
-
-    def dfs(self, values, index, memo):
         n = len(values)
-        if index >= n:
-            return 0, 0
-        if index == n - 1:
-            return values[index], 0
-        if index == n - 2:
-            return values[index] + values[index + 1], 0
-
+        
+        if n < 3:
+            return True
+        first, second = self.dfs(values, 0, {})
+        return first > second
+        
+    def dfs(self, values, index, memo):
         if index in memo:
             return memo[index]
-
-        # so now we have more then 3 items
+        
+        # init
+        n = len(values)
+        if index == n:
+            return 0, 0
+        
+        if index == n - 1:
+            return values[index], 0
+        
+        if index == n - 2:
+            return values[index] + values[index + 1], 0
+        # first only take one
         first1, second1 = self.dfs(values, index + 1, memo)
+        # first take two
         first2, second2 = self.dfs(values, index + 2, memo)
+        # now become reverse
+        
         total = first1 + second1 + values[index]
-
-        # essentially after picking 1 or 2 coins, we will become second in the dfs above
-        # because we have already picked it
-        first = max(second1 + values[index], second2 +
-                    values[index] + values[index + 1])
-
+        first = max(second1 + values[index], second2 + values[index] + values[index + 1])
+        
         memo[index] = (first, total - first)
         return memo[index]
