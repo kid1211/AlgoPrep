@@ -501,7 +501,11 @@
 
 - June 25
 - [longest-common-subsequence](https://www.lintcode.com/problem/longest-common-subsequence)
+  - sliding array
+  - memoization
 - [longest-common-substring](https://www.lintcode.com/problem/longest-common-substring)
+  - sliding array
+  - memoization
 - [edit-distance](https://www.lintcode.com/problem/edit-distance)
 
 ## Hard
