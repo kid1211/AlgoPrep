@@ -30,4 +30,4 @@ class Solution:
                         k + 1, j) + left * right * nums[k]
                     dp[i][j] = max(dp[i][j], popBallon)
 
-        return dp[0][n - 1] if n > 0 else 0
+        return getDP(0, n - 1)

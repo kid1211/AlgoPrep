@@ -1,6 +1,7 @@
 
 ## Vig - Yesterdays pending
 
+- RECTANGLE
 - [expression-expand](http://www.lintcode.com/problem/expression-expand/)
 
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
@@ -11,8 +12,6 @@
 
 ## Vig - New Pending
 
-- [time-intersection](https://www.lintcode.com/problem/time-intersection) 403
-- [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II) 404
 - [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/) 403
   - abs(number^2 - x) <= 1e-10
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
@@ -21,267 +20,6 @@
 - [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
 - [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
   - quick slow pointer
-
-# Problems solved
-
-## Strings
-
-- [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
-  - with dp
-  - without dp
-- [valid-palindrome](https://www.lintcode.com/problem/valid-palindrome)
-- [longest-palindromic-substring](https://www.lintcode.com/problem/longest-palindromic-substring)
-- [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
-- [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
-- [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
-
-## Binary Search & LogN Algorithm
-
-- [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
-- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target/)
-- [last-position-of-target](http://www.lintcode.com/problem/last-position-of-target)
-- [first-bad-version](http://www.lintcode.com/problem/first-bad-version)
-- [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
-- [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
-- [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
-  - first position <= last position (need to hide this)
-
-## Two Pointer Algorithm
-
-- [two-sum](https://leetcode.com/problems/two-sum/)
-- [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- [partition-array Lintcode](https://www.lintcode.com/problem/partition-array/description)
-- [sort-an-array](https://leetcode.com/problems/sort-an-array/)
-  - Bubble Sort
-  - Selection Sort
-  - Quick Sort
-  - Merge Sort
-- [sort-colors-ii Lintcode](https://www.lintcode.com/problem/sort-colors-ii/description)
-- [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- [window-sum](http://www.lintcode.com/problem/window-sum)
-- [linked-list-cycle](http://www.lintcode.com/problem/linked-list-cycle)
-
-## W3: BFS & Topological Sort
-
-- [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-  - use queue (python: dequeue)
-  - only array (drop array)
-- [number-of-islands](https://leetcode.com/problems/number-of-islands/)
-- [word-ladder](https://leetcode.com/problems/word-ladder/)
-- [127. Topological sorting](https://www.lintcode.com/problem/topological-sorting) 
-- [course-schedule](https://leetcode.com/problems/course-schedule)
-- [graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)
-- [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
-- [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
-- [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
-- [same-tree](https://leetcode.com/problems/same-tree/)
-- [clone-graph](https://leetcode.com/problems/clone-graph/)
-
-## W4: Binary Tree & Tree based DFS
-
-- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree/description)
-- [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/description)
-- [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
-- [lowest-common-ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions)
-- [remove-node-in-binary-search-tree](https://leetcode.com/problems/delete-node-in-a-bst)
-- [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/description)
-- [123. Word Search](https://leetcode.com/problems/word-search/)
-
-## Combination based DFS
-
-- [subsets](https://leetcode.com/problems/subsets)
-- [subsets-ii](https://leetcode.com/problems/subsets-ii)
-- [combinations](https://leetcode.com/problems/combinations)
-- [combination-sum](https://leetcode.com/problems/combination-sum)
-- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
-- [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
-- [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
-- [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
-- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
-- [word-break](https://leetcode.com/problems/word-break)
-- [split-string](http://www.lintcode.com/problem/split-string)
-- [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
-
-## Permutation based & Graph based DFS
-
-- [15. Permutations]()
-- [16. Permutations II]()
-- [n-queens](http://www.lintcode.com/problem/n-queens)
-- [string-permutation-ii](http://www.lintcode.com/problem/string-permutation-ii)
-- [34. N-Queens II]()
-- [letter-combinations-of-a-phone-number](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
-
-## Data Structure - Stack, Queue, Hash, Heap
-
-- [657. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
-- [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/) - useless
-- [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/) - useless
-- [134. LRU Cache](https://leetcode.com/problems/lru-cache/)
-- [top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
-
-## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
-
-- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
-- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-list)
-- [654. Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication)
-- [486. Merge K Sorted Arrays](https://www.lintcode.com/problem/merge-k-sorted-arrays)
-- [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
-- [612. K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin)
-- [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
-- [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
-
-
-## Trie
-
-- [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
-
-## Union Find (Disjoint-set)
-- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
-- [friend-circles](https://leetcode.com/problems/friend-circles/)
-
-## Data structure II
-
-- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
-- [heapify](https://www.lintcode.com/problem/heapify/description)
-- [implement-queue-by-two-stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/description)
-
-
-## **Problems to solve**
-
-## Strings
-
-- [longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring/)
-
-## Binary Search & LogN Algorithm
-
-- [maximum-number-in-mountain-sequence](http://www.lintcode.com/problem/maximum-number-in-mountain-sequence) 
-- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
-- [search-for-a-range](http://www.lintcode.com/problem/search-for-a-range)
-- [smallest-rectangle-enclosing-black-pixels](http://www.lintcode.com/problems/smallest-rectangle-enclosing-black-pixels)
-- [find-peak-element](http://www.lintcode.com/problem/find-peak-element)
-- [powx-n](http://www.lintcode.com/problem/powx-n)
-- [fast Power]()
-- [235. Prime Factorization]()
-- [462. Total Occurrence of Target]()
-- [459. Closest Number in Sorted Array]()
-- [254. Drop Eggs]()
-- [28. Search a 2D Matrix]()
-- [14. First Position of Target]()
-- [414. Divide Two Integers]()
-- [61. Search for a Range]()
-- [38. Search a 2D Matrix II]()
-- [600. Smallest Rectangle Enclosing Black Pixels]()
-- [457. Classical Binary Search]()
-- [141. Sqrt(x)]()
-- [586. Sqrt(x) II]()
-- [160. Find Minimum in Rotated Sorted Array II]()
-- [63. Search in Rotated Sorted Array II]()
-- [437. Copy Books]()
-- [183. Wood Cut]()
-- [search in a big sorted Array]()
-
-## Two Pointer Algorithm
-
-- [remove-duplicate-numbers-in-array](http://www.lintcode.com/problem/remove-duplicate-numbers-in-array)
-- [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
-- [linked-list-cycle-ii](http://www.lintcode.com/problem/linked-list-cycle-ii)
-- [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
-- [move-zeroes](https://leetcode.com/problems/move-zeroes)
-- [total-occurrence-of-target](http://www.lintcode.com/problem/total-occurrence-of-target)
-- [valid-palindrome-ii](http://www.lintcode.com/problem/valid-palindrome-ii)
-- [two-sum-unique-pairs](http://www.lintcode.com/problem/two-sum-unique-pairs)
-- [3sum](http://www.lintcode.com/problem/3sum)
-- [triangle-count](http://www.lintcode.com/problem/triangle-count)
-- [two-sum-less-than-or-equal-to-target](http://www.lintcode.com/problem/two-sum-less-than-or-equal-to-target)
-- [two-sum-greater-than-target](http://www.lintcode.com/problem/two-sum-greater-than-target)
-- [two-sum-closest-to-target](http://www.lintcode.com/problem/two-sum-closest-to-target)
-- [3sum-closest](http://www.lintcode.com/problem/3sum-closest)
-- [4sum](http://www.lintcode.com/problem/4sum)
-- [two-sum-difference-equals-to-target](http://www.lintcode.com/problem/two-sum-difference-equals-to-target)
-- [kth-smallest-numbers-in-unsorted-array](http://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array)
-- [median](https://www.lintcode.com/problem/median)
-- [partition-array-by-odd-and-even](http://www.lintcode.com/problem/partition-array-by-odd-and-even)
-- [interleaving-positive-and-negative-numbers](http://www.lintcode.com/problem/interleaving-positive-and-negative-numbers)
-- [sort-letters-by-case](http://www.lintcode.com/problem/sort-letters-by-case)
-- [sort-colors](http://www.lintcode.com/problem/sort-colors)
-- [pancake sort]()
-  - [wiki](https://en.wikipedia.org/wiki/Pancake_sorting)
-  - [geeksforgeeks](http://www.geeksforgeeks.org/pancake-sorting)
-- [sleep sort]()
-- [sleep sort](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
-- [Spaghetti Sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
-- [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
-- [228. Middle of Linked List]()
-- [607. Two Sum III - Data structure design]()
-- [464. Sort integers II]()
-- [608. Two Sum II- Input array is sorted]()
-- [143. Sort Colors II]()
-- [93. Balanced Binary Tree]()
-
-## BFS & Topological Sort
-
-- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
-- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
-- [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
-- [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
-- [sequence-reconstruction](http://www.lintcode.com/problem/sequence-reconstruction)
-- [search-graph-nodes](http://www.lintcode.com/problem/search-graph-nodes)
-- [connected-component-in-undirected-graph](http://www.lintcode.com/problem/connected-component-in-undirected-graph)
-- [build-post-office-ii](http://www.lintcode.com/problem/build-post-office-ii)
-- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
-- 7. Serialize and Deserialize Binary Tree
-- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
-
-## Binary Tree & Tree based DFS
-
-- [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/description)
-- [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
-- [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
-- [binary-tree-paths](http://www.lintcode.com/problem/binary-tree-paths)
-- [binary-search-tree-iterator](http://www.lintcode.com/problem/binary-search-tree-iterator)
-- [inorder-successor-in-bst](http://www.lintcode.com/problem/inorder-successor-in-bst)
-- [closest-binary-search-tree-value](http://www.lintcode.comproblem/closest-binary-search-tree-value)
-- [closest-binary-search-tree-value-ii](http:www.lintcode.com/problem/closest-bineary-search-tree-value-ii)
-- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
-- [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
-  - [supplement](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
-
-
-## Combination based DFS
-
-- [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
-
-## Permutation based & Graph based DFS
-
-- [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
-- [next-closest-time](http://www.lintcode.com/problem/next-closest-time)
-- [next-permutation](http://www.lintcode.com/problem/next-permutation)
-- [next-permutation-ii](http://www.lintcode.com/problem/next-permutation-ii)
-- [permutation-index](http://www.lintcode.com/problem/permutation-index)
-- [permutation-index-ii](http://www.lintcode.com/problem/permutation-index-ii)
-- [829. WordPattern II]()
-- [121. Word Ladder II]()
-
-## Data Structure - Stack, Queue, Hash, Heap
-
-- [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
-- [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
-- [642. Moving Average from Data Stream]()
-- [494. Implement Stack By Two Queues]()
-- [209. First Unique Character in a String]()
-- [40. Implement Queue by Two Stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/)
-- [4. Ugly Number II]()
-- [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
-- [copy-list-with-random-pointer](http://www.lintcode.com/problem/copy-list-with-random-pointer)
-- [anagrams](http://www.lintcode.com/problem/anagrams)
-- [longest-consecutive-sequence](http://www.lintcode.com/problem/longest-consecutive-sequence)
-- [high-five](http://www.lintcode.com/problem/high-five)
-- [merge-k-sorted-arrays](http://www.lintcode.com/problem/merge-k-sorted-arrays)
-- [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
-- [kth-smallest-number-in-sorted-matrix](http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix)
-- [510. Maximal Rectangle (maximum-rectangle)]()
 
 ## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
@@ -295,28 +33,6 @@
 - [931. Median of K sorted Arrays]()
 - [577. Merge K Sorted Interval Lists]()
 - [Binary indexed Tree]()
-
-## Sliding window pattern
-
-- [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
-- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
-- [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
-
-## W1
-
-- [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
-- [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
-
-- Remove Nth Node From End of List
-- Find the Middle of Linked List
-- Linked List Cycle I, II
-- [kth-smallest-numbers-in-unsorted-array](https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array)
-- [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)
-- [kth-smallest-element-in-a-sorted-matrix](https://www.lintcode.com/problem/kth-smallest-element-in-a-sorted-matrix)
-- [kth-smallest-sum-in-two-sorted-arrays](https://www.lintcode.com/problem/kth-smallest-sum-in-two-sorted-arrays)
-- 609.Two Sum - Less than or equal to target
-- 382. Triangle Count
-- 5. kth largest Element
 
 ## union find
 
@@ -476,6 +192,57 @@
 - [sqrtx](https://www.lintcode.com/problem/sqrtx)
 - [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
 
+- Pending
+
+- [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
+  - with dp
+  - without dp
+- [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
+- [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
+- [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
+- [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
+- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target/)
+- [last-position-of-target](http://www.lintcode.com/problem/last-position-of-target)
+- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [two-sum](https://leetcode.com/problems/two-sum/)
+- [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [window-sum](http://www.lintcode.com/problem/window-sum)
+- [alien-dictionary-easy](https://www.lintcode.com/problem/alien-dictionaryeasy/)
+- [same-tree](https://leetcode.com/problems/same-tree/)
+- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree)
+- [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/)
+- [subarray-sum](https://www.lintcode.com/problem/subarray-sum)
+- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/)
+- [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
+- [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
+- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [prime-factor-statistics](https://www.lintcode.com/problem/prime-factor-statistics)
+- [462. Total Occurrence of Target](https://www.lintcode.com/problem/total-occurrence-of-target/)
+- [drop-eggs](https://www.lintcode.com/problem/drop-eggs/)
+- [search-a-2d-matrix](https://www.lintcode.com/problem/search-a-2d-matrix)
+- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target)
+- [141. Sqrt(x)](https://www.lintcode.com/problem/sqrtx)
+- [move-zeroes](https://leetcode.com/problems/move-zeroes)
+- [median](https://www.lintcode.com/problem/median)
+- [partition-array-by-odd-and-even](http://www.lintcode.com/problem/partition-array-by-odd-and-even)
+- [middle-of-linked-list](https://www.lintcode.com/problem/middle-of-linked-list/)
+- [two-sum-iii-data-structure-design](https://www.lintcode.com/problem/two-sum-iii-data-structure-design/)
+- [sort-integers-ii](https://www.lintcode.com/problem/sort-integers-ii)
+- [balanced-binary-tree](https://www.lintcode.com/problem/balanced-binary-tree/)
+- [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
+- [invert-binary-tree](http://www.lintcode.com/problem/invert-binary-tree)
+- [binary-tree-paths](http://www.lintcode.com/problem/binary-tree-paths)
+- [closest-binary-search-tree-value](http://www.lintcode.com/problem/closest-binary-search-tree-value)
+- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
+- [moving-average-from-data-stream](https://www.lintcode.com/problem/moving-average-from-data-stream/)
+- [209. First Unique Character in a String](https://www.lintcode.com/problem/first-unique-character-in-a-string/)
+- [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
+- [remove-nth-node-from-end-of-list](https://www.lintcode.com/problem/remove-nth-node-from-end-of-list/)
+- [reverse-linked-list](https://www.lintcode.com/problem/reverse-linked-list)
+- [middle-of-the-linked-list](https://www.lintcode.com/problem/middle-of-the-linked-list)
+- [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
+
 ## Medium
 
 - [stone-game](http://www.lintcode.com/en/problem/stone-game/)
@@ -508,6 +275,119 @@
   - memoization
 - [edit-distance](https://www.lintcode.com/problem/edit-distance)
 
+- Pending
+- [reverse-linked-list-ii](https://www.lintcode.com/problem/reverse-linked-list-ii)
+- [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
+- [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
+- [longest-consecutive-sequence](http://www.lintcode.com/problem/longest-consecutive-sequence)
+- [anagrams](http://www.lintcode.com/problem/anagrams)
+- [copy-list-with-random-pointer](http://www.lintcode.com/problem/copy-list-with-random-pointer)
+- [ugly-number-ii](https://www.lintcode.com/problem/ugly-number-ii)
+- [implement-queue-by-two-stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks/)
+- [sort-colors-ii](https://www.lintcode.com/problem/sort-colors-ii)
+- [two-sum-ii-input-array-is-sorted](https://www.lintcode.com/problem/two-sum-ii-input-array-is-sorted/)
+- [sort-colors](http://www.lintcode.com/problem/sort-colors)
+- [sort-letters-by-case](http://www.lintcode.com/problem/sort-letters-by-case)
+- [interleaving-positive-and-negative-numbers](http://www.lintcode.com/problem/interleaving-positive-and-negative-numbers)
+- [intersection-of-two-linked-lists](http://www.lintcode.com/problem/intersection-of-two-linked-lists)
+- [copy-books](https://www.lintcode.com/problem/copy-books)
+- [search-in-rotated-sorted-array-ii](https://www.lintcode.com/problem/search-in-rotated-sorted-array-ii/)
+- [find-minimum-in-rotated-sorted-array-ii](https://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array-ii)
+- [search-for-a-range](http://www.lintcode.com/problem/search-for-a-range)
+- [maximum-number-in-mountain-sequence](http://www.lintcode.com/problem/maximum-number-in-mountain-sequence) 
+- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
+- [591. Connecting Graph III](http://www.lintcode.com/problem/connecting-graph-iii/)
+- [implement-queue-by-two-stacks](https://www.lintcode.com/problem/implement-queue-by-two-stacks)
+- [heapify](https://www.lintcode.com/problem/heapify)
+- [friend-circles](https://leetcode.com/problems/friend-circles/)
+- [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [valid-palindrome](https://www.lintcode.com/problem/valid-palindrome)
+- [longest-palindromic-substring](https://www.lintcode.com/problem/longest-palindromic-substring)
+- [first-bad-version](http://www.lintcode.com/problem/first-bad-version)
+- [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/)
+- [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
+  - first position <= last position (need to hide this)
+- [partition-array](https://www.lintcode.com/problem/partition-array/description)
+- [sort-an-array](https://leetcode.com/problems/sort-an-array/)
+  - Bubble Sort
+  - Selection Sort
+  - Quick Sort
+  - Merge Sort
+- [sort-colors-ii](https://www.lintcode.com/problem/sort-colors-ii/)
+- [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [linked-list-cycle](http://www.lintcode.com/problem/linked-list-cycle)
+- [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [number-of-islands](https://leetcode.com/problems/number-of-islands/)
+- [word-ladder](https://leetcode.com/problems/word-ladder/)
+- [127. Topological sorting](https://www.lintcode.com/problem/topological-sorting)
+- [course-schedule](https://leetcode.com/problems/course-schedule)
+- [graph-valid-tree](https://www.lintcode.com/problem/graph-valid-tree/description)
+- [find-peak-element](https://www.lintcode.com/problem/find-peak-element)
+- [zombie-in-matrix](http://www.lintcode.com/problem/zombie-in-matrix)
+- [shortest-path-in-undirected-graph](https://www.lintcode.com/problem/shortest-path-in-undirected-graph/description)
+- [clone-graph](https://leetcode.com/problems/clone-graph/)
+- [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
+- [lowest-common-ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)
+- [remove-node-in-binary-search-tree](https://leetcode.com/problems/delete-node-in-a-bst)
+- [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/)
+- [123. Word Search](https://leetcode.com/problems/word-search/)
+- [subsets](https://leetcode.com/problems/subsets)
+- [subsets-ii](https://leetcode.com/problems/subsets-ii)
+- [combinations](https://leetcode.com/problems/combinations)
+- [combination-sum](https://leetcode.com/problems/combination-sum)
+- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
+- [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
+- [word-break](https://leetcode.com/problems/word-break)
+- [split-string](http://www.lintcode.com/problem/split-string)
+- [k-sum-ii](http://www.lintcode.com/problem/k-sum-ii)
+- [Permutations](https://www.lintcode.com/problem/permutations)
+- [permutations-ii](https://www.lintcode.com/problem/permutations-ii)
+- [n-queens](http://www.lintcode.com/problem/n-queens)
+- [n-queens-ii](https://www.lintcode.com/problem/n-queens-ii)
+- [letter-combinations-of-a-phone-number](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
+- [insert-delete-getrandom-o1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
+- [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/)
+- [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/)
+- [lru-cache](https://leetcode.com/problems/lru-cache/)
+- [top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
+- [654. Sparse Matrix Multiplication](https://www.lintcode.com/problem/sparse-matrix-multiplication)
+- [merge-k-sorted-arrays](https://www.lintcode.com/problem/merge-k-sorted-arrays)
+- [k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin)
+- [find-peak-element](http://www.lintcode.com/problem/find-peak-element)
+- [powx-n](http://www.lintcode.com/problem/powx-n)
+- [fast-power](https://www.lintcode.com/problem/fast-power)
+- [divide-two-integers](https://www.lintcode.com/problem/divide-two-integers)
+- [search-for-a-range](https://www.lintcode.com/problem/search-for-a-range)
+- [search-a-2d-matrix-ii](https://www.lintcode.com/problem/search-a-2d-matrix-ii)
+- [smallest-rectangle-enclosing-black-pixels](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels)
+- [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
+- [valid-palindrome-ii](http://www.lintcode.com/problem/valid-palindrome-ii)
+- [two-sum-unique-pairs](http://www.lintcode.com/problem/two-sum-unique-pairs)
+- [3sum](http://www.lintcode.com/problem/3sum)
+- [triangle-count](http://www.lintcode.com/problem/triangle-count)
+- [3sum-closest](http://www.lintcode.com/problem/3sum-closest)
+- [4sum](http://www.lintcode.com/problem/4sum)
+- [kth-smallest-element-in-a-bst](https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/)
+- [inorder-successor-in-bst](http://www.lintcode.com/problem/inorder-successor-in-bst)
+- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
+- [course-schedule-ii](http://www.lintcode.com/problem/course-schedule-ii)
+- [sequence-reconstruction](http://www.lintcode.com/problem/sequence-reconstruction)
+- [next-closest-time](http://www.lintcode.com/problem/next-closest-time)
+- [next-permutation](http://www.lintcode.com/problem/next-permutation)
+- [next-permutation-ii](http://www.lintcode.com/problem/next-permutation-ii)
+- [permutation-index](http://www.lintcode.com/problem/permutation-index)
+- [permutation-index-ii](http://www.lintcode.com/problem/permutation-index-ii)
+- [merge-k-sorted-arrays](http://www.lintcode.com/problem/merge-k-sorted-arrays)
+- [kth-smallest-number-in-sorted-matrix](http://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix)
+- [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
+- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-most-k-distinct-characters)
+- [kth-smallest-element-in-a-sorted-matrix](https://www.lintcode.com/problem/kth-smallest-element-in-a-sorted-matrix)
+- [triangle-count](https://www.lintcode.com/problem/triangle-count/)
+- [kth-largest-element](https://www.lintcode.com/problem/kth-largest-element)
+
 ## Hard
 
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
@@ -522,8 +402,67 @@
   - interval dp
   - memo
 
+- Pending
+- [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
+- [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
+- [word-ladder-ii](https://www.lintcode.com/problem/word-ladder-ii/)
+- [word-pattern-ii](https://www.lintcode.com/problem/word-pattern-ii/)
+- [binary-search-tree-iterator](http://www.lintcode.com/problem/binary-search-tree-iterator)
+- [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
+- [wood-cut](https://www.lintcode.com/problem/wood-cut)
+- [smallest-rectangle-enclosing-black-pixels](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels)
+- [alien-dictionary](https://www.lintcode.com/problem/alien-dictionary/)
+- [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
+- [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
+- [longest-duplicate-substring](https://leetcode.com/problems/longest-duplicate-substring/)
+- [linked-list-cycle-ii](http://www.lintcode.com/problem/linked-list-cycle-ii)
+- [closest-binary-search-tree-value-ii](https://www.lintcode.com/problem/closest-binary-search-tree-value-ii)
+- [remove-node-in-binary-search-tree](http://www.lintcode.com/problem/remove-node-in-binary-search-tree)
+- [escape-a-large-maze](https://leetcode.com/problems/escape-a-large-maze/)
+- [serialize-and-deserialize-binary-tree](https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/)
+- [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
+- [maximal-rectangle](https://www.lintcode.com/problem/maximal-rectangle)
+- [kth-smallest-sum-in-two-sorted-arrays](https://www.lintcode.com/problem/kth-smallest-sum-in-two-sorted-arrays)
+
 ## Super
 
 - [131. The Skyline Problem](https://www.lintcode.com/problem/building-outline)
   - HashHeap or red-black tree
   - deque
+
+- Pending
+
+## Blocked
+
+- [two-sum-less-than-or-equal-to-target/](https://www.lintcode.com/problem/two-sum-less-than-or-equal-to-target/)
+- [time-intersection](https://www.lintcode.com/problem/time-intersection)
+- [string-permutation-ii](http://www.lintcode.com/problem/string-permutation-ii)
+- [closest-number-in-sorted-array](https://www.lintcode.com/problem/closest-number-in-sorted-array/)
+- [sqrtx-ii](https://www.lintcode.com/problem/sqrtx-ii/)
+- [search-in-a-big-sorted-array](https://www.lintcode.com/problem/search-in-a-big-sorted-array/)
+- [remove-duplicate-numbers-in-array](http://www.lintcode.com/problem/remove-duplicate-numbers-in-array)
+- [total-occurrence-of-target](http://www.lintcode.com/problem/total-occurrence-of-target)
+- [two-sum-less-than-or-equal-to-target](http://www.lintcode.com/problem/two-sum-less-than-or-equal-to-target)
+- [two-sum-greater-than-target](http://www.lintcode.com/problem/two-sum-greater-than-target)
+- [two-sum-closest-to-target](http://www.lintcode.com/problem/two-sum-closest-to-target)
+- [two-sum-difference-equals-to-target](http://www.lintcode.com/problem/two-sum-difference-equals-to-target)
+- [kth-smallest-numbers-in-unsorted-array](http://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array)
+- [knight-shortest-path](http://www.lintcode.com/problem/knight-shortest-path)
+- [search-graph-nodes](http://www.lintcode.com/problem/search-graph-nodes)
+- [connected-component-in-undirected-graph](http://www.lintcode.com/problem/connected-component-in-undirected-graph)
+- [build-post-office-ii](http://www.lintcode.com/problem/build-post-office-ii)
+- [implement-stack-by-two-queues](https://www.lintcode.com/problem/implement-stack-by-two-queues/)
+- [high-five](http://www.lintcode.com/problem/high-five)
+- [kth-smallest-numbers-in-unsorted-array](https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array)
+- [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)
+
+## Additional Info
+
+- [pancake sort]()
+  - [wiki](https://en.wikipedia.org/wiki/Pancake_sorting)
+  - [geeksforgeeks](http://www.geeksforgeeks.org/pancake-sorting)
+- [sleep sort](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
+- [Spaghetti Sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
+- [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
+- [BST-delete](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
