@@ -705,3 +705,18 @@ balanced binary tree (top to bottom, left to write to fill)
 - (index - 2) // 2 is the parent
 - index *2 + 1 is left child
 - index *2 + 2 is the right child
+
+## BitWise
+
+<!-- need exactly one -->
+0 ^ 0 = 0
+0 ^ 1 = 1 need exactly 1
+1 ^ 1 = 0
+
+0 | 0 = 0
+0 | 1 = 1 need one of it
+1 | 1 = 1
+
+0 & 0 = 0
+0 & 1 = 0
+1 & 1 = 1 need both

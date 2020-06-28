@@ -1,8 +1,9 @@
+# Problems Pool
 
 ## Vig - Yesterdays pending
 
 - RECTANGLE
-- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
+- [decode-string](http://www.lintcode.com/problem/decode-string/)
 
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 
@@ -68,9 +69,8 @@
 - [expression-expand](http://www.lintcode.com/problem/expression-expand/)
   - dfs
   - stack
-- [largest-rectangle-in-histogram](http://www.lintcode.com/problem/largest-rectangle-in-histogram/)
-  - Monotonous stack (stack([1,2,8,10]).push(5) => stack([1,2,5]))
 - [maximal-rectangle](http://www.lintcode.com/problem/maximal-rectangle)
+
 - [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix)
   - not related to topic
 - [max-tree](http://www.lintcode.com/problem/max-tree/)
@@ -424,6 +424,7 @@
 - [word-search-ii](http://www.lintcode.com/problem/word-search-ii)
 - [maximal-rectangle](https://www.lintcode.com/problem/maximal-rectangle)
 - [kth-smallest-sum-in-two-sorted-arrays](https://www.lintcode.com/problem/kth-smallest-sum-in-two-sorted-arrays)
+- [largest-rectangle-in-histogram](http://www.lintcode.com/problem/largest-rectangle-in-histogram/)
 
 ## Super
 
