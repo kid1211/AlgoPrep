@@ -1,9 +1,9 @@
 # Problems Pool
 
-## Vig - Yesterdays pending
+## Need to look up
 
 - RECTANGLE
-- [decode-string](http://www.lintcode.com/problem/decode-string/)
+
 
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 
@@ -348,7 +348,7 @@
 - [n-queens](http://www.lintcode.com/problem/n-queens)
 - [n-queens-ii](https://www.lintcode.com/problem/n-queens-ii)
 - [letter-combinations-of-a-phone-number](http://www.lintcode.com/problem/letter-combinations-of-a-phone-number)
-- [insert-delete-getrandom-o1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
+- [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)
 - [top-k-largest-numbers](https://www.lintcode.com/problem/top-k-largest-numbers/)
 - [top-k-largest-numbers-ii](https://www.lintcode.com/problem/top-k-largest-numbers-ii/)
 - [lru-cache](https://leetcode.com/problems/lru-cache/)
@@ -387,6 +387,7 @@
 - [kth-smallest-element-in-a-sorted-matrix](https://www.lintcode.com/problem/kth-smallest-element-in-a-sorted-matrix)
 - [triangle-count](https://www.lintcode.com/problem/triangle-count/)
 - [kth-largest-element](https://www.lintcode.com/problem/kth-largest-element)
+- [decode-string](http://www.lintcode.com/problem/decode-string/)
 
 ## Hard
 
