@@ -29,7 +29,6 @@
 - [Intersection of Two Arrays II]()
 - [64. Merge Sorted Array]()
 - [41. Maximum Subarray]()
-- [944. Maximum  Submatrix]()
 - [931. Median of K sorted Arrays]()
 - [577. Merge K Sorted Interval Lists]()
 - [Binary indexed Tree]()
@@ -38,10 +37,9 @@
 
 - [589. Connecting Graph](http://www.lintcode.com/problem/connecting-graph/)
 - [590. Connecting Graph II](http://www.lintcode.com/problem/connecting-graph-ii/)
-- [178. Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree)
+
 - [629 Minimum Spanning Tree](https://www.lintcode.com/problem/minimum-spanning-tree)
 - [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
-- [accounts-merge](https://www.lintcode.com/problem./accounts-merge)
 
 - 443. Number of island
 - 442. Implement Tri(prefix Tree)
@@ -72,7 +70,7 @@
 
 - [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix)
   - not related to topic
-- [max-tree](http://www.lintcode.com/problem/max-tree/)
+- [max-tree](http://www.lintcode.com/problem/max-tree/) 403
 
 - 575. Decode String
 
@@ -139,7 +137,7 @@
 - [longest-increasing-subsequence](https://www.lintcode.com/problem/longest-increasing-subsequence)
 - [maximal-square-ii](https://www.lintcode.com/problem/maximal-square-ii)
 - [unique-paths](https://www.lintcode.com/problem/unique-paths)
-- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
+
 - [edit-distance](https://www.lintcode.com/problem/edit-distance)
 
 ## W6 Interval DP, matching DP, backpack DP
@@ -190,6 +188,7 @@
 
 - [sqrtx](https://www.lintcode.com/problem/sqrtx)
 - [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
+- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
 
 - Pending
 
@@ -244,6 +243,9 @@
 
 ## Medium
 
+- [944. Maximum  Submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)
+- [accounts-merge](https://www.lintcode.com/problem./accounts-merge)
+- [178. Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree)
 - [stone-game](http://www.lintcode.com/en/problem/stone-game/)
   - interval dp
   - memo
@@ -459,6 +461,7 @@
 - [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)
 - [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/) 403
   - abs(number^2 - x) <= 1e-10
+- [max-tree](http://www.lintcode.com/problem/max-tree/) 403
 
 ## Additional Info
 
