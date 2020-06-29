@@ -243,9 +243,9 @@
 
 ## Medium
 
-- [944. Maximum  Submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)
-- [accounts-merge](https://www.lintcode.com/problem./accounts-merge)
-- [178. Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree)
+- [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)
+- [accounts-merge](https://www.lintcode.com/problem/accounts-merge)
+- [graph-valid-tree](https://www.lintcode.com/problem/graph-valid-tree)
 - [stone-game](http://www.lintcode.com/en/problem/stone-game/)
   - interval dp
   - memo
