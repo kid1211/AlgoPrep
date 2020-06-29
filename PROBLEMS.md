@@ -13,8 +13,7 @@
 
 ## Vig - New Pending
 
-- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/) 403
-  - abs(number^2 - x) <= 1e-10
+
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
@@ -458,10 +457,12 @@
 - [high-five](http://www.lintcode.com/problem/high-five)
 - [kth-smallest-numbers-in-unsorted-array](https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array)
 - [kth-largest-in-n-arrays](https://www.lintcode.com/problem/kth-largest-in-n-arrays)
+- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/) 403
+  - abs(number^2 - x) <= 1e-10
 
 ## Additional Info
 
-- [pancake sort]()
+- pancake sort
   - [wiki](https://en.wikipedia.org/wiki/Pancake_sorting)
   - [geeksforgeeks](http://www.geeksforgeeks.org/pancake-sorting)
 - [sleep sort](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)

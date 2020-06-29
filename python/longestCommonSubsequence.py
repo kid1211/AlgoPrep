@@ -8,10 +8,10 @@ class Solution:
         # dp represent the matches of the [0 -> i] from A and [0 -> j] from B
         n, m = len(A), len(B)
         dp = [[0] * (m + 1) for _ in range(n + 1)]
-        
+
         for i in range(1, n + 1):
             for j in range(1, m + 1):
-                # do the common one first, assume the current 
+                # do the common one first, assume the current
                 # character is not matching
                 dp[i][j] = max(dp[i][j - 1], dp[i - 1][j])
                 if A[i - 1] == B[j - 1]:
@@ -24,6 +24,9 @@ class Solution:
 # - initialization : f[i][0] 和 f[0][j]
 # - answer f[n][m] min/max/数目/存在关系
 #   - n + 1 或 m + 1， 记得考虑空字符串
-# - n = s1.length() 
+# - n = s1.length()
 # - m = s2.length()
 # - 阶梯技巧花矩阵,填写矩阵
+
+# aaaaa
+# aaabaa
