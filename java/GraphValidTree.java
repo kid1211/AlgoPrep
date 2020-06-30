@@ -1,5 +1,6 @@
 public class Solution {
-    
+    // https://www.lintcode.com/problem/graph-valid-tree/description
+    // Approach: union find to detect cycles
     private int[] unionFind;
     private int unions;
     
@@ -11,12 +12,11 @@ public class Solution {
     }
     
     private int find(int node) {
-        // System.out.println("node: " + node + " | " + Arrays.toString(unionFind));
-        
-        // System.out.println("unionFind[node]: " + unionFind[node]);
+        int parent;
         while(node != unionFind[node]) {
-            // System.out.println("node: " + node);
-            node = unionFind[unionFind[node]];
+            parent = unionFind[unionFind[node]];
+            unionFind[node] = parent;
+            node = parent;
         }
         return node;
     }
@@ -39,13 +39,11 @@ public class Solution {
      */
     public boolean validTree(int n, int[][] edges) {
         // write your code here
-        
         if(edges.length == 0 && n > 1) return false;
         
         initialize(n);
         for(int[] edge : edges) {
             boolean success = union(edge[0], edge[1]);
-            // System.out.println("bool: " + success + " | 0: " + edge[0] + " | 1: " + edge[1]);
             if(!success) return false;
         }
         
