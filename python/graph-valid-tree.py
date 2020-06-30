@@ -17,7 +17,7 @@ class Solution:
             neighbors[left].append(right)
             neighbors[right].append(left)
 
-        # because there is no direction, so no idegree
+        # because there is no direction, so no indegree
         # visited get out of cyclone, and catch graph node not being visited
         visited = set()
         queue = collections.deque([0])
