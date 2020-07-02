@@ -306,7 +306,7 @@
 ## Sliding window pattern
 
 - [minimum-size-subarray-sum](http://www.lintcode.com/problem/minimum-size-subarray-sum/)
-- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-mostk-distinct-characters/)
+- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-most-k-distinct-characters/description)
 - [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
 
 ## W1

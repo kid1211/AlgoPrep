@@ -42,7 +42,6 @@
 - [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
 
 - 443. Number of island
-- 442. Implement Tri(prefix Tree)
 - 432 Find the weak Connected Component in the directed Graph
 - 431 Connected Component in Undirected Graph
 - [set-union](https://www.lintcode.com/problem/set-union)
@@ -57,8 +56,6 @@
 
 ## W3 Data Structure II
 
-- [363. Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water)
-  - need to explain a bit
 - [364. Trapping Rain Water II](http://www.lintcode.com/problem/trapping-rain-water-ii/)
   - super hard
 - [data-stream-median](http://www.lintcode.com/problem/data-stream-median/)
@@ -243,6 +240,8 @@
 
 ## Medium
 
+- [trapping-rain-water](https://www.lintcode.com/problem/trapping-rain-water)
+-[implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)
 - [accounts-merge](https://www.lintcode.com/problem/accounts-merge)
 - [graph-valid-tree](https://www.lintcode.com/problem/graph-valid-tree)
