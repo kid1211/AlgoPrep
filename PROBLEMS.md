@@ -471,3 +471,17 @@
 - [Spaghetti Sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
 - [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
 - [BST-delete](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
+
+## Design
+
+## W1
+
+- [design-twitter](https://www.lintcode.com/problem/design-twitter)
+
+## W2
+
+- [friendship-service](https://www.lintcode.com/problem/friendship-service)
+- [memcache](https://www.lintcode.com/problem/memcache)
+- [mini-cassandra](https://www.lintcode.com/problem/mini-cassandra)
+- [lfu-cache](https://www.lintcode.com/problem/lfu-cache)
+- [lru-cache](https://www.lintcode.com/problem/lru-cache)

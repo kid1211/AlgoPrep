@@ -1,29 +1,19 @@
-#
-# @lc app=leetcode id=215 lang=python3
-#
-# [215] Kth Largest Element in an Array
-#
-
-# @lc code=start
-
-
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
+        n = len(nums)
+        # remember to do n - k
+        return self.quickSelect(nums, 0, n - 1, n - k)
 
-        if len(nums) == 1:
-            return nums[0]
-
-        return self.findKthLargestWithinRange(nums, len(nums) - k, 0, len(nums) - 1)
-
-    def findKthLargestWithinRange(self, nums, k, start, end):
-
+    def quickSelect(self, nums, start, end, k):
         left, right = start, end
+        # needs to do this, other wise the nums is changed, the pivot no longer the same
         pivot = nums[(start + end) // 2]
 
         while left <= right:
-            # print(nums)
+            # not equal
             while left <= right and nums[left] < pivot:
                 left += 1
+
             while left <= right and nums[right] > pivot:
                 right -= 1
 
@@ -31,12 +21,11 @@ class Solution:
                 nums[left], nums[right] = nums[right], nums[left]
                 left += 1
                 right -= 1
-        # [ start, right, pivot, left, end]
+
+        # start -> right
+        # left -> end
         if k <= right:
-            return self.findKthLargestWithinRange(nums, k, start, right)
+            return self.quickSelect(nums, start, right, k)
         elif left <= k:
-            return self.findKthLargestWithinRange(nums, k, left, end)
-
+            return self.quickSelect(nums, left, end, k)
         return pivot
-
-# @lc code=end

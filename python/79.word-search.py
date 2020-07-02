@@ -1,62 +1,41 @@
-#
-# @lc app=leetcode id=79 lang=python3
-#
-# [79] Word Search
-#
-
-# @lc code=start
-
-
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        # if word
-        self.rows = len(board)
-        if self.rows == 0:
+        if not board or not board[0]:
             return False
-        self.cols = len(board[0])
+        if not word:
+            return True
 
-        for row in range(self.rows):
-            for col in range(self.cols):
-                if board[row][col] != word[0]:
+        rows, cols = len(board), len(board[0])
+
+        for i in range(rows):
+            for j in range(cols):
+                if word[0] != board[i][j]:
                     continue
-                startPoint = (row, col)
-                if self.dfs(board, word, startPoint, set([startPoint])):
+                startPoint = (i, j)
+                if self.dfs(board, word, 0, startPoint, set([startPoint])):
                     return True
         return False
 
-    def dfs(self, board, word, startPoint, visited):
-        if len(word) == 0:
+    def dfs(self, board, word, idx, startPoint, visited):
+        n = len(word)
+        if idx < n and word[idx] != board[startPoint[0]][startPoint[1]]:
+            return False
+        elif idx == n - 1:
             return True
 
-        if word[0] != board[startPoint[0]][startPoint[1]]:
-            return False
+        def isValid(x, y):
+            return 0 <= x < len(board) and 0 <= y < len(board[0])
 
+        x, y = startPoint
         for (dx, dy) in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
-            nextPoint = (startPoint[0] + dx, startPoint[1] + dy)
+            nx, ny = (x + dx, y + dy)
 
-            if nextPoint in visited:
+            if (nx, ny) in visited or not isValid(nx, ny):
                 continue
 
-            if not self.isValid(nextPoint):
-                continue
-
-            # print("mid " + word, visited, startPoint, (dx, dy))
-            visited.add(nextPoint)
-
-            if self.dfs(board, word[1:], nextPoint, visited):
+            visited.add((nx, ny))
+            if self.dfs(board,  word, idx + 1, (nx, ny), visited):
                 return True
+            visited.discard((nx, ny))
 
-            visited.remove(nextPoint)
-
-        return len(word) == 1
-
-    def isValid(self, nextPoint):
-        return 0 <= nextPoint[0] < self.rows and 0 <= nextPoint[1] < self.cols
-
-
-# @lc code=end
-[["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]]\n"ABCB"
-
-[["C", "A", "A"], ["A", "A", "A"], ["B", "C", "D"]] \ n"AAB"
-
-[["a"]]\n"a"
+        return False
