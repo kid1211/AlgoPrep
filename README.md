@@ -1,5 +1,5 @@
 # Today's Problem
 
-- [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
-- [trapping-rain-water](https://www.lintcode.com/problem/trapping-rain-water)
-- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-most-k-distinct-characters)
+- [range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)
+- [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
+- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)

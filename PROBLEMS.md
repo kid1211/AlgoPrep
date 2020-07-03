@@ -5,8 +5,6 @@
 - RECTANGLE
 
 
-- [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
-
 - [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
@@ -23,7 +21,6 @@
 
 ## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
-- [840. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)
 - [65. Median of Two sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 - [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
 - [Intersection of Two Arrays II]()
@@ -83,7 +80,6 @@
 - 370. Convert Expression to Reverse Polish Notation
 - 369. Convert Expression to Polish Notation
 - 368. Expression Evaluation
-- 126. Max Tree
 - 122. Largest Rectangle in Histogram
 
 
@@ -181,6 +177,24 @@
 - [binary-search-tree-iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/)
   - remember it
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Easy
 
 - [sqrtx](https://www.lintcode.com/problem/sqrtx)
@@ -240,6 +254,8 @@
 
 ## Medium
 
+- [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
+- [range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)
 - [trapping-rain-water](https://www.lintcode.com/problem/trapping-rain-water)
 -[implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)

@@ -5,3 +5,6 @@
 - [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
 - [123. Word Search](https://leetcode.com/problems/word-search/)
+- [implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [trapping-rain-water](https://www.lintcode.com/problem/trapping-rain-water)
+- [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-most-k-distinct-characters)
