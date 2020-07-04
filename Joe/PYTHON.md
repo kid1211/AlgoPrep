@@ -66,7 +66,7 @@ foolowing apply to '+', '-', '*'
 
 因为没有方向的图有可能会形成一个换所以需要visited hash map 
 
-# filter kind of
+## filter kind of
 
 ```python
 
@@ -77,7 +77,7 @@ start_nodes = [n for n in graph if indegree[n] == 0]
 <!-- intersection two arrays II
 maximum subarray -->
 
-# substring subarray, window -> 同向双指针
+## substring subarray, window -> 同向双指针
 
 同向双指针基本上都是o(n)，因为j不回头
 i - j > s, 然后 i + 1 - k > s, 那么j和k什么关系？ k肯定比i大 不然那就包含了
@@ -104,9 +104,8 @@ for i in range(n):
     - k merge (heap) - not the best k比较小
     - 二分答案 k比较大
 
-# Union Find
+## Union Find
 
-## 实现
 O(1) Union, and o(1) find
 父亲表示法， 用哈希表记录每个节地那的父亲是谁，初始化的时候可以指向自己或者空 
 
@@ -155,6 +154,7 @@ class UnionFind:
 基本上连通的问题都是union find
 
 ## union find 特点
+
 1. 合并两个集合
 2. 查询某个元素所在集合
 3. 判断两个元素是否在同一个集合
@@ -162,7 +162,7 @@ class UnionFind:
 5. 统计当前集合个数
 6. 只能是无向图maybe
 
-# Trie
+## Trie
 
 ```python
 class TrieNode:
@@ -193,7 +193,11 @@ class Trie
 
 ```
 
-# 强化算法版第二课
+## Segmental Tree
+
+start/end/sum/leftNode/rightNode
+
+## 强化算法版第二课
 
 ## heap + hashmap
 
@@ -325,7 +329,7 @@ while start + 1 < end:
 ## maximum average subarray
 
 思路是让他套一下 看看怎么样
-1. sliding window 让他符合一个什么条件，这个题目没有 
+1. sliding window 让他符合一个什么条件，这个题目没有
 2. prefix sum、
 3. average的问题可以总体减去平均值，然后sum=0
 
@@ -349,7 +353,6 @@ while start + 1 < end:
 - 缺点
   - 耗费更多的空间，无法使用滚动数组优化
   - 地柜深度可能会很深
-
 
 ## 其他类型的动态规划
 

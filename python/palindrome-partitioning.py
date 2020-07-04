@@ -1,26 +1,18 @@
 class Solution:
-    """
-    @param: s: A string
-    @return: A list of lists of string
-    """
-
-    def partition(self, s):
-        # write your code here
+    def partition(self, s: str) -> List[List[str]]:
         results = []
-        self.dfs([], s, results)
+        self.dfs(s, [], results)
         return results
 
-    def dfs(self, current, s, results):
+    def dfs(self, s, current, results):
         if len(s) == 0:
             results.append(list(current))
+            return
 
         for i in range(1, len(s) + 1):
             prefix = s[:i]
-            if not self.isValid(prefix):
+            if prefix != prefix[::-1]:
                 continue
             current.append(prefix)
-            self.dfs(current, s[i:], results)
+            self.dfs(s[i:], current, results)
             current.pop()
-
-    def isValid(self, text):
-        return text == text[::-1]

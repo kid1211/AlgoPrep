@@ -6,6 +6,7 @@ producer-consumer pattern
 装一下redis
 装一下rabbitq
 装一下sql
+装一下nosql 好友关系/newsfeed
 
 MAU/2 约等于 DAU
 
