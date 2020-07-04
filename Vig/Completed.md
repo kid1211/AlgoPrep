@@ -1,3 +1,6 @@
+- [range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)
+- [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
+- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
 - [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
 - [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)
 - [accounts-merge](https://www.lintcode.com/problem/accounts-merge)
