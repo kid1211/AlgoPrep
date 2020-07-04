@@ -1,28 +1,8 @@
 # Problems Pool
 
-## Need to look up
-
-- RECTANGLE
-
-
-- [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-
-- [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii)
-
-## Vig - New Pending
-
-
-- [wood-cut](http://www.lintcode.com/problem/wood-cut/)
-- [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
-- [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
-- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
-- [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
-  - quick slow pointer
-
 ## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 
-- [65. Median of Two sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
-- [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
+
 - [Intersection of Two Arrays II]()
 - [64. Merge Sorted Array]()
 - [41. Maximum Subarray]()
@@ -157,7 +137,6 @@
 
 - [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
 - [subarray-sum-closest](https://www.lintcode.com/problem/subarray-sum-closest/)
-- [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum/)
 - [subarray-sum-ii](http://www.lintcode.com/problem/subarray-sum-ii/)
 - [continuous-subarray-sum](www.lintcode.com/problem/continuous-subarray-sum/)
   - nlogn with data structure
@@ -254,6 +233,10 @@
 
 ## Medium
 
+- [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
+- [merge-k-sorted-interval-lists](https://www.lintcode.com/problem/merge-k-sorted-interval-lists/description)
+- [number-of-connected-components-in-an-undirected-graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 - [range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)
 - [trapping-rain-water](https://www.lintcode.com/problem/trapping-rain-water)
@@ -407,6 +390,7 @@
 
 ## Hard
 
+- [median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
 - [find-median-from-data-stream](https://www.lintcode.com/problem/find-median-from-data-stream)
