@@ -96,7 +96,7 @@
 - [copy-book](https://www.lintcode.com/problem/copy-books)
   - binary answer
   - dynamic programming
-- [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
+- [number-of-airplanes-in-the-sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
 - [back pack](https://www.lintcode.com/problem/backpack)
   - rolling %
   - use interval??
