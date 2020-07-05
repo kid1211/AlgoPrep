@@ -1,197 +1,23 @@
 # Problems Pool
 
-## Data Structure - Interval, Array, Matrix & Binary Indexed Tree
-
-
-- [Intersection of Two Arrays II]()
-- [64. Merge Sorted Array]()
-- [41. Maximum Subarray]()
-- [931. Median of K sorted Arrays]()
-- [577. Merge K Sorted Interval Lists]()
-- [Binary indexed Tree]()
-
-## union find
-
-- [589. Connecting Graph](http://www.lintcode.com/problem/connecting-graph/)
-- [590. Connecting Graph II](http://www.lintcode.com/problem/connecting-graph-ii/)
-
-- [629 Minimum Spanning Tree](https://www.lintcode.com/problem/minimum-spanning-tree)
-- [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
-
-- 443. Number of island
-- 432 Find the weak Connected Component in the directed Graph
-- 431 Connected Component in Undirected Graph
-- [set-union](https://www.lintcode.com/problem/set-union)
-- [surrounded-regions](https:/www.lintcode.com/problem/surrounded-regions)
-- [maximum-association-set](https://www.lintcode.com/problem/maximum-association-set)
-
-## Trie 比hashmap省空间
-
-- [Add and Search Word - Data structure design](https://www.lintcode.com/problem/add-adn-sear-word)
-- [word-squares](https://www.lintcode.com/problem/word-squares)
-- [132. Word Search II](https://www.lintcode.com/problem/word-search-ii)
-
-## W3 Data Structure II
-
-- [364. Trapping Rain Water II](http://www.lintcode.com/problem/trapping-rain-water-ii/)
-  - super hard
-- [data-stream-median](http://www.lintcode.com/problem/data-stream-median/)
-- 12. Min Stack
-- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
-  - dfs
-  - stack
-- [maximal-rectangle](http://www.lintcode.com/problem/maximal-rectangle)
-
-- [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix)
-  - not related to topic
-- [max-tree](http://www.lintcode.com/problem/max-tree/) 403
-
-- 575. Decode String
-
-- 510. Maximal Rectangle
-- 126. Max Tree
-- 122. Largest Rectangle in Histogram
-- 475. Binary Tree Maximum Path Sum II
-- [heapify](https://www.lintcode.com/problem/heapify/description)
-- 12. Min Stack
-- 623. K Edit Distance
-- 510. Maximal Rectangle
-- 367. Expression Tree Build
-- 370. Convert Expression to Reverse Polish Notation
-- 369. Convert Expression to Polish Notation
-- 368. Expression Evaluation
-- 122. Largest Rectangle in Histogram
-
-
-- 362. Sliding Window Maximum
-  - hash + heap -> pyhon 
-  - Treeset, Treemap (red-black tree)
-  - deque
-
-## W4: binary anser + interval - NotPDF
-
-
-- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
-- [time-intersection](https://www.lintcode.com/problem/time-intersection)
-- [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-II)
-- [sqrtx](https://www.lintcode.com/problem/sqrtx)
-- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/)
-  - abs(number^2 - x) <= 1e-10
-- [wood-cut](http://www.lintcode.com/problem/wood-cut/)
-- [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
-- [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
-- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
-- [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
-  - quick slow pointer
-
-## W5: sliding array and memoization - NotPDF
-
-- [longest-continuous-increasing-subsequence](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence)
-- [longest-continuous-increasing-subsequence-ii](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence-ii)
-  - use sorting
-  - memoization
-- [coins-in-a-line](https://www.lintcode.com/problem/coins-in-a-line)
-- [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
-  - sliding array
-  - memoization
-- [coins-in-a-line-iii](https://www.lintcode.com/problem/coins-in-a-line-iii)
-  - sliding array
-  - memoization
-- [430. Scrambling String]()
-  - sliding array
-  - memoization
-
-- [house-robber](http://www.lintcode.com/en/problem/house-robber/)
-- [house-robber-ii](http://www.lintcode.com/en/problem/house-robber-ii/)
-- [maximal-square](https://www.lintcode.com/problem/maximal-square)
-- [longest-increasing-subsequence](https://www.lintcode.comproblem/longest-increasing-subsequence)
-- [climbing-stairs](https://www.lintcode.com/problem/climbing-stairs/)
-- [fibonacci](https://wwww.lintcode.com/problem/fibonacci)
-- [longest-increasing-subsequence](https://www.lintcode.com/problem/longest-increasing-subsequence)
-- [maximal-square-ii](https://www.lintcode.com/problem/maximal-square-ii)
-- [unique-paths](https://www.lintcode.com/problem/unique-paths)
-
-- [edit-distance](https://www.lintcode.com/problem/edit-distance)
-
-## W6 Interval DP, matching DP, backpack DP
-
-- [burst-balloons](https://www.lintcode.com/problem/burst-balloons/description)
-  - interval dp
-  - memo
-- [longest-common-subsequence](https://www.lintcode.com/problem/longest-common-subsequence)
-- [longest-common-substring](https://www.lintcode.com/problem/longest-common-substring)
-- [edit-distance](https://www.lintcode.com/problem/edit-distance)
-- [back pack](https://www.lintcode.com/problem/backpack)
-  - rolling %
-  - use interval??
-- [back pack II](https://www.lintcode.com/problem/backpack-ii)
-
-- [back pack IV](https://www.lintcode.com/problem/backpack-iv)
-- [k-sum](http://www.lintcode.com/en/problem/k-sum/)
-- [distinct subsequence](https://www.lintcode.com/problem/distinct-subsequences)
-- [interleaving string](http://www.lintcode.com/problem/interleaving-string)
-- [k edit distance](http://www.lintcode.com/problem/k-edit-distance)
-- [minimum-adjustment-cost](http://www.lintcode.com/en/problem/minimum-adjustment-cost/)
-
-## W7 random Question
-
-- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
-- [subarray-sum-closest](https://www.lintcode.com/problem/subarray-sum-closest/)
-- [subarray-sum-ii](http://www.lintcode.com/problem/subarray-sum-ii/)
-- [continuous-subarray-sum](www.lintcode.com/problem/continuous-subarray-sum/)
-  - nlogn with data structure
-  - nlogn without data structure
-  - on
-- [maximum-subarray](www.lintcode.com/problem/maximum-subarray/)
-- [continuous-subarray-sum-ii](http://www.lintcode.com/problem/continuous-subarray-sum-ii/)
-- [stone-game-ii](http://www.lintcode.com/en/problem/stone-game-ii/)
-- [wiggle-sort](http://www.lintcode.com/problem/wiggle-sort/)
-- [wiggle-sort-ii](http://www.lintcode.com/problem/wiggle-sort-ii/)
-  - probably need to look at answer
-- [nuts-bolts-problem](http://www.lintcode.com/en/problem/nuts-bolts-problem/)
-- Iterator Below - has template
-- [flatten-list](http://www.lintcode.com/en/problem/flatten-list/)
-- [flatten-nested-list-iterator](http://www.lintcode.com/en/problem/flatten-nested-list-iterator/)
-- [flatten-2d-vector](http://www.lintcode.com/en/problem/flatten-2d-vector/)
-- [binary-search-tree-iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/)
-  - remember it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Easy
 
+- [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
+- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
+- [maximum-subarray](https://www.lintcode.com/problem/maximum-subarra)
+- [number-of-islands](https://www.lintcode.com/problem/number-of-islands)
+- [longest-continuous-increasing-subsequence](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence)
 - [sqrtx](https://www.lintcode.com/problem/sqrtx)
 - [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
 - [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
-
-- Pending
-
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
   - with dp
   - without dp
 - [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
 - [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
 - [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
-- [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
 - [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target/)
 - [last-position-of-target](http://www.lintcode.com/problem/last-position-of-target)
-- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
 - [two-sum](https://leetcode.com/problems/two-sum/)
 - [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [window-sum](http://www.lintcode.com/problem/window-sum)
@@ -204,11 +30,9 @@
 - [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
-- [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
 - [prime-factor-statistics](https://www.lintcode.com/problem/prime-factor-statistics)
 - [462. Total Occurrence of Target](https://www.lintcode.com/problem/total-occurrence-of-target/)
 - [drop-eggs](https://www.lintcode.com/problem/drop-eggs/)
-- [search-a-2d-matrix](https://www.lintcode.com/problem/search-a-2d-matrix)
 - [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target)
 - [141. Sqrt(x)](https://www.lintcode.com/problem/sqrtx)
 - [move-zeroes](https://leetcode.com/problems/move-zeroes)
@@ -230,13 +54,36 @@
 - [reverse-linked-list](https://www.lintcode.com/problem/reverse-linked-list)
 - [middle-of-the-linked-list](https://www.lintcode.com/problem/middle-of-the-linked-list)
 - [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
+- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
+- [climbing-stairs](https://www.lintcode.com/problem/climbing-stairs/)
+- [fibonacci](https://www.lintcode.com/problem/fibonacci)
+- [unique-paths](https://www.lintcode.com/problem/unique-paths)
+- [maximum-subarray](http://www.lintcode.com/problem/maximum-subarray/)
+- [flatten-list](http://www.lintcode.com/en/problem/flatten-list/)
+  - Iterator Below - has template
 
 ## Medium
 
+- [heapify](https://www.lintcode.com/problem/heapify/description)
+- [flatten-2d-vector](http://www.lintcode.com/en/problem/flatten-2d-vector/)
+  - Iterator Below - has template
+- [wiggle-sort](http://www.lintcode.com/problem/wiggle-sort/)
+- [stone-game-ii](http://www.lintcode.com/en/problem/stone-game-ii/)
+- [continuous-subarray-sum-ii](http://www.lintcode.com/problem/continuous-subarray-sum-ii/)
+- [continuous-subarray-sum](http://www.lintcode.com/problem/continuous-subarray-sum/)
+  - nlogn with data structure
+  - nlogn without data structure
+  - o(n)
+- [subarray-sum-ii](http://www.lintcode.com/problem/subarray-sum-ii/)
+- [maximal-square-ii](https://www.lintcode.com/problem/maximal-square-ii)
+- [longest-increasing-subsequence](https://www.lintcode.com/problem/longest-increasing-subsequence)
+- [house-robber-ii](http://www.lintcode.com/en/problem/house-robber-ii/)
+- [maximal-square](https://www.lintcode.com/problem/maximal-square)
+- [house-robber](http://www.lintcode.com/en/problem/house-robber/)
+- [subarray-sum-closest](https://www.lintcode.com/problem/subarray-sum-closest/)
 - [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
 - [merge-k-sorted-interval-lists](https://www.lintcode.com/problem/merge-k-sorted-interval-lists/description)
 - [number-of-connected-components-in-an-undirected-graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
 - [search-suggestions-system](https://leetcode.com/problems/search-suggestions-system/)
 - [range-sum-query-mutable](https://leetcode.com/problems/range-sum-query-mutable)
 - [trapping-rain-water](https://www.lintcode.com/problem/trapping-rain-water)
@@ -250,31 +97,11 @@
 - [copy-book](https://www.lintcode.com/problem/copy-books)
   - binary answer
   - dynamic programming
-- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
-- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
-- [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
 
-- June 24
-- [coins-in-a-line](https://www.lintcode.com/problem/coins-in-a-line)
-- [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
-  - sliding array
-  - memoization
 - [back pack](https://www.lintcode.com/problem/backpack)
   - rolling %
   - use interval??
-- [back pack II](https://www.lintcode.com/problem/backpack-ii)
-
-- June 25
-- [longest-common-subsequence](https://www.lintcode.com/problem/longest-common-subsequence)
-  - sliding array
-  - memoization
-- [longest-common-substring](https://www.lintcode.com/problem/longest-common-substring)
-  - sliding array
-  - memoization
-- [edit-distance](https://www.lintcode.com/problem/edit-distance)
-
-- Pending
 - [reverse-linked-list-ii](https://www.lintcode.com/problem/reverse-linked-list-ii)
 - [longest-substring-without-repeating-characters](https://www.lintcode.com/problem/longest-substring-without-repeating-characters/)
 - [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
@@ -361,8 +188,6 @@
 - [divide-two-integers](https://www.lintcode.com/problem/divide-two-integers)
 - [search-for-a-range](https://www.lintcode.com/problem/search-for-a-range)
 - [search-a-2d-matrix-ii](https://www.lintcode.com/problem/search-a-2d-matrix-ii)
-- [smallest-rectangle-enclosing-black-pixels](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels)
-- [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
 - [valid-palindrome-ii](http://www.lintcode.com/problem/valid-palindrome-ii)
 - [two-sum-unique-pairs](http://www.lintcode.com/problem/two-sum-unique-pairs)
 - [3sum](http://www.lintcode.com/problem/3sum)
@@ -387,23 +212,94 @@
 - [triangle-count](https://www.lintcode.com/problem/triangle-count/)
 - [kth-largest-element](https://www.lintcode.com/problem/kth-largest-element)
 - [decode-string](http://www.lintcode.com/problem/decode-string/)
+- [Add and Search Word - Data structure design](https://www.lintcode.com/problem/add-and-search-word-data-structure-design)
+- [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix)
+- [backpack](https://www.lintcode.com/problem/backpack)
+  - rolling %
+  - use interval??
+- [back pack IV](https://www.lintcode.com/problem/backpack-iv)
+- [distinct subsequence](https://www.lintcode.com/problem/distinct-subsequences)
+- [interleaving string](http://www.lintcode.com/problem/interleaving-string)
+- [minimum-adjustment-cost](http://www.lintcode.com/en/problem/minimum-adjustment-cost/)
+- [nuts-bolts-problem](http://www.lintcode.com/en/problem/nuts-bolts-problem/)
+- [sqrtx ii](http://www.lintcode.com/problem/sqrtx-ii/)
+  - abs(number^2 - x) <= 1e-10
+- [intersection-of-two-arrays-ii](https://www.lintcode.com/problem/intersection-of-two-arrays-ii)
+- [connecting-graphh](http://www.lintcode.com/problem/connecting-graph/)
+- [590. Connecting Graph II](http://www.lintcode.com/problem/connecting-graph-ii/)
+- [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
+- [two-sum-greater-than-target](https://www.lintcode.com/problem/two-sum-greater-than-target)
+- [merge-sorted-array](https://www.lintcode.com/problem/merge-sorted-array/)
+- [merge-k-sorted-interval-lists](https://www.lintcode.com/problem/merge-k-sorted-interval-lists)
+- [range-sum-query-mutable](https://www.lintcode.com/problem/range-sum-query-mutable)
+- [range-sum-query-2d-mutable](https://www.lintcode.com/problem/range-sum-query-2d-mutable)
+- [find-the-weak-connected-component-in-the-directed-graph](https://www.lintcode.com/problem/find-the-weak-connected-component-in-the-directed-graph)
+- [connected-component-in-undirected-graph](https://www.lintcode.com/problem/connected-component-in-undirected-graph)
+- [set-union](https://www.lintcode.com/problem/set-union)
+- [surrounded-regions](https://www.lintcode.com/problem/surrounded-regions)
+- [maximum-association-set](https://www.lintcode.com/problem/maximum-association-set)
+- [decode-string](https://www.lintcode.com/problem/decode-string)
+- [convert-expression-to-polish-notation](https://www.lintcode.com/problem/convert-expression-to-polish-notation/)
+- [convert-expression-to-reverse-polish-notation](https://www.lintcode.com/problem/convert-expression-to-reverse-polish-notation)
+- [binary-tree-maximum-path-sum](https://www.lintcode.com/problem/binary-tree-maximum-path-sum)
+- [binary-tree-maximum-path-sum-ii](https://www.lintcode.com/problem/binary-tree-maximum-path-sum-ii)
+- [min-stack](https://www.lintcode.com/problem/min-stack)
+
+- [smallest-rectangle-enclosing-black-pixels](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels)
+- [backpack-ii](https://www.lintcode.com/problem/backpack-ii)
+- [longest-common-subsequence](https://www.lintcode.com/problem/longest-common-subsequence)
+  - sliding array
+  - memoization
+- [longest-common-substring](https://www.lintcode.com/problem/longest-common-substring)
+  - sliding array
+  - memoization
+- [edit-distance](https://www.lintcode.com/problem/edit-distance)
+- [time-intersection](https://www.lintcode.com/problem/time-intersection)
+- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
+- [linked-list-cycle](https://www.lintcode.com/problem/linked-list-cycle)
+- [coins-in-a-line](https://www.lintcode.com/problem/coins-in-a-line)
+- [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
+  - sliding array
+  - memoization
+
+- [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
+- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
+  - dfs
+  - stack
 
 ## Hard
 
+- [expression-tree-build](https://www.lintcode.com/problem/expression-tree-build)
+- [expression-evaluation](https://www.lintcode.com/problem/expression-evaluation/)
+- [max-tree](https://www.lintcode.com/problem/max-tree)
+- [count-of-smaller-numbers-after-self](https://www.lintcode.com/problem/count-of-smaller-numbers-after-self)
+- [median-of-k-sorted-arrays](https://www.lintcode.com/problem/median-of-k-sorted-arrays)
+- [629 Minimum Spanning Tree](https://www.lintcode.com/problem/minimum-spanning-tree)
+- [sliding-window-maximum](https://www.lintcode.com/problem/sliding-window-maximum/)
+  - redblack tree/ heashheap
+- [scramble-string](https://www.lintcode.com/problem/scramble-string)
+  - sliding array
+  - memoization
+- [coins-in-a-line-iii](https://www.lintcode.com/problem/coins-in-a-line-iii)
+  - sliding array
+  - memoization
+- [longest-continuous-increasing-subsequence-ii](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence-ii)
+  - use sorting
+  - memoization
+- [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
+  - quick slow pointer
+- [find-peak-element-ii](https://www.lintcode.com/problem/find-peak-element-ii)
+- [binary-search-tree-iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/)
+  - remember it has template
+- [wiggle-sort-ii](http://www.lintcode.com/problem/wiggle-sort-ii/)
+  - probably need to look at answer
+- [k-sum](http://www.lintcode.com/en/problem/k-sum/)
 - [median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 - [wood-cut](http://www.lintcode.com/problem/wood-cut/)
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
 - [find-median-from-data-stream](https://www.lintcode.com/problem/find-median-from-data-stream)
-- [find-the-duplicate-number](https://www.lintcode.com/problem/find-the-duplicate-number)
-- [360. sliding Window Median](https://www.lintcode.com/problem/sliding-window-median)
+- [sliding-window-median](https://www.lintcode.com/problem/sliding-window-median)
   - HashHeap or red-black tree
-
-- June 25
-- [burst-balloons](https://www.lintcode.com/problem/burst-balloons/description)
-  - interval dp
-  - memo
-
-- Pending
 - [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
 - [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
@@ -412,7 +308,6 @@
 - [binary-search-tree-iterator](http://www.lintcode.com/problem/binary-search-tree-iterator)
 - [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
 - [wood-cut](https://www.lintcode.com/problem/wood-cut)
-- [smallest-rectangle-enclosing-black-pixels](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels)
 - [alien-dictionary](https://www.lintcode.com/problem/alien-dictionary/)
 - [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
 - [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)
@@ -426,6 +321,12 @@
 - [maximal-rectangle](https://www.lintcode.com/problem/maximal-rectangle)
 - [kth-smallest-sum-in-two-sorted-arrays](https://www.lintcode.com/problem/kth-smallest-sum-in-two-sorted-arrays)
 - [largest-rectangle-in-histogram](http://www.lintcode.com/problem/largest-rectangle-in-histogram/)
+- [word-squares](https://www.lintcode.com/problem/word-squares)
+- [trapping-rain-water-ii](http://www.lintcode.com/problem/trapping-rain-water-ii/)
+- [burst-balloons](https://www.lintcode.com/problem/burst-balloons)
+  - interval dp
+  - memo
+- [k-edit-distance](https://www.lintcode.com/problem/k-edit-distance/)
 
 ## Super
 
@@ -433,12 +334,10 @@
   - HashHeap or red-black tree
   - deque
 
-- Pending
-
 ## Blocked
 
 - [two-sum-less-than-or-equal-to-target/](https://www.lintcode.com/problem/two-sum-less-than-or-equal-to-target/)
-- [time-intersection](https://www.lintcode.com/problem/time-intersection)
+- [time-intersection](https://www.lintcode.com/problem/time-intersection) - medium
 - [string-permutation-ii](http://www.lintcode.com/problem/string-permutation-ii)
 - [closest-number-in-sorted-array](https://www.lintcode.com/problem/closest-number-in-sorted-array/)
 - [sqrtx-ii](https://www.lintcode.com/problem/sqrtx-ii/)
@@ -471,17 +370,3 @@
 - [Spaghetti Sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
 - [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
 - [BST-delete](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
-
-## Design
-
-## W1
-
-- [design-twitter](https://www.lintcode.com/problem/design-twitter)
-
-## W2
-
-- [friendship-service](https://www.lintcode.com/problem/friendship-service)
-- [memcache](https://www.lintcode.com/problem/memcache)
-- [mini-cassandra](https://www.lintcode.com/problem/mini-cassandra)
-- [lfu-cache](https://www.lintcode.com/problem/lfu-cache)
-- [lru-cache](https://www.lintcode.com/problem/lru-cache)
