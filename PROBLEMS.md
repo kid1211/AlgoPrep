@@ -26,7 +26,7 @@
 - [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree)
 - [flatten-binary-tree-to-linked-list](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/)
 - [subarray-sum](https://www.lintcode.com/problem/subarray-sum)
-- [839. Merge Two Sorted Interval Lists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/)
+- [merge-two-sorted-interval-lists](https://www.lintcode.com/problem/merge-two-sorted-interval-lists/)
 - [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - [range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable)
 - [547. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
@@ -98,7 +98,6 @@
   - binary answer
   - dynamic programming
 - [391. Number of Airplanes in the Sky](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky)
-
 - [back pack](https://www.lintcode.com/problem/backpack)
   - rolling %
   - use interval??
@@ -244,7 +243,6 @@
 - [binary-tree-maximum-path-sum](https://www.lintcode.com/problem/binary-tree-maximum-path-sum)
 - [binary-tree-maximum-path-sum-ii](https://www.lintcode.com/problem/binary-tree-maximum-path-sum-ii)
 - [min-stack](https://www.lintcode.com/problem/min-stack)
-
 - [smallest-rectangle-enclosing-black-pixels](https://www.lintcode.com/problem/smallest-rectangle-enclosing-black-pixels)
 - [backpack-ii](https://www.lintcode.com/problem/backpack-ii)
 - [longest-common-subsequence](https://www.lintcode.com/problem/longest-common-subsequence)
@@ -261,7 +259,6 @@
 - [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
   - sliding array
   - memoization
-
 - [meeting-rooms-ii](https://www.lintcode.com/problem/meeting-rooms-ii)
 - [expression-expand](http://www.lintcode.com/problem/expression-expand/)
   - dfs
