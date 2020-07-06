@@ -2,6 +2,7 @@
 
 ## Easy
 
+- [subarray-sum-equals-k](https://www.lintcode.com/problem/subarray-sum-equals-k)
 - [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
 - [search-a-2d-matrix](http://www.lintcode.com/problem/search-a-2d-matrix)
 - [maximum-subarray](https://www.lintcode.com/problem/maximum-subarra)
