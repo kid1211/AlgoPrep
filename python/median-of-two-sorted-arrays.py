@@ -1,35 +1,51 @@
 class Solution:
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        n = len(nums1) + len(nums2)
-        if n % 2 == 1:
-            # odd [1, 2, 3, 4, 5] 5 // 2 = 2
-            return self.findKthLargest(nums1, 0, nums2, 0, n // 2 + 1)
+    """
+    @param: A: An integer array
+    @param: B: An integer array
+    @return: a double whose format is *.5 or *.0
+    """
+
+    def findMedianSortedArrays(self, A, B):
+        if len(A) > len(B):
+            nums1, nums2 = B, A
         else:
-            # even [1, 2, 3, 4, 5, 6] 6 // 2 = 3
-            lower = self.findKthLargest(nums1, 0, nums2, 0, n // 2 + 1)
-            upper = self.findKthLargest(nums1, 0, nums2, 0, n // 2)
-            return (lower + upper) / 2
+            nums1, nums2 = A, B
 
-    def findKthLargest(self, nums1, idx1, nums2, idx2, k):
-        if len(nums1) == idx1:
-            return nums2[idx2 + k - 1]  # k largest not smallest
-        if len(nums2) == idx2:
-            return nums1[idx1 + k - 1]
-        if k == 1:
-            return min(nums1[idx1], nums2[idx2])
+        # 如果是偶数 左边最大值和右边最小值的平均数
+        # 如果是基数 左边的最大值是中位数
+        n, m = len(nums1), len(nums2)
+        isEven = (n + m) % 2 == 0
+        minSize = -((n + m) // -2)  # get how many should be on the left
 
-        # Try get median
-        # [1, 2, 3, 4, 5] find 3 - > find (3 // 2 - 1) =>
-        a = self.getValue(nums1, idx1 + k // 2 - 1)
-        b = self.getValue(nums2, idx2 + k // 2 - 1)
+        # binary search on n
+        # normally left + 1 < right, so, 0, n - 1
+        # now left <= right, 0, n
+        left, right = 0, n  # !!diff
+        # this means left and right will go over itself
+        while left <= right:  # !!diff
+            print(left, right)
+            # if we want L1 mid -1, r1, mid
+            # then nMid represent how many items already on the left
+            nMid = (left + right) // 2
+            mMid = minSize - nMid
 
-        if b is None or (a and a < b):
-            return self.findKthLargest(nums1, idx1 + k // 2, nums2, idx2, k - k // 2)
-        return self.findKthLargest(nums1, idx1, nums2, idx2 + k // 2, k - k // 2)
+            L1 = nums1[nMid - 1] if nMid != 0 else -sys.maxsize + 1
+            L2 = nums2[mMid - 1] if mMid != 0 else -sys.maxsize + 1
+            R1 = nums1[nMid] if nMid != n else sys.maxsize
+            R2 = nums2[mMid] if mMid != m else sys.maxsize
 
-        # see if the median is in range
-    def getValue(self, arr, idx):
-        return arr[idx] if idx < len(arr) else None
+            if L1 > R2:
+                # avoid 1<=2 situation
+                # because l1 is nMid - 1
+                right = nMid - 1  # !!diff
+            elif L2 > R1:
+                # because L2 is mMid - 1
+                left = nMid + 1  # !!diff
+            else:
+                # found it
+                if (n + m) % 2 == 0:
+                    return (max(L1, L2) + min(R1, R2)) / 2
+                else:
+                    return max(L1, L2)
 
-
-// TODO: turn to kth smallest
+        return -1

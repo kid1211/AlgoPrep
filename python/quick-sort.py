@@ -13,10 +13,12 @@ class Solution:
         return nums
 
     def quicksort(self, nums, start, end):
+        # remember to have exit
         if start >= end:
             return
 
         left, right = start, end
+        # this value should be changing
         pivot = nums[(left + right) // 2]
 
         # key point 2: every time you compare left & right, it should be
