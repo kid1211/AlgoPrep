@@ -6,8 +6,8 @@ EASY_MED_HARD_SUPER = (1, 1, 1, 0)
 executable = [
     'git add README.md',
     'git commit -m \"Generated Question\"',
-    'git push',
-    'open https://github.com/kid1211/AlgoPrep#readme'
+    # 'git push',
+    # 'open https://github.com/kid1211/AlgoPrep#readme'
 ]
 
 
