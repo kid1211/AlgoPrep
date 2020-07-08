@@ -1,5 +1,5 @@
 # Today's Problem
 
-- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target)
-- [anagrams](http://www.lintcode.com/problem/anagrams)
-- [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
+- [maximum-subarray](http://www.lintcode.com/problem/maximum-subarray/)
+- [minimum-window-substring](https://www.lintcode.com/problem/minimum-window-substring)
+- [sliding-window-median](https://www.lintcode.com/problem/sliding-window-median)
