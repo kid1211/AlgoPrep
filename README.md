@@ -1,5 +1,5 @@
 # Today's Problem
 
-- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree)
-- [search-for-a-range](https://www.lintcode.com/problem/search-for-a-range)
-- [sliding-window-maximum](https://www.lintcode.com/problem/sliding-window-maximum/)
+- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target)
+- [anagrams](http://www.lintcode.com/problem/anagrams)
+- [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
