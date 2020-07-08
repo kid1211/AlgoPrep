@@ -1,6 +1,5 @@
 # Today's Problem
 
-- [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
-  - with dp
-- [merge-k-sorted-interval-lists](https://www.lintcode.com/problem/merge-k-sorted-interval-lists)
-- [alien-dictionary](https://www.lintcode.com/problem/alien-dictionary/)
+- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree)
+- [search-for-a-range](https://www.lintcode.com/problem/search-for-a-range)
+- [sliding-window-maximum](https://www.lintcode.com/problem/sliding-window-maximum/)
