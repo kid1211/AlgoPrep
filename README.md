@@ -1,6 +1,6 @@
 # Today's Problem
 
-- [alien-dictionary-easy](https://www.lintcode.com/problem/alien-dictionaryeasy/)
-- [sort-colors](http://www.lintcode.com/problem/sort-colors)
-- [wiggle-sort-ii](http://www.lintcode.com/problem/wiggle-sort-ii/)
-  - probably need to look at answer
+- [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
+  - with dp
+- [merge-k-sorted-interval-lists](https://www.lintcode.com/problem/merge-k-sorted-interval-lists)
+- [alien-dictionary](https://www.lintcode.com/problem/alien-dictionary/)
