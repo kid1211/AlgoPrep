@@ -292,7 +292,6 @@
 - [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
 - [find-median-from-data-stream](https://www.lintcode.com/problem/find-median-from-data-stream)
 - [sliding-window-median](https://www.lintcode.com/problem/sliding-window-median)
-  - HashHeap or red-black tree
 - [data-stream-median](http://www.lintcode.com/problem/data-stream-median)
 - [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [104. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)
