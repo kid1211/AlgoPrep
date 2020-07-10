@@ -11,8 +11,6 @@
 - [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
 - [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum)
 - [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
-  - with dp
-  - without dp
 - [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
 - [repeated-string-match](https://leetcode.com/problems/repeated-string-match/)
 - [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)

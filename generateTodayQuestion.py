@@ -2,7 +2,7 @@ import sys
 from random import randrange
 import subprocess
 
-EASY_MED_HARD_SUPER = (1, 1, 1, 0)
+EASY_MED_HARD_SUPER = (1, 2, 1, 0)
 executable = [
     'git add README.md',
     'git commit -m \"Generated Question\"',
