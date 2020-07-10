@@ -1,5 +1,7 @@
 # Today's Problem
 
-- [move-zeroes](https://leetcode.com/problems/move-zeroes)
-- [sort-letters-by-case](http://www.lintcode.com/problem/sort-letters-by-case)
-- [word-break-ii](http://www.lintcode.com/problem/word-break-ii)
+- [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
+  - without dp
+- [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree)
+- [burst-balloons](https://www.lintcode.com/problem/burst-balloons)
+  - interval dp
