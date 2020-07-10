@@ -11,26 +11,19 @@ from heapq import heappush, heappop
 
 class Solution:
     def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
-        distants = []
-        # print(sqrt(-6 * -6 + -5 * -5))
+        heap = []
+        for (x, y) in points:
+            distance = sqrt(x*x + y*y)
+            heappush(heap, (distance, [x, y]))
 
-        for idx, tur in enumerate(points):
-            x, y = tur
-            dis = sqrt(x * x + y * y)
-            # print(dis)
-            heappush(distants, (-dis, tur))
+        res = []
+        for _ in range(K):
+            if not heap:
+                return res
 
-            # print("before", distants)
-            if len(distants) > K:
-                heappop(distants)
-
-        ans = []
-        while len(distants) > 0:
-            _, tur = heappop(distants)
-            ans.append(tur)
-
-        ans.reverse()
-        return ans
+            _, point = heappop(heap)
+            res += [point]
+        return res
 
 
 # @lc code=end
