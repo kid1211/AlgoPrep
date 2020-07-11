@@ -6,20 +6,17 @@ class Solution:
 
     def subarraySum(self, nums):
         # write your code here
+        prefix = []
+        rolling = 0
+        n = len(nums)
 
-        # [-3, 1, 2, -3, 4]
-        # [-3 -2  0  -3  1]
-        # 0,2 1,3
-        sums = []
-        cur = 0
+        for i in range(n):
+            rolling += nums[i]
+            prefix.append(rolling)
 
-        for num in nums:
-            cur += num
-            sums.append(cur)
+        for lower in range(n):
+            for higher in range(lower, n):
+                if prefix[higher] - prefix[lower] == 0:
+                    return [lower + 1, higher]
 
-        for lower in range(len(sums)):
-            for upper in range(lower, len(sums)):
-                if upper - lower == 0:
-                    return [lower + 1, upper]
-
-        return [0, 2]
+        return []

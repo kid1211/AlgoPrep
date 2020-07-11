@@ -1,3 +1,7 @@
+PRIME = 31
+MOD = sys.maxsize // PRIME
+
+
 class Solution:
     """
     @param source: 
@@ -7,49 +11,56 @@ class Solution:
 
     def strStr(self, source, target):
         # Write your code here
-
-        PRIME = 41
-        mod = sys.maxsize // PRIME
-        tgtLength, srcLength = len(target), len(source)
-
-        if srcLength < tgtLength:
+        n, m = len(source), len(target)
+        if n < m:
             return -1
 
-        # target
-        tgtHash, srcHash = 0, 0
-        allSame = True
+        sourceHash = 0
+        targetHash = 0
+        for i in range(m):
+            sourceHash *= PRIME
+            sourceHash += self.gethash(source[i])
+            sourceHash %= MOD
 
-        for i in range(tgtLength):
-            if target[i] != source[i]:
-                allSame = False
-            tgtHash = (tgtHash * PRIME +
-                       self.getCharHash(target[i])) % mod
-            srcHash = (srcHash * PRIME +
-                       self.getCharHash(source[i])) % mod
+            targetHash *= PRIME
+            targetHash += self.gethash(target[i])
+            targetHash %= MOD
 
-        if allSame:
+        if sourceHash == targetHash:
             return 0
 
-        deductHash = PRIME ** (tgtLength - 1)
-        for i in range(tgtLength, srcLength):
-            # take out the first char
-            srcHash -= self.getCharHash(source[i - tgtLength]) * deductHash
-            srcHash = (srcHash + mod) % mod
+        co = PRIME ** (m - 1)
+        for i in range(m, n):
+            sourceHash -= self.gethash(source[i - m]) * co
+            sourceHash *= PRIME
+            sourceHash += self.gethash(source[i])
 
-            # move every char left
-            srcHash *= PRIME
-
-            # add last bit, and add mod just in case it is negative
-            srcHash += self.getCharHash(source[i])
-
-            if tgtHash == srcHash:
-                start = i - tgtLength + 1
-                end = i + 1
-
-                if target == source[start:end]:
-                    return start
-
+            if sourceHash == targetHash:
+                return i - m + 1
         return -1
 
-    def getCharHash(self, letter):
+    def gethash(self, letter):
         return ord(letter) - ord('a')
+
+
+class Solution:
+    """
+    @param source: 
+    @param target: 
+    @return: return the index
+    """
+
+    def strStr(self, source, target):
+        # Write your code here
+        n, m = len(source), len(target)
+        if n < m:
+            return -1
+
+        for i in range(n - m + 1):
+            j = 0
+            while j < m and source[i + j] == target[j]:
+                j += 1
+
+            if j == m:
+                return i
+        return -1

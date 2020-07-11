@@ -6,24 +6,21 @@
 
 # @lc code=start
 
-
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
-        results = []
-        self.helper([], 0, results, sorted(nums))
-        return results
+        nums = sorted(nums)
+        res = []
+        self.dfs([], 0, nums, res)
+        return res
 
-    def helper(self, current, idx, results, nums):
-        # if len(current) > 0 and nums[idx] == current[-1]:
-        print(current)
-        results.append(list(current))
+    def dfs(self, curr, index, nums, res):
+        res += [list(curr)]
 
-        for i in range(idx, len(nums)):
-            if i > idx and nums[i] == nums[i-1]:
+        for i in range(index, len(nums)):
+            if i > index and nums[i] == nums[i - 1]:
                 continue
-            #     results.pop()
-            current.append(nums[i])
-            self.helper(current, i + 1, results, nums)
-            current.pop()
+            curr.append(nums[i])
+            self.dfs(curr, i + 1, nums, res)
+            curr.pop()
 
 # @lc code=end

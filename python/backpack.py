@@ -4,18 +4,18 @@ class Solution:
     @param A: Given n items with size A[i]
     @return: The maximum size
     """
+
     def backPack(self, m, A):
         # write your code here
-        if m == 0 or not A:
-            return 0
-        # dp represent the answer if m is equal to the index
+        n = len(A)
         dp = [0 for _ in range(m + 1)]
-        
+
         for num in A:
+            # fill the dp in backward
             j = m
-            # while I can add nums, check before and after I add it
+            # means i have enough space to take num
             while j >= num:
                 dp[j] = max(dp[j], dp[j - num] + num)
                 j -= 1
-        
+
         return dp[m]
