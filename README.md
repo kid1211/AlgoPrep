@@ -1,8 +1,6 @@
 # Today's Problem
 
-- [138. Subarray Sum](https://www.lintcode.com/problem/subarray-sum)
-- [backpack](https://www.lintcode.com/problem/backpack)
-  - rolling %
-- [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- [coins-in-a-line-iii](https://www.lintcode.com/problem/coins-in-a-line-iii)
-  - memoization
+- [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
+- [subsets-ii](https://leetcode.com/problems/subsets-ii)
+- [top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
+- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
