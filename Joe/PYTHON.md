@@ -723,3 +723,32 @@ balanced binary tree (top to bottom, left to write to fill)
 0 & 0 = 0
 0 & 1 = 0
 1 & 1 = 1 need both
+
+## tiny url
+
+method 1: hash(md5) too many collision
+method 2: random + check if exist  两个dblist存两条
+method 3: sql only, require incremental id, turn it into values 只需要一个对应关系
+
+```Java
+int shortURLtoID(string shortURL) {
+  int id = 0
+  for (int i = 0; i < shortURL.length(); ++i>) {
+    id = id * 62 + toBase62(shortURL.charAt(i));
+  }
+  return id;
+}
+
+String idToShortURL(int id) {
+  String chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  String short_url = "";
+  while (id > 0) {
+    short_url =chars.charAt(id % 62) + short_url;
+    id = id / 62;
+  }
+  while (short_url.length() < 6) {
+    short_url = "0"+ short_url;  
+  }
+  return short_url;
+}
+```
