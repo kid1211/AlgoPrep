@@ -752,3 +752,59 @@ String idToShortURL(int id) {
   return short_url;
 }
 ```
+
+## tiny url - scale
+
+sharding:
+vertical肯定不行只有两个column
+horizontal唯一
+
+如果是一个long对应一个short:
+用short作为sharding key? 不行,因为避免重复的时候需要查long有没有在,每次都要广播会bottleneck
+用long作为sharding key? short2long会很慢,而且这个经常有, 但是没办法只能这么做
+
+比较好的方法:
+
+- 如果随机生成的算法
+  - 两张表单一张long2short 一张存储short2long
+  - 每个映射关系寸两份,则可以同时支持long2short and short2long的查询
+- 如果使用base62的进制转换法
+  - 这里有一个很严重的问题是,多台机器没有办法实现自增id, 一般只支持单带服务器的自增id
+
+如果是一个long可以对应多个short:
+用short作为sharding key? 可以
+用long作为sharding key? short2long会很慢,而且这个经常有
+
+比较好的方法:
+
+- 使用cache缓存所有的long to short
+- 在为一个long url创建short的时候, 如果cache miss则直接创建新的short url 即可
+- sharding是啥? 这种情况下因为一个long好几个short所以肯定不是short作为primary key
+- primary key是自增id,long为复合索引的第二索引
+
+-下面有一个有没一点的方法
+
+## 怎么解决全局自增id
+
+- 一种方法: 有一台数据库专门做自增id
+  - 不存储真是数据,也部分其他查询
+  - 为了避免单点失效(single point failure) 可能需要多台数据库
+- 另一种结局方法是用zookeeper
+  - 但是使用全局自增id的方法并不是结局tiny的最佳方法
+  - zookeerp可以看资料
+
+## 基于base62的方法下的sharing key策略
+
+- 使用hash(long_url) % 62 作为shardingkey
+- 并将 hash(long_url) % 62 直接放到short url里面
+- 如果原来的 shortkey是ab1234的话现在的shortkey是
+  - hash(long_url) % 62 + AB1234
+  - 如果hash(long_url) % 62 是 0 那就是0AB1234
+- 这样可以同时通过short_url和long_url得到sharding key
+- 确定数据库的机器商户木不能超过62   
+
+比如说0AB1234, 去0机器 去找ab1234
+
+还要优化?
+- master slave的模式,因为多读少写是可以的,但是有时候还是会有不一致的问题
+- 另一个就是按照网站分类的在不一样的服务器

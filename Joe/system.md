@@ -35,3 +35,8 @@ best practice: database先set再cache delete
 - [consistent-hashing-ii](https://www.lintcode.com/problem/consistent-hashing-ii)
 - [web-logger](https://www.lintcode.com/problem/web-logger)
 - [rate-limiter](https://www.lintcode.com/problem/rate-limiter)
+
+## W4
+
+- [tiny-url](https://www.lintcode.com/problem/tiny-url/description?_from=ladder&&fromId=75)
+- [tiny-url-ii](https://www.lintcode.com/problem/tiny-url-ii/description?_from=ladder&&fromId=75)

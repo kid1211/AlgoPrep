@@ -11,8 +11,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
-
+# Read the question
 class Solution:
     def constructMaximumBinaryTree(self, nums: List[int]) -> TreeNode:
         # Decending array
@@ -35,15 +34,30 @@ class Solution:
         return monoStack[0]
 
         pass
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 
-    def constructMaximumBinaryTree2(self, nums: List[int]) -> TreeNode:
-        if len(nums) == 0:
+
+class Solution:
+    def constructMaximumBinaryTree(self, nums: List[int]) -> TreeNode:
+        if not nums:
             return None
-        curr = max(nums)
-        idx = nums.index(curr)
+        maxVal, maxId = -sys.maxsize + 1, None
 
-        root = TreeNode(curr)
-        root.left = self.constructMaximumBinaryTree(nums[:idx])
-        root.right = self.constructMaximumBinaryTree(nums[idx + 1:])
+        for idx, val in enumerate(nums):
+            if val > maxVal:
+                maxVal = val
+                maxId = idx
+
+        root = TreeNode(maxVal)
+        root.left = self.constructMaximumBinaryTree(nums[:maxId])
+        root.right = self.constructMaximumBinaryTree(nums[maxId + 1:])
+
         return root
+
+
 # @lc code=end
