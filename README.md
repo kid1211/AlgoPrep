@@ -1,6 +1,6 @@
 # Today's Problem
 
-- [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
-- [subsets-ii](https://leetcode.com/problems/subsets-ii)
-- [top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words/)
-- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
+- [remove-nth-node-from-end-of-list](https://www.lintcode.com/problem/remove-nth-node-from-end-of-list/)
+- [heapify](https://www.lintcode.com/problem/heapify/description)
+- [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/)
+- [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
