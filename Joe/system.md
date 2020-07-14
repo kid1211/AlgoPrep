@@ -40,3 +40,10 @@ best practice: database先set再cache delete
 
 - [tiny-url](https://www.lintcode.com/problem/tiny-url/description?_from=ladder&&fromId=75)
 - [tiny-url-ii](https://www.lintcode.com/problem/tiny-url-ii/description?_from=ladder&&fromId=75)
+
+## W5
+
+- [geohash-ii](https://www.lintcode.com/problem/geohash-ii/description?_from=ladder&&fromId=75)
+- [geohash](https://www.lintcode.com/problem/geohash/description?_from=ladder&&fromId=75)
+- [mini-uber](https://www.lintcode.com/problem/mini-uber/description?_from=ladder&&fromId=75)
+- [mini-yelp](https://www.lintcode.com/problem/mini-yelp/description?_from=ladder&&fromId=75)
