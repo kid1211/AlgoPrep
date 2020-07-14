@@ -1,6 +1,7 @@
 # Today's Problem
 
-- [remove-nth-node-from-end-of-list](https://www.lintcode.com/problem/remove-nth-node-from-end-of-list/)
-- [heapify](https://www.lintcode.com/problem/heapify/description)
-- [search-range-in-binary-search-tree](https://www.lintcode.com/problem/search-range-in-binary-search-tree/)
-- [wildcard-matching](https://leetcode.com/problems/wildcard-matching)
+- [balanced-binary-tree](https://www.lintcode.com/problem/balanced-binary-tree/)
+- [connected-component-in-undirected-graph](https://www.lintcode.com/problem/connected-component-in-undirected-graph)
+- [divide-two-integers](https://www.lintcode.com/problem/divide-two-integers)
+- [coins-in-a-line-iii](https://www.lintcode.com/problem/coins-in-a-line-iii)
+  - sliding array
