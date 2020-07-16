@@ -1,7 +1,6 @@
 # Today's Problem
 
-- [closest-binary-search-tree-value](http://www.lintcode.com/problem/closest-binary-search-tree-value)
-- [617. Maximum Average Subarray II](https://www.lintcode.com/problem/maximum-average-subarray-ii)
-  - first position <= last position (need to hide this)
-- [friend-circles](https://leetcode.com/problems/friend-circles/)
-- [find-median-from-data-stream](https://www.lintcode.com/problem/find-median-from-data-stream)
+- [sort-integers-ii](https://www.lintcode.com/problem/sort-integers-ii)
+- [434 Number of Islands II](https://www.lintcode.com/problem/number-of-islands-ii)
+- [time-intersection](https://www.lintcode.com/problem/time-intersection)
+- [binary-search-tree-iterator](http://www.lintcode.com/problem/binary-search-tree-iterator)
