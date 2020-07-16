@@ -1,10 +1,3 @@
-#
-# @lc app=leetcode id=547 lang=python3
-#
-# [547] Friend Circles
-#
-
-# @lc code=start
 
 
 class Solution:
@@ -23,15 +16,9 @@ class Solution:
 
 class UnionFind:
     def __init__(self, M):
-        self.father = {}
-        self.connected = 0
-
-        for row in range(len(M)):
-            for col in range(len(M[row])):
-                if row != col:
-                    continue
-                self.father[row] = row
-                self.connected += 1
+        n = len(M)
+        self.father = {i: i for i in range(n)}
+        self.connected = n
 
     def find(self, point):
         path = []
@@ -51,12 +38,3 @@ class UnionFind:
         if root1 != root2:
             self.connected -= 1
             self.father[self.find(point1)] = self.find(point2)
-# @lc code=end
-
-
-[
-    [1, 0, 0, 1],
-    [0, 1, 1, 0],
-    [0, 1, 1, 1],
-    [1, 0, 1, 1]
-]
