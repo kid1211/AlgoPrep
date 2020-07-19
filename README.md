@@ -1,7 +1,7 @@
 # Today's Problem
 
-- [subarray-sum](http://www.lintcode.com/problem/subarray-sum)
-- [find-peak-element](https://www.lintcode.com/problem/find-peak-element)
-- [continuous-subarray-sum](http://www.lintcode.com/problem/continuous-subarray-sum/)
-  - nlogn with data structure
-- [linked-list-cycle-ii](https://www.lintcode.com/problem/linked-list-cycle-ii)
+- [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
+- [sort-an-array](https://leetcode.com/problems/sort-an-array/)
+- [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)
+- [longest-continuous-increasing-subsequence-ii](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence-ii)
+  - memoization
