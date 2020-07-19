@@ -47,3 +47,12 @@ best practice: database先set再cache delete
 - [geohash](https://www.lintcode.com/problem/geohash/description?_from=ladder&&fromId=75)
 - [mini-uber](https://www.lintcode.com/problem/mini-uber/description?_from=ladder&&fromId=75)
 - [mini-yelp](https://www.lintcode.com/problem/mini-yelp/description?_from=ladder&&fromId=75)
+
+## W6
+
+- [pub-sub-patter](https://www.lintcode.com/problem/pub-sub-pattern/description?_from=ladder&&fromId=75)
+
+## W7
+
+- [heart-beat](https://www.lintcode.com/problem/heart-beat/description?_from=ladder&&fromId=75)
+- [gfs-client](https://www.lintcode.com/problem/gfs-client/description?_from=ladder&&fromId=75)
