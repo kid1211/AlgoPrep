@@ -1,6 +1,7 @@
 # Today's Problem
 
-- [minimum-subtree](https://www.lintcode.com/problem/minimum-subtree)
-- [submatrix-sum](http://www.lintcode.com/problem/submatrix-sum)
+- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
 - [longest-substring-with-at-mostk-distinct-characters](https://www.lintcode.com/problem/longest-substring-with-at-most-k-distinct-characters)
-- [closest-binary-search-tree-value-ii](https://www.lintcode.com/problem/closest-binary-search-tree-value-ii)
+- [backpack](https://www.lintcode.com/problem/backpack)
+  - rolling %
+- [maximal-rectangle](https://www.lintcode.com/problem/maximal-rectangle)
