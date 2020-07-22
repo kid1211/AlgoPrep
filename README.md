@@ -1,8 +1,7 @@
 # Today's Problem
 
-- [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
-- [back pack](https://www.lintcode.com/problem/backpack)
-  - rolling %
-- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
-- [wiggle-sort-ii](http://www.lintcode.com/problem/wiggle-sort-ii/)
-  - probably need to look at answer
+- [two-sum](https://leetcode.com/problems/two-sum/)
+- [inorder-successor-in-bst](http://www.lintcode.com/problem/inorder-successor-in-bst)
+- [copy-book](https://www.lintcode.com/problem/copy-books)
+  - binary answer
+- [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
