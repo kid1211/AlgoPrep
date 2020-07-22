@@ -10,24 +10,22 @@ class Solution:
         if k == 0:
             return 0
 
-        longest, n = 0, len(s)
-        unique = {}
+        count = {}
+        n = len(s)
+        longest = 0
 
         j = 0
         for i in range(n):
-            while j < n and (len(unique) < k or s[j] in unique):
-                if s[j] not in unique:
-                    unique[s[j]] = 1
-                else:
-                    unique[s[j]] += 1
+            while j < n and (len(count) < k or s[j] in count):
+                count[s[j]] = count.get(s[j], 0) + 1
                 j += 1
 
-            if len(unique) == k:
+            if len(count) >= k:
                 longest = max(longest, j - i)
 
-            if unique[s[i]] == 1:
-                del unique[s[i]]
-            else:
-                unique[s[i]] -= 1
+            # clear up
+            count[s[i]] -= 1
+            if count[s[i]] == 0:
+                del count[s[i]]
 
         return longest if longest != 0 else len(s)
