@@ -1,7 +1,6 @@
 # Today's Problem
 
-- [closest-binary-search-tree-value](http://www.lintcode.com/problem/closest-binary-search-tree-value)
-- [triangle-count](http://www.lintcode.com/problem/triangle-count)
-- [partition-array](https://www.lintcode.com/problem/partition-array/description)
-- [longest-continuous-increasing-subsequence-ii](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence-ii)
-  - use sorting
+- [same-tree](https://leetcode.com/problems/same-tree/)
+- [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [123. Word Search](https://leetcode.com/problems/word-search/)
+- [maximal-rectangle](https://www.lintcode.com/problem/maximal-rectangle)
