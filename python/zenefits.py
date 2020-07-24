@@ -17,7 +17,6 @@ def meetingroom(intervals):
         ins.append((int[0], 1))
         ins.append((int[1], -1))
     ins.sort()
-
     online, maxOnline = 0, 0
     res = []
     lastStart = None
@@ -48,6 +47,6 @@ def merge(res, start, end):
 
 
 if __name__ == "__main__":
-    res = meetingroom([[7, 10], [10, 20]])
-    # res = meetingroom([[5, 10], [0, 30], [15, 28], [8, 12], [16, 22]])
+    # res = meetingroom([[7, 10], [10, 20]])
+    res = meetingroom([[5, 10], [0, 20], [15, 20], [8, 12], [16, 22]])
     print(res)
