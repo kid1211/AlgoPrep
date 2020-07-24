@@ -58,6 +58,7 @@
 - [maximum-subarray](http://www.lintcode.com/problem/maximum-subarray/)
 - [flatten-list](http://www.lintcode.com/en/problem/flatten-list/)
   - Iterator Below - has template
+- [complete-binary-tree](https://www.lintcode.com/problem/complete-binary-tree)
 
 ## Medium
 
