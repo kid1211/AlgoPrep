@@ -16,22 +16,23 @@ class Solution:
 
     def closestValue(self, root, target):
         # write your code here
-        if not root or not target:
+        if not target:
             return 0
-        return self.findClosest(root, target)
+        return self.dfs(root, target)
 
-    def findClosest(self, root, target):
+    def dfs(self, root, target):
         if not root:
             return sys.maxsize
 
-        left = self.findClosest(root.left, target)
-        right = self.findClosest(root.right, target)
+        left = self.dfs(root.left, target)
+        right = self.dfs(root.right, target)
+
+        def getClosest(val):
+            return val if abs(val - target) < abs(root.val - target) else root.val
 
         if root.val == target:
             return root.val
         elif root.val > target:
-            # between left and root
-            return root.val if abs(root.val - target) < abs(left - target) else left
+            return getClosest(left)
         else:
-            # between right and root
-            return root.val if abs(root.val - target) < abs(right - target) else right
+            return getClosest(right)
