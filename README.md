@@ -1,7 +1,7 @@
 # Today's Problem
 
-- [two-sum](https://leetcode.com/problems/two-sum/)
-- [inorder-successor-in-bst](http://www.lintcode.com/problem/inorder-successor-in-bst)
-- [copy-book](https://www.lintcode.com/problem/copy-books)
-  - binary answer
-- [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [closest-binary-search-tree-value](http://www.lintcode.com/problem/closest-binary-search-tree-value)
+- [triangle-count](http://www.lintcode.com/problem/triangle-count)
+- [partition-array](https://www.lintcode.com/problem/partition-array/description)
+- [longest-continuous-increasing-subsequence-ii](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence-ii)
+  - use sorting
