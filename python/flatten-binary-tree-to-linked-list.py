@@ -15,23 +15,19 @@ class Solution:
 
     def flatten(self, root):
         # write your code here
+        self.dfs(root)
+
+    # connect and return last node in the subtree
+    def dfs(self, root):
         if not root:
-            return root
+            return None
 
-        leftNode = self.flatten(root.left)
-        rightNode = self.flatten(root.right)
+        left = self.dfs(root.left)
+        right = self.dfs(root.right)
 
-        if not rightNode:
-            root.right = leftNode
-            root.left = None
-        if not leftNode:
-            return root
-        else:
-            mostRightFromLeft = leftNode
-            while mostRightFromLeft.right:
-                mostRightFromLeft = mostRightFromLeft.right
-            mostRightFromLeft.right = rightNode
-            root.right = leftNode
+        if left:
+            left.right = root.right
+            root.right = root.left
             root.left = None
 
-        return root
+        return right or left or root
