@@ -1,8 +1,6 @@
 # Today's Problem
 
-- [prime-factor-statistics](https://www.lintcode.com/problem/prime-factor-statistics)
-- [coins-in-a-line-ii](https://www.lintcode.com/problem/coins-in-a-line-ii)
-  - memoization
-- [expression-expand](http://www.lintcode.com/problem/expression-expand/)
-- [wiggle-sort-ii](http://www.lintcode.com/problem/wiggle-sort-ii/)
-  - probably need to look at answer
+- [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
+- [Permutations](https://www.lintcode.com/problem/permutations)
+- [first-bad-version](http://www.lintcode.com/problem/first-bad-version)
+- [alien-dictionary](https://www.lintcode.com/problem/alien-dictionary/)
