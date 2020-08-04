@@ -65,4 +65,22 @@ best practice: database先set再cache delete
 
 ## W9
 
+- [sort-integers-map-reduce](https://www.lintcode.com/problem/sort-integers-map-reduce/description?_from=ladder&&fromId=75)
+- [top-k-frequent-words-map-reduce](https://www.lintcode.com/problem/top-k-frequent-words-map-reduce/description?_from=ladder&&fr)
+- [n-gram-map-reduce](https://www.lintcode.com/problem/n-gram-map-reduce/description?_from=ladder&&fromId=75)
+- [inverted-index-map-reduce](https://www.lintcode.com/problem/inverted-index-map-reduce/description?_from=ladder&&fromId=7)
+- [anagram-map-reduce](https://www.lintcode.com/problem/anagram-map-reduce/description?_from=ladder&&fromId=75)
+- [word-count-map-reduce](https://www.lintcode.com/problem/word-count-map-reduce/description?_from=ladder&&fromId=75)
+- [inverted-index](https://www.lintcode.com/problem/inverted-index/description?_from=ladder&&fromId=75)
+- [sparse-matrix-multiplication](https://www.lintcode.com/problem/sparse-matrix-multiplication/description?_from=ladder&&fromI)
+
 ## W10
+
+- [google-suggestion-map-reduce](https://www.lintcode.com/problem/google-suggestion-map-reduce/description?_from=ladder&&fromI)
+- [inverted-index](https://www.lintcode.com/problem/inverted-index/description?_from=ladder&&fromId=75)
+- [implement-trie-prefix-tree](https://www.lintcode.com/problem/implement-trie-prefix-tree/description?_from=ladder&&fromId=)
+- [typeahead](https://www.lintcode.com/problem/typeahead/description?_from=ladder&&fromId=75)
+- [web-crawler](https://www.lintcode.com/problem/web-crawler/description?_from=ladder&&fromId=75)
+- [trie-service](https://www.lintcode.com/problem/trie-service/description?_from=ladder&&fromId=75)
+- [url-parser](https://www.lintcode.com/problem/url-parser/description?_from=ladder&&fromId=75)
+- [trie-serialization](https://www.lintcode.com/problem/trie-serialization/description?_from=ladder&&fromId=75)
