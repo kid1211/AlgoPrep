@@ -30,3 +30,31 @@ class Solution:
             visited.remove(nums[i])
 
 # @lc code=end
+
+
+class Solution:
+    """
+    @param: nums: A list of integers.
+    @return: A list of permutations.
+    """
+
+    def permute(self, nums):
+        # write your code here
+        result = []
+        self.dfs([], set(), nums, result)
+        return result
+
+    def dfs(self, current, visited, nums, result):
+        if len(current) == len(nums):
+            result.append(list(current))
+            return
+
+        for i in range(len(nums)):
+            if nums[i] in visited:
+                continue
+
+            visited.add(nums[i])
+            current.append(nums[i])
+            self.dfs(current, visited, nums, result)
+            current.pop()
+            visited.remove(nums[i])
