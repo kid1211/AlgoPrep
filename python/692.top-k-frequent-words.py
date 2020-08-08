@@ -11,6 +11,24 @@ from heapq import heappush, heappop
 
 class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
+        frequent_map = collections.Counter(words)
+        heap = []
+
+        for word, count in frequent_map.items():
+            heappush(heap, (-count, word))
+
+        res = []
+        for _ in range(k):
+            if heap:
+                _, word = heappop(heap)
+                res += [word]
+        return res
+
+# not sure wtf
+
+
+class Solution:
+    def topKFrequent(self, words: List[str], k: int) -> List[str]:
         # print(self.hashWord("aaa"), self.hashWord("a"))
         hashToWord = {}
         for word in words:
