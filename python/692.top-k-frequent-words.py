@@ -8,6 +8,8 @@
 
 from heapq import heappush, heappop
 
+#  restrict the size of heap to get to nlogk
+
 
 class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
