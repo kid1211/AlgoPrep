@@ -8,7 +8,7 @@ def main(arr, K):
 
     res = set()
     n = len(arr)
-    unique = {}
+    uniques = {}
     if n < K:
         return []
 
