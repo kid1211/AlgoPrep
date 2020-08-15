@@ -1,6 +1,6 @@
 # Today's Problem
 
-- [meeting-rooms](https://www.lintcode.com/problem/meeting-rooms)
-- [Permutations](https://www.lintcode.com/problem/permutations)
-- [first-bad-version](http://www.lintcode.com/problem/first-bad-version)
+- [unique-paths](https://www.lintcode.com/problem/unique-paths)
+- [distinct subsequence](https://www.lintcode.com/problem/distinct-subsequences)
+- [merge-k-sorted-arrays](http://www.lintcode.com/problem/merge-k-sorted-arrays)
 - [alien-dictionary](https://www.lintcode.com/problem/alien-dictionary/)
