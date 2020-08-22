@@ -1,6 +1,9 @@
 # Today's Problem
 
-- [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
-- [123. Word Search](https://leetcode.com/problems/word-search/)
-- [valid-palindrome-ii](http://www.lintcode.com/problem/valid-palindrome-ii)
-- [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [fibonacci](https://www.lintcode.com/problem/fibonacci)
+- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target/)
+- [balanced-binary-tree](https://www.lintcode.com/problem/balanced-binary-tree/)
+- [continuous-subarray-sum](http://www.lintcode.com/problem/continuous-subarray-sum/)
+  - nlogn with data structure
+- [lru-cache](https://leetcode.com/problems/lru-cache/)
+- [interleaving-positive-and-negative-numbers](http://www.lintcode.com/problem/interleaving-positive-and-negative-numbers)
