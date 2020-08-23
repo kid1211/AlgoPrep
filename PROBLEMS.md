@@ -353,10 +353,6 @@
 
 ## Additional Info
 
-- pancake sort
-  - [wiki](https://en.wikipedia.org/wiki/Pancake_sorting)
-  - [geeksforgeeks](http://www.geeksforgeeks.org/pancake-sorting)
-- [sleep sort](https://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort)
-- [Spaghetti Sort](https://en.wikipedia.org/wiki/Spaghetti_sort)
-- [Bogosort](https://en.wikipedia.org/wiki/Bogosort)
-- [BST-delete](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
+- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
+- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
+- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
