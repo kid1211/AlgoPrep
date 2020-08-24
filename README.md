@@ -1,5 +1,9 @@
 # Today's Problem
 
-- [network-delay-time](https://leetcode.com/problems/network-delay-time/)
-- [combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)
-- [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)
+- [move-zeroes](https://leetcode.com/problems/move-zeroes)
+- [longest-palindrome](https://www.lintcode.com/problem/longest-palindrome)
+- [remove-nth-node-from-end-of-list](https://www.lintcode.com/problem/remove-nth-node-from-end-of-list/)
+- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
+  - interval dp
+- [maximum-submatrix](https://www.lintcode.com/problem/maximum-submatrix/description)
+- [maximum-binary-tree](https://leetcode.com/problems/maximum-binary-tree/)
