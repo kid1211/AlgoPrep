@@ -9,8 +9,8 @@ class Solution:
         if not A:
             return 0
         n = len(A)
-        rangeSum = self.getRangeSum(A)
-        dp = [[0 for _ in range(n)] for _ in range(n)]
+        rangeSum = self.getRangeSum(A, n)
+        dp = [[0] * n for _ in range(n)]
 
         for i in range(n - 1, -1, -1):
             for j in range(i, n):
@@ -21,14 +21,13 @@ class Solution:
                                    dp[k + 1][j] + rangeSum[i][j])
         return dp[0][n - 1]
 
-    def getRangeSum(self, A):
-        n = len(A)
-        rangeSum = [[0 for _ in range(n)] for _ in range(n)]
+    def getRangeSum(self, A, n):
+        rangeSum = [[0] * n for _ in range(n)]
+
         for i in range(n):
             rangeSum[i][i] = A[i]
             for j in range(i + 1, n):
                 rangeSum[i][j] = rangeSum[i][j - 1] + A[j]
-
         return rangeSum
 
 

@@ -1,33 +1,14 @@
 class Solution:
-    """
-    @param nums: an integer array
-    @return: nothing
-    """
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        slow = 0
+        for quick in range(len(nums)):
+            if nums[quick] != 0:
+                if slow != quick:
+                    nums[slow] = nums[quick]
+                slow += 1
 
-    def moveZeroes(self, nums):
-        # write your code here
-
-        length = len(nums)
-
-        if length <= 1:
-            return nums
-
-        # [0 1 0 3 12]
-        # [1 1 0 3 12]
-        # [1 3 0 3 12]
-        # left is pointing the sorted ones
-        # what happen if all the char are not zeros
-        left, right = 0, 0
-
-        while right < length:
-            while right < length and nums[right] == 0:
-                right += 1
-
-            if right < length:
-                nums[left] = nums[right]
-                left += 1
-                right += 1
-
-        for i in range(left, length):
+        for i in range(slow, len(nums)):
             nums[i] = 0
-        return nums

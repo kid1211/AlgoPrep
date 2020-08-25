@@ -16,20 +16,34 @@ class Solution:
 
     def removeNthFromEnd(self, head, n):
         # write your code here
-        n = 1 if n <= 1 else n
-        # pop the first one?
-        fake = ListNode(None, head)
-        node = head
-        stack = [fake]
+        stack = []
 
+        node = head
         while node.next:
             stack.append(node)
             node = node.next
 
-        for _ in range(n):
+        for _ in range(n - 1):
             node = stack.pop()
 
-        if node.next:
-            node.next = node.next.next
+        if not stack:
+            return head.next
+        prev = stack.pop()
+        prev.next = node.next
+        return head
 
-        return fake.next
+
+# let quick pointer go for n first then continue
+
+
+# def removeNthFromEnd(self, head, n):
+#     res = ListNode(0)
+#      res.next = head
+#       tmp = res
+#        for i in range(0, n):
+#             head = head.next
+#         while head != None:
+#             head = head.next
+#             tmp = tmp.next
+#         tmp.next = tmp.next.next
+#         return res.next
