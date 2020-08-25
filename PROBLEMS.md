@@ -318,6 +318,7 @@
   - interval dp
   - memo
 - [k-edit-distance](https://www.lintcode.com/problem/k-edit-distance/)
+- [subarrays-with-k-different-integers ](https://leetcode.com/problems/subarrays-with-k-different-integers)
 
 ## Super
 

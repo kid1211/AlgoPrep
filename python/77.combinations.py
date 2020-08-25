@@ -27,3 +27,6 @@ class Solution:
 
 
 # @lc code=end
+
+# combination means you cannt select the same one one more tiem
+# permutation can pick the same one
