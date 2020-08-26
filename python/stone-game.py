@@ -14,8 +14,10 @@ class Solution:
 
         for i in range(n - 1, -1, -1):
             for j in range(i, n):
-                if i != j:
-                    dp[i][j] = sys.maxsize
+                if i == j:
+                    continue
+
+                dp[i][j] = sys.maxsize
                 for k in range(i, j):
                     dp[i][j] = min(dp[i][j], dp[i][k] +
                                    dp[k + 1][j] + rangeSum[i][j])
@@ -29,7 +31,6 @@ class Solution:
             for j in range(i + 1, n):
                 rangeSum[i][j] = rangeSum[i][j - 1] + A[j]
         return rangeSum
-
 
 # - state: dp[i][j] 表示ith到jth石子合并到一起的最小花费
 # - function:
