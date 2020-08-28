@@ -1,10 +1,8 @@
 # Today's Problem
 
-- [drop-eggs](https://www.lintcode.com/problem/drop-eggs/)
-- [subtree-with-maximum-average](http://www.lintcode.com/problem/subtree-with-maximum-average)
-- [flatten-list](http://www.lintcode.com/en/problem/flatten-list/)
-  - Iterator Below - has template
-- [sort-an-array](https://leetcode.com/problems/sort-an-array/)
-- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
-  - memo
-- [triangle-count](http://www.lintcode.com/problem/triangle-count)
+- [middle-of-the-linked-list](https://www.lintcode.com/problem/middle-of-the-linked-list)
+- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
+- [middle-of-linked-list](https://www.lintcode.com/problem/middle-of-linked-list/)
+- [decode-string](http://www.lintcode.com/problem/decode-string/)
+- [search-for-a-range](http://www.lintcode.com/problem/search-for-a-range)
+- [accounts-merge](https://www.lintcode.com/problem/accounts-merge)
