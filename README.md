@@ -1,8 +1,7 @@
 # Today's Problem
 
-- [middle-of-the-linked-list](https://www.lintcode.com/problem/middle-of-the-linked-list)
-- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
-- [middle-of-linked-list](https://www.lintcode.com/problem/middle-of-linked-list/)
-- [decode-string](http://www.lintcode.com/problem/decode-string/)
-- [search-for-a-range](http://www.lintcode.com/problem/search-for-a-range)
-- [accounts-merge](https://www.lintcode.com/problem/accounts-merge)
+- [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
+- [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
