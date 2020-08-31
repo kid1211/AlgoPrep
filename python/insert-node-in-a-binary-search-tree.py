@@ -1,12 +1,3 @@
-"""
-Definition of TreeNode:
-class TreeNode:
-    def __init__(self, val):
-        self.val = val
-        self.left, self.right = None, None
-"""
-
-
 class Solution:
     """
     @param: root: The root of the binary search tree.
@@ -19,15 +10,15 @@ class Solution:
         if not root:
             return node
 
-        curr = root
-
-        while curr != node:
-            if node.val < curr.val:
-                if not curr.left:
-                    curr.left = node
-                curr = curr.left
+        if node.val >= root.val:
+            if root.right:
+                self.insertNode(root.right, node)
             else:
-                if not curr.right:
-                    curr.right = node
-                curr = curr.right
+                root.right = node
+        elif node.val < root.val:
+            if root.left:
+                self.insertNode(root.left, node)
+            else:
+                root.left = node
+
         return root
