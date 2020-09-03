@@ -1,8 +1,8 @@
 # Today's Problem
 
-- [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- [letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [implement-strstr](https://www.lintcode.com/problem/implement-strstr)
-- [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-- [431 Connected Component in Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-- [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
+- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target/)
+- [binary-tree-paths](http://www.lintcode.com/problem/binary-tree-paths)
+- [sort-integers-ii](https://www.lintcode.com/problem/sort-integers-ii)
+- [clone-graph](https://leetcode.com/problems/clone-graph/)
+- [maximum-association-set](https://www.lintcode.com/problem/maximum-association-set)
+- [reverse-linked-list-ii](https://www.lintcode.com/problem/reverse-linked-list-ii)
