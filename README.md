@@ -1,4 +1,4 @@
 # Today's Problem
 
-- [number-of-islands](https://www.lintcode.com/problem/number-of-islands)
-- [maximal-square-ii](https://www.lintcode.com/problem/maximal-square-ii)
+- [longest-continuous-increasing-subsequence](https://www.lintcode.com/problem/longest-continuous-increasing-subsequence)
+- [stone-game](http://www.lintcode.com/en/problem/stone-game/)
