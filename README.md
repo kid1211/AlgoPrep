@@ -1,6 +1,7 @@
 # Today's Problem
 
-- [classical-binary-search](https://www.lintcode.com/problem/classical-binary-search)
-- [find-pivot-index](https://leetcode.com/problems/find-pivot-index/)
-- [permutation-index](http://www.lintcode.com/problem/permutation-index)
-- [wiggle-sort](http://www.lintcode.com/problem/wiggle-sort/)
+- [two-sum](https://leetcode.com/problems/two-sum/)
+- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
+- [back pack](https://www.lintcode.com/problem/backpack)
+  - use interval??
+- [lru-cache](https://leetcode.com/problems/lru-cache/)
