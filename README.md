@@ -1,7 +1,6 @@
 # Today's Problem
 
-- [two-sum](https://leetcode.com/problems/two-sum/)
-- [insert-node-in-a-binary-search-tree](http://www.lintcode.com/problem/insert-node-in-a-binary-search-tree)
-- [back pack](https://www.lintcode.com/problem/backpack)
-  - use interval??
-- [lru-cache](https://leetcode.com/problems/lru-cache/)
+- [unique-paths](https://www.lintcode.com/problem/unique-paths)
+- [first-position-of-target](https://www.lintcode.com/problem/first-position-of-target/)
+- [set-union](https://www.lintcode.com/problem/set-union)
+- [intersection-of-two-linked-lists](https://www.lintcode.com/problem/intersection-of-two-linked-lists)
