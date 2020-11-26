@@ -7,35 +7,31 @@ class Solution:
 
     def searchRange(self, A, target):
         # write your code here
-        left = self.binarySearchFirstPosition(A, target)
-        if left == -1:
+        if not A:
             return [-1, -1]
-        right = self.binarySearchLastPosition(A, target)
 
-        return [left, right]
+        if len(A) == 1:
+            return [0, 0] if A[0] == target else [-1, -1]
 
-    def binarySearchFirstPosition(self, A, target):
-        left, right = 0, len(A) - 1
+        return [binarySearchLast(A, target, True), binarySearchLast(A, target, False)]
 
-        while left <= right:
-            mid = (left + right) // 2
-            if A[mid] >= target:
-                right = mid - 1
-            else:
-                left = mid + 1
 
-        if 0 <= left < len(A) and A[left] == target:
-            return left
+def binarySearchLast(A, target, getFirst):
+    left, right = 0, len(A) - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        if isMatchingTarget(A[mid], target, getFirst):
+            left = mid + 1
         else:
-            return -1
+            right = mid - 1
 
-    def binarySearchLastPosition(self, A, target):
-        left, right = 0, len(A) - 1
+    if getFirst:
+        return left if left < len(A) and A[left] == target else -1
+    else:
+        return right if right >= 0 and A[right] == target else -1
 
-        while left <= right:
-            mid = (left + right) // 2
-            if A[mid] <= target:
-                left = mid + 1
-            else:
-                right = mid - 1
-        return right if A[right] == target else -1
+
+def isMatchingTarget(midVal, target, getFirst):
+    return midVal < target if getFirst else midVal <= target
