@@ -1,34 +1,36 @@
+from collections import deque
+
+
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         if not grid:
             return 0
+        row, col = len(grid), len(grid[0])
+        queue = deque()
+        goodBoi = 0
 
-        rows, cols = len(grid), len(grid[0])
-        goodies = set()
-
-        init = []
-        for i in range(rows):
-            for j in range(cols):
+        for i in range(len(grid)):
+            for j in range(len(grid[i])):
                 if grid[i][j] == 2:
-                    init.append((i, j))
+                    queue.append((i, j))
                 elif grid[i][j] == 1:
-                    goodies.add((i, j))
+                    goodBoi += 1
 
-        queue = collections.deque(init)
+        if goodBoi == 0:
+            return 0
 
-        count = -1
+        days = -1
         while queue:
-            count += 1
+            days += 1
             for _ in range(len(queue)):
-                rotten_x, rotten_y = queue.popleft()
-                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
-                    x, y = rotten_x + dx, rotten_y + dy
+                locX, locY = queue.popleft()
 
-                    if (x, y) in goodies:
-                        goodies.remove((x, y))
+                for nextX, nextY in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
+                    x, y = locX + nextX, locY + nextY
+
+                    if 0 <= x < row and 0 <= y < col and grid[x][y] == 1:
+                        grid[x][y] = 2
+                        goodBoi -= 1
                         queue.append((x, y))
 
-        if count == -1 and goodies:
-            return -1
-        count = 0 if count == -1 else count
-        return -1 if goodies else count
+        return days if goodBoi == 0 else -1
