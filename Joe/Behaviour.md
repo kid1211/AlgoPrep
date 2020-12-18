@@ -30,7 +30,8 @@
 - Main responsibility is to enable our team member to deliver their work
 - secondary, building reusable component and mentoring junior developers
 - breaking down the story into steps, pair programing and code review to ensure the code follow good practices 
-- co-host on lunch and learn session sharing my personal experience and technical knowledge, some times presuade others to hop on the same boat
+- co-host on lunch and learn session sharing my personal experience and technical knowledge.
+- IBM provide the flexibility for you to switch roles and projects as long as you are able to bring value. I think after the expermenting, I wanna do more coding.
 
 ##  2. <a name='SOLIDPrincipal'></a>SOLID Principal
 
