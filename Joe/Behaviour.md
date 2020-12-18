@@ -26,12 +26,12 @@
 ##  1. <a name='Intro'></a>Intro
 
 - Graduated from Dal with Computer engineering degree, and recently become a Professional Engineer
-- Currently working at IBM as a pod lead for an Airline project, leading an team of iOS, android QA and backend team.
+- Currently working at IBM as a pod lead for an Airline project, leading a team of iOS, android, QA and backend(nodejs, graphql).
 - Main responsibility is to enable our team member to deliver their work
-- secondary, building reusable component and mentoring junior developers
+- as well as, building reusable component and mentoring junior developers
 - breaking down the story into steps, pair programing and code review to ensure the code follow good practices 
-- co-host on lunch and learn session sharing my personal experience and technical knowledge.
-- IBM provide the flexibility for you to switch roles and projects as long as you are able to bring value. I think after the expermenting, I wanna do more coding.
+- other than the day-to-day, co-host on lunch and learn session sharing my personal experience and technical knowledge.
+- [Only when asked!] IBM provide the flexibility for you to switch roles and projects as long as you are able to bring value. I think after the expermenting, I wanna do more coding.
 
 ##  2. <a name='SOLIDPrincipal'></a>SOLID Principal
 
