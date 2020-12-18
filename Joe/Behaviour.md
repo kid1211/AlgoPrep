@@ -79,13 +79,13 @@
 
 ####  4.3.1. <a name='BMO'></a>BMO
 
-- Task: We were asked to implement a maintenance page for a bank. And as most banking system, the backend is pretty legacy. 
-- Action: As a front end developer, I read through their limited documentation and combine with my knowledge in web hosting, I was able to take over this task from our architect and finish this. It was using terminal plus FTP to manage the system, and there is revers proxy and load manger that needs to conffigured. I had a full documentation listed detailer what steps needs to be taken and plan b for different situations. And updated their old shell script in order for this to work. 
+- Task: We were asked to implement a maintenance page for a bank. Most banking system, the backend is pretty legacy. 
+- Action: As a front end developer, I read through their limited documentation and combine with my knowledge in web hosting, I was able to take over this task from our architect and get it done. It was (essentially hosting a web folder) using FTP to manage the system, and there is revers proxy and load manger that needs to configured. I had a full documentation listed detailer what steps needs to be taken and plan b for different situations. And provided a shell script to automate some of the work. 
 - Results: As far as i know, there is no issue has found and I also receive a recognition from the architect (IBM Manager's choice award, Unit and get it done)
 
 ####  4.3.2. <a name='Branchingstrategy'></a>Branching strategy
 
-- Task: I was supporting DevOps on a part time basis, I wouldn't claim to be an expert in this.(Happen to have a wide range of knowledge in web that helps.) I found an issue that is created by the wrong naming convention. And unfortunately we were using a relatively lower tier BitBucket cloud.
+- Task: I was supporting DevOps on a part time basis, I wouldn't claim to be an expert in this.(Happen to have a wide range of knowledge in web that helps.) I found a frequent crash that is created by the wrong naming convention. And unfortunately we were using a relatively lower tier BitBucket cloud.
 - Action: Created a script that identify the wrongly named branch and its owner. Inform the owner, and added archive tags and delete the branch after they confirm. Also added rules in their pre-hook script
 - Results: The build machine hasn't been getting the same problem since, and the branch names are much more manageable.
 
@@ -97,8 +97,8 @@
 
 ###  4.5. <a name='Regret'></a>Regret
 
-- Situation: We just start using core data, no documentation on what is the best practice,
-- Action: implemented a parent-child relationship, but it is not needed. TOO FOCUS ON the Tech
+- Situation: We just start using core data, no documentation on what is the best practice, profile + payment, passenger
+- Action: implemented a parent-child relationship, but it is not needed. TOO FOCUS ON the Tech, once you invest too much it is hard to let go
 - Result: Always the go to person for anything core data, luckily refactored that part.
 
 ###  4.6. <a name='Motivatedothers'></a>Motivated others
@@ -106,8 +106,8 @@
 - Give me an example of a time when you motivated others
 
 - Task: COVID
-- Action: Game and freedom for explore code, not just day to day
-- Results; devliver everythign on time and lunch and learn
+- Action: Game and freedom for explore code, not just day to day. Organized a among us session.
+- Results; deliver everything on time and lunch and learn
 
 ###  4.7. <a name='HardCoolProjects'></a>Hard/Cool Projects
 
@@ -117,15 +117,15 @@
 
 ###  4.8. <a name='Trade-off'></a>Trade-off
 
-- Building the user profile login/logout feature, it is very tempting to use signelton and we were initially.
+- Building the user profile login/logout feature, it is very tempting to use singleton(feature is global, and transitional of screen) and we were using it initially.
 - Refactored it to a dependency injection design pattern
 - much more testable, and also it can be swap to something else which it does now.
 - it is a lot of work 
 
 ##  5. <a name='QuestionToAsk:'></a>Question To Ask:
 
-1. What are the core atrributes that you are looking for in an ideal canadiate?
-2. What is the hightlight of your day to day works?
+1. What are the core attributes that you are looking for in an ideal candidate?
+2. What is the highlight of your day to day works?
 3. What do you see as the most challenging aspect of this job?
 4. Are there opportunities for professional development?  If so, what do those look like?
 5. What is the next step?
