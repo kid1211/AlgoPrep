@@ -34,11 +34,11 @@
 
 ##  2. <a name='SOLIDPrincipal'></a>SOLID Principal
 
-s: singer responsibility
-o: open-closed : open for extension but not modification
-l: liks something, interface can be replace with their subclass
-i: interface serfration,  finer grain of abstraction
-d: dependency inversion, High level modules should not depend on low level modules both should depend on Abstractions.
+- s: singer responsibility
+- o: open-closed : open for extension but not modification
+- l: liks something, interface can be replace with their subclass
+- i: interface serfration,  finer grain of abstraction
+- d: dependency inversion, High level modules should not depend on low level modules both should depend on Abstractions.
 
 ##  3. <a name='STARInterviewingTechnique'></a>STAR Interviewing Technique
 
