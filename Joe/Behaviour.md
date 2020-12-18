@@ -1,6 +1,7 @@
 # Prepare for Behaviour
 
 <!-- TOC -->autoauto- [Prepare for Behaviour](#prepare-for-behaviour)auto    - [Intro](#intro)auto    - [SOLID Principal](#solid-principal)auto    - [STAR Interviewing Technique](#star-interviewing-technique)auto    - [Questions](#questions)auto        - [Soft skill in Persuasion](#soft-skill-in-persuasion)auto            - [Accessibility vs QA](#accessibility-vs-qa)auto        - [Problem solving](#problem-solving)auto            - [Git Bisect](#git-bisect)auto        - [Get it done x2](#get-it-done-x2)auto            - [BMO](#bmo)auto            - [Branching strategy](#branching-strategy)auto        - [Time management](#time-management)auto        - [Regret](#regret)auto        - [Motivated others](#motivated-others)auto        - [Hard/Cool Projects](#hardcool-projects)auto        - [Trade-off](#trade-off)auto    - [Question To Ask:](#question-to-ask)autoauto<!-- /TOC -->
+
 ## Intro
 
 - Graduated from Dal with Computer engineering degree, and recently become a Professional Engineer
