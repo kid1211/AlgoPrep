@@ -21,9 +21,7 @@
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --># Prepare for Behaviour
-
-
+<!-- /vscode-markdown-toc -->
 
 ##  1. <a name='Intro'></a>Intro
 
