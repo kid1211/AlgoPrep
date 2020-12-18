@@ -2,20 +2,81 @@
 
 ## Intro
 
-- Graduated from Dal with computer engineering degree
-- Currently working in IBM as a pod lead where i will be leading teams iOS, android, QA, Backend
-- I am mostly responsible  is **enabling** our team member to finish their work 
-- Work on more**global scope features,** investigation for future stories so that we can continue making reasonable**technical decisions**
-- **Mentoring** more junior developers, by help breaking down the story for them, pair programing and code review
-- Other than the day to day kind of work, I have co-hosted**lunch and learn**sessions to share some of my personal experience, both technical and mentallys.
-(Situation, Task, Action, Result)
+- Graduated from Dal with Computer engineering degree, and recently become a Professional Engineer
+- Currently working at IBM as a pod lead for an Airline project, leading an team of iOS, android QA and backend team.
+- Main responsibility is to enable our team member to deliver their work
+- secondary, building reusable component and mentoring junior developers
+- breaking down the story into steps, pair programing and code review to ensure the code follow good practices 
+- co-host on lunch and learn session sharing my personal experience and technical knowledge, some times presuade others to hop on the same boat
 
-## Copy and paste field
+## SOLID Principal
 
-- This is when I was the iOS platform lead, login sheets are very common in a lot of apps hence 
-- I was asked to create the login sheet that can open up everywhere in the app.
-- As I was developing the app, I noticed that there is a lot of things that I can do to improve the user experience. Such as handle situation when user try to  paste more characters that it is allow. In iOS app, these are the things that are not natively supported out of the box, the app at the time were just disallow the content to be pasted if it is more than the limit. So I went in and implemented this new so called feature after chatting with the PO. Essentially, it will crop all the characters that is exceeding the limit.
-- PO was very pleased with the result, and I eventually make this feature globally available through the app for all input boxes
+s: singer responsibility
+o: open-closed : open for extension but not modification
+l: liks something, interface can be replace with their subclass
+i: interface serfration,  finer grain of abstraction
+d: dependency inversion, High level modules should not depend on low level modules both should depend on Abstractions.
+
+## STAR Interviewing Technique
+
+- Situation or Task: Describe the situation that you were in or the task that you needed to accomplish. You must describe a specific event or situation, not a generalized description of what you have done in the past. Be sure to give enough detail for the interviewer to understand.
+- Action you took: Describe the action you took and be sure to keep the focus on you. Even if you are discussing a group project or effort, describe what you did -- not the efforts of the team. Don't tell what you might do, tell what you did
+- Results you achieved. What happened? How did the event end? What did you accomplish? What did you learn? 
+
+## Questions
+
+### Soft skill in Persuasion
+
+- Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.
+- Tell me about a time when you had to use your presentation skills to influence someone's opinion
+
+Accessibility vs QA
+regex 
+what did i actually talk
+QA?:
+
+
+Snack bar
+
+
+
+### Problem solving
+
+- Give me a specific example of a time when you used good judgment and logic in solving a problem (no debugging tool)
+- give me an example of a time when you used your fact-finding skills to solve a problem. (thing not neccssary true)
+
+user randomly sign out, big problem for airline
+
+Crashes - stuff
+
+
+### Get it done x2
+
+- Tell me about a time when you had to go above and beyond the call of duty in order to get a job done (dbaas?)
+- Give me an example of when you showed initiative and took the lead
+- Describe a time when you anticipated potential problems and developed preventive measures
+DevOps?
+
+arrange meeting, talk to the admin and get it done
+
+late night, 
+code refactor??
+
+### Time management
+
+- Tell me about a time when you had too many things to do and you were required to prioritize your tasks (pending first)
+
+urgent, release bug, triage
+in sprint story based on road map
+refactor list, i will be looking for things that will yield the highest benefit
+
+### Motivated others
+
+- Give me an example of a time when you motivated others
+
+### something i regret
+
+
 
 ## Over engineering core data, fix it after
 
@@ -34,18 +95,6 @@
 
 - It is kind of rare to have automation on mobile apps, as far as i know. We don't actually have a deveop guy so to speak, we only have one person who volunteer to take care of this on going development, where it detect PR merge, and make a build and send the link to slack for QA to test
 - I help to maintain the build machine and jenkins on AWS, set up security groups and stuff. Problem is that it ran out of memory very fast, so i created scripts to restart, also created scripts to clean up wrong naming of branchs
-
-## ask back
-
-https://github.com/viraptor/reverse-interview/blob/master/README.md
-
-## Resume Walk-Through
-
-I am a xxx at xxx. In College, I studied xxx at xxx. Then I worked for xxx where I , Then I worked for xxx where I xxx. In my current job, I've accomplished xxx
-
-- things that we want interview to be interested
-- reArchitecture
-- technical hobby
 
 ## 2 - Hard/Cool Projects
 
@@ -66,30 +115,7 @@ I am a xxx at xxx. In College, I studied xxx at xxx. Then I worked for xxx where
 - 3 year plan
 - why jump?
 
-## Design problem
-
-- Scope
-- Key components
-- identify issues
-- Repair
-
-## SOLID Principle + python funcitonal
-
-Solid
-https://medium.com/ios-expert-series-or-interview-series/solid-design-principle-using-swift-34bb1731cfb3
-s: singer responsibility
-o: open-closed : open for extension but not modification
-l: liks something, interface can be replace with their subclass
-i: interface serfration,  finer grain of abstraction
-d: dependency inversion, High level modules should not depend on low level modules both should depend on Abstractions.
-
-
-copy and paste
-core data
-open critisim
-
-
-Question To Ask:
+## Question To Ask:
 1. What are the core atrributes that you are looking for in an ideal canadiate?
 2. What is the hightlight of your day to day works?
 3. What do you see as the most challenging aspect of this job?
@@ -114,3 +140,16 @@ library
 - iterators
 	* it = iter(xs) -> generate on demand, laziness
 	* next(it) and yield
+
+// comment MaxSum
+
+
+
+
+#### initiative
+
+was just a front end dve, go above an beyond to figure out how it work
+wrote a script for them
+and also a full documentation on what ouwl happen if a or B
+
+front end
