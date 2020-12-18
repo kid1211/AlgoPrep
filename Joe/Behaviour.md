@@ -31,7 +31,7 @@
 - as well as, building reusable component and mentoring junior developers
 - breaking down the story into steps, pair programing and code review to ensure the code follow good practices 
 - other than the day-to-day, co-host on lunch and learn session sharing my personal experience and technical knowledge.
-- [Only when asked!] IBM provide the flexibility for you to switch roles and projects as long as you are able to bring value. I think after the expermenting, I wanna do more coding.
+- [Only when asked!] IBM provide the flexibility for you to switch roles and projects as long as you are able to bring value. I think after the experimenting, I wanna do more coding.
 
 ##  2. <a name='SOLIDPrincipal'></a>SOLID Principal
 
@@ -57,7 +57,7 @@
 ####  4.1.1. <a name='AccessibilityvsQA'></a>Accessibility vs QA
 
 - Task: composite key, flight search block. QA tool rely on Appium
-- Action: Convince QA all the works we do is meaningless without user satisfaction, and 100% is impossible, and provided regex
+- Action: (Everyone has their own prespective) Convince QA all the works we do is meaningless without user satisfaction, and 100% is impossible, and provided regex
 - Result: Win win, test accessibility and the component
 
 ###  4.2. <a name='Problemsolving'></a>Problem solving
