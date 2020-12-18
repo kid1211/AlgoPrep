@@ -1,5 +1,6 @@
 # Prepare for Behaviour
 
+<!-- TOC -->autoauto- [Prepare for Behaviour](#prepare-for-behaviour)auto    - [Intro](#intro)auto    - [SOLID Principal](#solid-principal)auto    - [STAR Interviewing Technique](#star-interviewing-technique)auto    - [Questions](#questions)auto        - [Soft skill in Persuasion](#soft-skill-in-persuasion)auto            - [Accessibility vs QA](#accessibility-vs-qa)auto        - [Problem solving](#problem-solving)auto            - [Git Bisect](#git-bisect)auto        - [Get it done x2](#get-it-done-x2)auto            - [BMO](#bmo)auto            - [Branching strategy](#branching-strategy)auto        - [Time management](#time-management)auto        - [Regret](#regret)auto        - [Motivated others](#motivated-others)auto        - [Hard/Cool Projects](#hardcool-projects)auto        - [Trade-off](#trade-off)auto    - [Question To Ask:](#question-to-ask)autoauto<!-- /TOC -->
 ## Intro
 
 - Graduated from Dal with Computer engineering degree, and recently become a Professional Engineer
@@ -30,126 +31,78 @@ d: dependency inversion, High level modules should not depend on low level modul
 - Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.
 - Tell me about a time when you had to use your presentation skills to influence someone's opinion
 
-Accessibility vs QA
-regex 
-what did i actually talk
-QA?:
+#### Accessibility vs QA
 
-
-Snack bar
-
-
+- Task: composite key, flight search block. QA tool rely on Appium
+- Action: Convince QA all the works we do is meaningless without user satisfaction, and 100% is impossible, and provided regex
+- Result: Win win, test accessibility and the component
 
 ### Problem solving
 
 - Give me a specific example of a time when you used good judgment and logic in solving a problem (no debugging tool)
-- give me an example of a time when you used your fact-finding skills to solve a problem. (thing not neccssary true)
+- give me an example of a time when you used your fact-finding skills to solve a problem. (thing not necessary true)
 
-user randomly sign out, big problem for airline
+#### Git Bisect
 
-Crashes - stuff
-
+- Task: After upgrade to the latest version of the app, keep on crashing. Debugging is not possible because dependency and xcode version
+- Action: Read the Crashlytics and pin point potential issue, and use git bisect
+- Result: Fix the issue, later integrated a data migration manager based on the resources and experience
 
 ### Get it done x2
 
 - Tell me about a time when you had to go above and beyond the call of duty in order to get a job done (dbaas?)
 - Give me an example of when you showed initiative and took the lead
 - Describe a time when you anticipated potential problems and developed preventive measures
-DevOps?
 
-arrange meeting, talk to the admin and get it done
+#### BMO
 
-late night, 
-code refactor??
+- Task: We were asked to implement a maintenance page for a bank. And as most banking system, the backend is pretty legacy. 
+- Action: As a front end developer, I read through their limited documentation and combine with my knowledge in web hosting, I was able to take over this task from our architect and finish this. It was using terminal plus FTP to manage the system, and there is revers proxy and load manger that needs to conffigured. I had a full documentation listed detailer what steps needs to be taken and plan b for different situations. And updated their old shell script in order for this to work. 
+- Results: As far as i know, there is no issue has found and I also receive a recognition from the architect (IBM Manager's choice award, Unit and get it done)
+
+#### Branching strategy
+
+- Task: I was supporting DevOps on a part time basis, I wouldn't claim to be an expert in this.(Happen to have a wide range of knowledge in web that helps.) I found an issue that is created by the wrong naming convention. And unfortunately we were using a relatively lower tier BitBucket cloud.
+- Action: Created a script that identify the wrongly named branch and its owner. Inform the owner, and added archive tags and delete the branch after they confirm. Also added rules in their pre-hook script
+- Results: The build machine hasn't been getting the same problem since, and the branch names are much more manageable.
 
 ### Time management
 
-- Tell me about a time when you had too many things to do and you were required to prioritize your tasks (pending first)
+- urgent, release bug, triage
+- in sprint story based on road map
+- refactor list, i will be looking for things that will yield the highest benefit
 
-urgent, release bug, triage
-in sprint story based on road map
-refactor list, i will be looking for things that will yield the highest benefit
+### Regret
+
+- Situation: We just start using core data, no documentation on what is the best practice,
+- Action: implemented a parent-child relationship, but it is not needed. TOO FOCUS ON the Tech
+- Result: Always the go to person for anything core data, luckily refactored that part.
 
 ### Motivated others
 
 - Give me an example of a time when you motivated others
 
-### something i regret
+- Task: COVID
+- Action: Game and freedom for explore code, not just day to day
+- Results; devliver everythign on time and lunch and learn
 
+### Hard/Cool Projects
 
+- Task: During Job Hunting after I just graduated, I need to apply to a lot of job, and each company have their own platform, unlike now. And I found copy and paste such a tedious job
+- Action: Builded a website that has a resume template format and text fields are lockable to prevent accidental edit, and also a copy button right next to it.
+- Results: seems working fine, should have make it into a chrome plugin, and add functionality to auto fill. But now there is more and more password manager, seems obsolete.
 
-## Over engineering core data, fix it after
+### Trade-off
 
-- It was very early phase of the project and we were just starting to use core data which is a custom database wrapper in iOS
-- There isn't a set rules or clear documentation on what is the right architectture of the database schemas. At the time most people were just have one entity, and save the value that get back from the server as it is, even if the response from server was a object, they will stringify it and save it. However, my collegue and mhyself think there could be a better way to do this. As you may know I was responseible for doing the login and profile services. 
-- So i decided to seperate the passenger data and payment data to a different table entity, and the main profile will have a parent child relationship. At the time, it sounds like a good idea, but there isn't anyone else doign this even on the internet, so the resources was very limited. The bigger problem is that this implmentation is very different from the rest of the app, and others won't be able to understand what is goign on easily. and that causes a big problme.
-- Refactor to the previous one, and not over engineering it, if there isnt'a clear benefit, cuz even though it helps on sorting and get count and so, but there isnt' too much data to make such an impact
-
-## Snack bar
-
-- I was asked to create a snack bar, which is an idea borrow from andoid, where it shows up from the bottom, attaching to views, you can swipe it to dismiss
-- When we first have this story, there is no clear idea where it will be used, and we were only asked to implent this on a page for QA to test, and just develop it so that it is easy to use globally
-- Because it is lack of the clear idea where it would be used, we significantly understimated the effort, when it was used, there are tons of problem, it was orgianlly attached to a speicific view, but the snack bar is a hint for the user. So it happens a lot when user are navigating through pages, and that causes a problem when the bar is attaching to the view controller. So we later rework the snack bar and make it attach to the tab bar. When there is no tab bar, it will have to attach to the rootview controller, but there is safe area in iOS that you shouldn't put any interactive item. And also when transisstioning in pages, there is existing footer that is block, and we will have to raise it and so on.
--
-## Jenkins and automation, git blame
-
-- It is kind of rare to have automation on mobile apps, as far as i know. We don't actually have a deveop guy so to speak, we only have one person who volunteer to take care of this on going development, where it detect PR merge, and make a build and send the link to slack for QA to test
-- I help to maintain the build machine and jenkins on AWS, set up security groups and stuff. Problem is that it ran out of memory very fast, so i created scripts to restart, also created scripts to clean up wrong naming of branchs
-
-## 2 - Hard/Cool Projects
-
-- Hard/cool
-- Central
-- Technical depth
-
-- Challenges? Architecture? Tradeoffs? mistaks? successes? Motivations?
-- Teamwork, leadership? Conflicts?
-
-- Be passionate
-- Be knowledgeable
-- Be a good teammate
-
-## other
-
-- weakness
-- 3 year plan
-- why jump?
+- Building the user profile login/logout feature, it is very tempting to use signelton and we were initially.
+- Refactored it to a dependency injection design pattern
+- much more testable, and also it can be swap to something else which it does now.
+- it is a lot of work 
 
 ## Question To Ask:
+
 1. What are the core atrributes that you are looking for in an ideal canadiate?
 2. What is the hightlight of your day to day works?
 3. What do you see as the most challenging aspect of this job?
 4. Are there opportunities for professional development?  If so, what do those look like?
 5. What is the next step?
-
-
-
-
-Python Functional
-- use functions
-* avoid side-effects
-* first-class functions
-* laziness
-* immutability
- 
-library
-- functools
-	* partial
-		* def add1(x): return add(1,x) -> add1 = partial(add, 1)
-	* reduce
-- iterators
-	* it = iter(xs) -> generate on demand, laziness
-	* next(it) and yield
-
-// comment MaxSum
-
-
-
-
-#### initiative
-
-was just a front end dve, go above an beyond to figure out how it work
-wrote a script for them
-and also a full documentation on what ouwl happen if a or B
-
-front end
