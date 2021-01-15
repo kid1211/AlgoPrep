@@ -35,12 +35,18 @@
 
 ##  2. <a name='SOLIDPrincipal'></a>SOLID Principal
 
-- s: singer responsibility
+- s: single responsibility
 - o: open-closed : open for extension but not modification
 - l: liks something, interface can be replace with their subclass
-- i: interface serfration,  finer grain of abstraction
+- i: interface segregation, finer grain of abstraction
 - d: dependency inversion, High level modules should not depend on low level modules both should depend on Abstractions.
 
+## 2.2 OOP
+
+- Encapsulation – Encapsulation is capturing data and keeping it safely and securely from outside interfaces.
+- Inheritance- This is the process by which a class can be derived from a base class with all features of base class and some of its own. This increases code reusability.
+- Polymorphism- This is the ability to exist in various forms. For example an operator can be <b>overloaded</b> so as to add two integer numbers and two floats.
+- Abstraction- The ability to represent data at a very conceptual level without any details.
 ##  3. <a name='STARInterviewingTechnique'></a>STAR Interviewing Technique
 
 - Situation or Task: Describe the situation that you were in or the task that you needed to accomplish. You must describe a specific event or situation, not a generalized description of what you have done in the past. Be sure to give enough detail for the interviewer to understand.
