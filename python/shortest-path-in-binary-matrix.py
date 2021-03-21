@@ -1,43 +1,40 @@
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
-        if not grid:
+        if not grid or not grid[0]:
             return -1
-        
         if grid[0][0] == 1:
             return -1
-        
-        visited = set()
-        theEnd = (len(grid) - 1, len(grid[0]) - 1)
-        queue = collections.deque([(0, 0)])
-        
-        steps = 0
-        while queue:
-            steps += 1
-            for _ in range(len(queue)):
-                (x, y) = queue.popleft()
-                
-                if (x, y) == theEnd:
-                    return steps
-                
-                if (x, y) in visited:
-                    continue
-                visited.add((x, y))
-                
-                for (dx, dy) in [(1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (-1, -1), (-1, 1), (1, -1)]:
-                    nextPoint = (x + dx, y + dy)
 
-                    if not self.isValid(grid, nextPoint):
-                        continue
-                        
-                    queue.append(nextPoint)
-                    
+        ans = 0
+        end = (len(grid) - 1, len(grid[0]) - 1)
+        queue = collections.deque([(0, 0)])
+        visited = set()
+
+        while queue:
+            ans += 1
+            for _ in range(len(queue)):
+                node = queue.popleft()
+
+                if node == end:
+                    return ans
+
+                if node in visited:
+                    continue
+                visited.add(node)
+
+                for dx, dy in [
+                    (0, 1),
+                    (1, 0),
+                    (0, -1),
+                    (-1, 0),
+                    (1, 1),
+                    (-1, -1),
+                    (1, -1),
+                    (-1, 1),
+                ]:
+                    x, y = node[0] + dx, node[1] + dy
+
+                    if 0 <= x < len(grid) and 0 <= y < len(grid[0]) and grid[x][y] == 0:
+                        queue.append((x, y))
+
         return -1
-        
-    def isValid(self, grid, nextPoint):
-        rows = len(grid)
-        cols = len(grid[0])
-        x, y = nextPoint
-        
-        return 0 <= x < rows and 0 <= y < cols and grid[x][y] != 1
-    
-    # [[0,0,1,0,0,0,0],[0,1,0,0,0,0,1],[0,0,1,0,1,0,0],[0,0,0,1,1,1,0],[1,0,0,1,1,0,0],[1,1,1,1,1,0,1],[0,0,1,0,0,0,0]]

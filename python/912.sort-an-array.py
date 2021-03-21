@@ -9,35 +9,35 @@
 
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
-        return self.mergesort(nums)
-
-    def mergesort(self, nums):
-        length = len(nums)
-
-        if length <= 1:
+        n = len(nums)
+        if n < 2:
             return nums
-
-        leftSorted = self.mergesort(nums[:length // 2])
-        rightSorted = self.mergesort(nums[length // 2:])
-
-        left, right = 0, 0
-        maxLeft, maxRight = len(leftSorted), len(rightSorted)
-        rtn = []
-
-        while left < maxLeft and right < maxRight:
-            if leftSorted[left] <= rightSorted[right]:
-                rtn.append(leftSorted[left])
-                left += 1
+        
+        left = self.sortArray(nums[:n//2])
+        right = self.sortArray(nums[n//2:])
+        
+        return self.mergeSort(left, right)
+    def mergeSort(self, left, right):
+        i = j = 0
+        maxLeft, maxRight = len(left), len(right)
+        
+        res = []
+        while i < maxLeft and j < maxRight:
+            if left[i] <= right[j]:
+                res.append(left[i])
+                i += 1
             else:
-                rtn.append(rightSorted[right])
-                right += 1
-
-        while left < maxLeft:
-            rtn.append(leftSorted[left])
-            left += 1
-        while right < maxRight:
-            rtn.append(rightSorted[right])
-            right += 1
-
-        return rtn
+                res.append(right[j])
+                j += 1
+        
+        while i < maxLeft:
+            res.append(left[i])
+            i += 1
+        
+        while j < maxRight:
+            res.append(right[j])
+            j += 1
+        
+        return res
+                
         # @lc code=end
