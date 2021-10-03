@@ -49,24 +49,6 @@ class LRUCache {
         guard let node = nodeMap[key] else { return nil }    
         removeNode(node)
         return addNode(node.key, node.val)
-        
-        
-        guard var current = head else { return nil }
-        
-        if current.key == key {
-            return current
-        }
-        
-        // because i want to return the last one, so i should check has next, not current
-        while var next = current.next {
-            if next.key == key {
-                removeNode(next)
-                return addNode(next.key, next.val)
-            }
-            current = next
-        }
-        
-        return nil
     }
     
     internal func addNode(_ key: Int, _ val: Int) -> Node<Int> {
@@ -94,17 +76,15 @@ class LRUCache {
     internal func removeNode(_ node: Node<Int>? = nil) {
         size -= 1
         if let node = node, node.key != tail?.key {
-            nodeMap[node.key] = nil
             removeMiddle(node)
         } else {
-            if let tail = tail {
-                nodeMap[tail.key] = nil
-            }
             removeLast()
         }
     }
     
     internal func removeMiddle(_ node: Node<Int>) {
+        nodeMap[node.key] = nil
+        
         if node.key == head?.key {
             // if there is size == 1
             head = node.next
@@ -115,7 +95,11 @@ class LRUCache {
         }
     }
     
-    internal func removeLast() {        
+    internal func removeLast() {
+        if let tail = tail {
+            nodeMap[tail.key] = nil
+        }
+        
         // if head and tail are equal
         if tail?.key == head?.key {
             head = nil
@@ -144,3 +128,12 @@ class LRUCache {
  * let ret_1: Int = obj.get(key)
  * obj.put(key, value)
  */
+
+// ["LRUCache","put","put","get","put","get","put","get","get","get"]
+// [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
+
+// ["LRUCache","put","get","put","get","get"]
+// [[1],[2,1],[2],[3,2],[2],[3]]
+
+// ["LRUCache","get","put","get","put","put","get","get"]
+// [[2],[2],[2,6],[1],[1,5],[1,2],[1],[2]]

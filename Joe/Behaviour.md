@@ -40,6 +40,7 @@
 - l: liks something, interface can be replace with their subclass
 - i: interface segregation, finer grain of abstraction
 - d: dependency inversion, High level modules should not depend on low level modules both should depend on Abstractions.
+- https://towardsdatascience.com/5-principles-to-write-solid-code-examples-in-python-9062272e6bdc
 
 ## 2.2 OOP
 
@@ -135,3 +136,41 @@
 3. What do you see as the most challenging aspect of this job?
 4. Are there opportunities for professional development?  If so, what do those look like?
 5. What is the next step?
+
+##  6. <a name='CodingInterview:'></a>Coding Interview:
+
+- Ask clarifying questions
+	- *reprhase the question*
+	- should this be done in place
+	- can we make any *assumptions* about the inputs? 
+		- RED FLAG if you didn't ask
+		- intergers are positive?
+		- array not empty
+		- all input is safe
+	- do we care more about *performance or saving memory*
+- Analyze various solutions and tradeoffs
+- plan solution with pseudocode
+- implement solution
+- test
+	- check optional
+	- check syntax name
+
+## 7. <a name='SwiftAnswer:'></a>Swift Answer:
+
+more data structure: https://dennis-xlc.gitbooks.io/swift-algorithms-data-structures/content/chapter7.html
+Ans: https://github.com/raywenderlich/swift-algorithm-club
+
+FB:
+- https://www.facebookrecruiting.com/portal/interview_prep_hub?c=399863738457834
+- https://www.facebook.com/notes/10158791573512200/
+- https://engineering.fb.com/category/ios/
+- https://www.facebook.com/notes/10158791572847200/
+
+
+
+## 8. <a name='LinkedList:'></a>Linked List:
+reversing:
+[NONON]next should point to current (next.next = current) 
+update current next, (current.next = previous) [also update prev]
+
+In my loop, i shoudl only myself!!!!
