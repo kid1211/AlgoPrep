@@ -29,32 +29,24 @@ class Solution:
             current.pop()
             visited.remove(nums[i])
 
+
 # @lc code=end
 
 
 class Solution:
-    """
-    @param: nums: A list of integers.
-    @return: A list of permutations.
-    """
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        self.dfs(nums, res, [], set())
+        return res
 
-    def permute(self, nums):
-        # write your code here
-        result = []
-        self.dfs([], set(), nums, result)
-        return result
-
-    def dfs(self, current, visited, nums, result):
-        if len(current) == len(nums):
-            result.append(list(current))
+    def dfs(self, nums, res, curr, visited):
+        if len(curr) == len(nums):
+            res += [curr]
             return
 
-        for i in range(len(nums)):
-            if nums[i] in visited:
+        for num in nums:
+            if num in visited:
                 continue
-
-            visited.add(nums[i])
-            current.append(nums[i])
-            self.dfs(current, visited, nums, result)
-            current.pop()
-            visited.remove(nums[i])
+            visited.add(num)
+            self.dfs(nums, res, curr + [num], visited)
+            visited.remove(num)
