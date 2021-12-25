@@ -1,82 +1,3 @@
-class HashHeap:
-    def __init__(self, desc = False):
-        self.hashmap = dict()
-        self.heap = []
-        self.desc = desc
-    
-    def push(self, value):
-        self.heap.append(value)
-        self.hashmap[value] = self.size - 1
-        
-        # move it up
-        self._sift_up(self.size - 1)
-    
-    def pop(self):
-        item = self.top
-        self.remove(item)
-        return item
-        
-    def remove(self, val):
-        if val not in self.hashmap:
-            return
-        
-        # swap the last and top
-        idx = self.hashmap[val]
-        self._swap(idx, self.size - 1)
-        
-        # remove last
-        del self.hashmap[val]
-        self.heap.pop() # this is list pop, not heap pop
-        
-        if idx < self.size:
-            self._sift_up(idx)
-            self._sift_down(idx)
-    
-    @property
-    def size(self):
-        return len(self.heap)
-    
-    @property
-    def top(self):
-        return self.heap[0]
-    
-    def _sift_down(self, idx):
-        while idx * 2 < self.size:
-            smallest = idx
-            left, right = idx * 2, idx * 2 + 1
-            
-            # test out if order useful
-            if self._compare(left, smallest):
-                smallest = left
-            
-            if right < self.size and self._compare(right, smallest):
-                smallest = right
-            
-            if smallest == idx:
-                return
-            
-            self._swap(smallest, idx)
-            idx = smallest # continue
-    
-    def _sift_up(self, idx):
-        while idx != 0:
-            parent = idx // 2
-            if self._compare(parent, idx):
-                return
-            self._swap(idx, parent)
-            idx = parent
-
-    def _swap(self, i, j):
-        item1, item2 = self.heap[i], self.heap[j]
-        self.heap[i], self.heap[j] = item2, item1
-        self.hashmap[item1], self.hashmap[item2] = j, i
-    
-    def _compare(self, leftIdx, rightIdx):
-        return (
-            self.heap[leftIdx] < self.heap[rightIdx] if not self.desc else
-            self.heap[rightIdx] < self.heap[leftIdx]
-            )
-
 class Solution:
     """
     @param nums: A list of integers
@@ -87,37 +8,111 @@ class Solution:
         if not nums or len(nums) < k:
             return []
             
-        self.maxheap = HashHeap(desc = True)
-        self.minheap = HashHeap()
+        maxheap, minheap = MaxHeap(), MinHeap()
+        res = []
         
-        for i in range(k - 1):
-            # adding a tuple is more unique than same value
-            self.add((nums[i], i))
+        def getMedian():
+            return (maxheap.top[0] +  minheap.top[0]) / 2 if k % 2 == 0 else maxheap.top[0]
             
-        medians = []
+        def add(idx):
+            value = (nums[idx], idx)
+            if len(maxheap) > len(minheap):
+                minheap.push(value)
+            else:
+                maxheap.push(value)
+            
+            if len(minheap) and maxheap.top > minheap.top:
+                maxheap.push(minheap.pop())
+                minheap.push(maxheap.pop())
+        
+        def remove(idx):
+            value = (nums[idx], idx)
+            maxheap.pop(value)
+            minheap.pop(value)
+            
+            # maxHeap always need to be the same or 1 bigger
+            if len(minheap) > len(maxheap):
+                maxheap.push(minheap.pop())
+        
+        for i in range(k - 1): add(i)
+            
         for i in range(k - 1, len(nums)):
-            temp = self.add((nums[i], i))
-            medians.append(temp)
-            self.remove((nums[i - k + 1], i - k + 1))
+            add(i)
+            res += [getMedian()]
+            remove(i - k + 1)
             
-        return medians
+        return res
+
+class HashHeap:
+    def __init__(self):
+        self.hashmap = {}
+        self.heap = []
     
-    def add(self, value):
-        if self.maxheap.size > self.minheap.size:
-            self.minheap.push(value)
-        else:
-            self.maxheap.push(value)
+    def push(self, value):
+        self.heap += [value]
+        self.hashmap[value] = len(self) - 1
         
-        if self.minheap.size and self.maxheap.top > self.minheap.top:
-            self.maxheap.push(self.minheap.pop())
-            self.minheap.push(self.maxheap.pop())
+        # move it up
+        self._sift_up(len(self) - 1)
         
-        return self.maxheap.top[0]
+    def pop(self, val=None):
+        if not val:
+            val = self.top
+            
+        if val not in self.hashmap:
+            return None
+        
+        # swap the last and top
+        idx = self.hashmap[val]
+        self._swap(idx, len(self) - 1)
+        
+        # remove last
+        del self.hashmap[val]
+        self.heap.pop() # this is list pop, not heap pop
+        
+        if idx != len(self):
+            self._sift_up(idx)
+            self._sift_down(idx)
+        return val
     
-    def remove(self, value):
-        self.maxheap.remove(value)
-        self.minheap.remove(value)
-        
-        # adjust so that it balance out
-        if self.minheap.size > self.maxheap.size:
-            self.maxheap.push(self.minheap.pop())
+    def __len__(self):
+        return len(self.heap)
+    
+    @property
+    def top(self):
+        return self.heap[0]
+    
+    def _sift_down(self, idx):
+        while idx * 2 < len(self):
+            left, right = idx * 2, idx * 2 + 1
+            parent = self._getParent([left, right, idx])
+            if parent == idx:
+                return
+            
+            self._swap(parent, idx)
+            idx = parent
+    
+    def _sift_up(self, idx):
+        while idx != 0:
+            parent = idx // 2
+            if parent == self._getParent([parent, idx]):
+                return
+            
+            self._swap(idx, parent)
+            idx = parent
+
+    def _swap(self, i, j):
+        item1, item2 = self.heap[i], self.heap[j]
+        self.heap[i], self.heap[j] = item2, item1
+        self.hashmap[item1], self.hashmap[item2] = j, i
+
+    def _getVal(self, idx, default):
+        return self.heap[idx] if idx < len(self) else (default, None)
+
+class MinHeap(HashHeap):
+    def _getParent(self, canadiates):
+        return min(canadiates, key = lambda k: self._getVal(k, sys.maxsize))
+
+class MaxHeap(HashHeap):
+    def _getParent(self, canadiates):
+        return max(canadiates, key = lambda k: self._getVal(k, - sys.maxsize))
