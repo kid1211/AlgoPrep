@@ -1,39 +1,45 @@
 class Solution:
-    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:
-        if len(nums) < k:
-            return []
+    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+        tmp = []
 
-        def add(idx):
-            val = (nums[idx], idx)
-            if len(minheap) < len(maxheap):
-                minheap.push(val)
+        for i in range(len(buildings)):
+            start, end, height = buildings[i]
+            tmp += [(start, height, i, True)]
+            tmp += [(end, height, i, False)]
+
+        maxheap = MaxHeap()
+        intervals = []
+        lastpos = None
+        for pos, height, index, isStart in sorted(tmp):
+            maxHeight = maxheap.top[0] if len(maxheap) else 0
+            self.mergeTo(intervals, lastpos, pos, maxHeight)
+            if isStart:
+                maxheap.push((height, index))
             else:
-                maxheap.push(val)
-
-            if minheap and minheap.top < maxheap.top:
-                minheap.push(maxheap.pop())
-                maxheap.push(minheap.pop())
-
-        def remove(idx):
-            val = (nums[idx], idx)
-            minheap.pop(val)
-            maxheap.pop(val)
-
-            if len(minheap) > len(maxheap):
-                maxheap.push(minheap.pop())
+                maxheap.pop((height, index))
+            lastpos = pos
 
         res = []
-        minheap, maxheap = MinHeap(), MaxHeap()
-
-        for i in range(k - 1):
-            add(i)
-        for i in range(k - 1, len(nums)):
-            add(i)
-            res += [
-                (maxheap.top[0] + minheap.top[0]) / 2 if k % 2 == 0 else maxheap.top[0]
-            ]
-            remove(i - k + 1)
+        for start, end, height in intervals:
+            if res and res[-1][0] == start:
+                res.pop()
+            res += [[start, height]]
+            res += [[end, 0]]
+        # print(intervals)
         return res
+
+    # lint code
+    def mergeTo(self, intervals, start, end, height):
+        if start is None or height == 0 or start == end:
+            return
+        if not intervals:
+            intervals.append([start, end, height])
+            return
+        _, prevEnd, prevHeight = intervals[-1]
+        if prevHeight == height and prevEnd == start:
+            intervals[-1][1] = end
+            return
+        intervals.append([start, end, height])
 
 
 class HashHeap:

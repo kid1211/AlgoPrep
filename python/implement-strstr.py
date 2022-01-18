@@ -40,7 +40,7 @@ class Solution:
         return -1
 
     def gethash(self, letter):
-        return ord(letter) - ord('a')
+        return ord(letter) - ord("a")
 
 
 class Solution:

@@ -1,31 +1,20 @@
 class Solution:
-    """
-    @param s: A string
-    @param k: An integer
-    @return: An integer
-    """
-
-    def lengthOfLongestSubstringKDistinct(self, s, k):
-        # write your code here
-        if k == 0:
-            return 0
-
-        count = {}
+    def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
+        res = 0
+        count = collections.defaultdict(int)
         n = len(s)
-        longest = 0
 
         j = 0
         for i in range(n):
-            while j < n and (len(count) < k or s[j] in count):
-                count[s[j]] = count.get(s[j], 0) + 1
+            while j < n and (s[j] in count or len(count) < k):
+                count[s[j]] += 1
                 j += 1
 
-            if len(count) >= k:
-                longest = max(longest, j - i)
+            if len(count) <= k:
+                res = max(res, j - i)
 
-            # clear up
             count[s[i]] -= 1
-            if count[s[i]] == 0:
+            if count[s[i]] <= 0:
                 del count[s[i]]
+        return res
 
-        return longest if longest != 0 else len(s)
