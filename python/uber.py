@@ -50,69 +50,84 @@ def mergeTransactions(transactions):
 
     return transaction
 
-
 # result: {('BoA', 'Wells Fargo'): -121.0, ('Chase', 'Wells Fargo'): 207.0, ('BoA', 'Chase'): 207.0}
 # result: {('BoA', 'Wells Fargo'): -121.0, ('BoA', 'Wells Fargo'): 207.0}
 # result: {('BoA', 'Wells Fargo'): 86.0}
-
-# banks  orig
-# build key
-# key => [bank, banksAfterAlbet]
-from heapq import heappop, heappush
-
-# payee, payer, amount for payer
-# def mergeTransactions2(transactions):
-#     # exit?
-#     transactions = mergeTransactions(transactions)
-#     banks = set()
-#     for key in transactions:
-#         payee, payer = key
-#         banks.add(payee)
-#         banks.add(payer)
-#     banks = list(sorted(banks))
-
-#     def dfs(index):
-#         # not sure
-#         if index + 1 > len(banks):
-#             return
-
-#         if (banks[index], banks[index + 1]) not in transactions:
-#             return
-
-#         payee, lastPayer, lastAmount = (
-#             banks[index],
-#             banks[index + 1],
-#             transactions[(banks[index], banks[index + 1])],
-#         )
-
-#         for i in range(index + 1, len(banks)):
-#             currPayer = banks[i]
-#             if (lastPayer, currPayer) not in transactions:
-#                 continue
-#             amount = transactions[(lastPayer, currPayer)]
-
-#             del transactions[(payee, lastPayer)]
-#             del transactions[(lastPayer, currPayer)]
-#             transactions[(payee, currPayer)] += amount + lastAmount
-#             lastPayer, lastAmount = currPayer, transactions[(payee, currPayer)]
-
-#     dfs(0)
-#     return transactions
 
 
 def mergeTransactions2(transactions):
     # exit?
     transactions = mergeTransactions(transactions)
-    payeeMapping = collections.defaultdict(set)
-    for payee, payer in transactions:
-        payeeMapping[payee].add(payer)
-    print("wtf")
-    print(payeeMapping)
+    uf = UnionFind(transactions)
+    uf.find("Wells Fargo")
 
     return transactions
 
 
+class UnionFind:
+    def __init__(self, transactions):
+        self.father = {}
+
+        for payee, payer in transactions:
+            if payee not in self.father:
+                self.father[payee] = payee
+            self.father[payer] = payee
+        # print(self.father)
+
+    def find(self, bank):
+        lastFather = None
+        while bank != self.father[bank]:
+            lastFather = bank
+            print("bobo", bank, lastFather, self.father[bank])
+            bank = self.father[bank]
+
+
+# def mergeTransactions2(transactions):
+#     # exit?
+#     transactions = mergeTransactions(transactions)
+
+#     banks = set()
+#     for key in transactions:
+#         payee, payer = key
+#         banks.add(payee)
+#         banks.add(payer)
+
+#     indegree = {n: 0 for n in banks}
+#     payeeMapping = collections.defaultdict(set)
+
+#     for payee, payer in transactions:
+#         indegree[payer] += 1
+#         payeeMapping[payee].add(payer)
+
+#     queue = collections.deque([n for n in indegree if indegree[n] == 0])
+#     print("wtf")
+#     tmp = []
+
+#     while queue:
+#         node = queue.popleft()
+
+#         if node not in payeeMapping:
+#             tmp += [node]
+
+#         # xx
+#         print(node)
+#         for payer in payeeMapping[node]:
+#             # node -> payer
+#             for nextPayer in payeeMapping[payer]:
+#                 # node -> nextPayer + transaction
+#                 transactions[(node, nextPayer)] = transactions[(payer, nextPayer)]
+#                 queue.append(nextPayer)
+#                 # del
+#                 del transactions[(payer, nextPayer)]
+#             del transactions[(node, payer)]
+
+#     print("huh", tmp)
+#     print("wtf")
+
+#     return transactions
+
+
 print(mergeTransactions(transactions))
-print(mergeTransactions2(transactions))
-print(-568 + 207 - 121)
+mergeTransactions2(transactions)
+# print("2", mergeTransactions2(transactions))
 

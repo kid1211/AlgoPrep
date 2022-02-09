@@ -1,0 +1,51 @@
+<body>
+    <form id="form">
+        <label for="rows">number of rows:</label>
+        <input type="text" name="rows" id="row" />
+
+        <label for="columns">number of rows:</label>
+        <input type="text" name="columns" id="col" />
+
+        <button type="submit" onclick="createTable()" id="button" value="Submit"></button>
+    </form>
+
+    <table id="zigzagTable"></table>
+
+</body>
+
+<script>
+    document.querySelector("#button").addEventListener("click", function (event) {
+        event.preventDefault();
+    })
+
+    function createTable() {
+        let rows = document.getElementById("row").value;
+        let cols = document.getElementById("col").value;
+        const table = document.getElementById("zigzagTable")
+        table.innerHTML = "";
+        let matrix = []
+
+        for (let i = 0; i < rows; i++) {
+            let r = table.insertRow(i)
+            currRow = [];
+            for (let j = 0; j < cols; j++) {
+                let val = 0
+                if (j % 2 == 0) {
+                    // even
+                    val = rows * j + i + 1;
+                } else {
+                    // odd
+                    val = rows * (j + 1) - i;
+                }
+
+                let c = r.insertCell(j);
+                c.innerHTML = val
+                currRow.push(val)
+
+            }
+            matrix.push(currRow)
+        }
+
+        console.log(matrix)
+    }
+</script>
