@@ -29,10 +29,6 @@ class Deque<T> {
         }
     }
     
-    static func += (lhs: inout Deque<T>, rhs: T) {
-        lhs.append(rhs)
-    }
-    
     func removeFirst() -> T? {
         guard let tmp = first else { return nil }
         first = first!.next
