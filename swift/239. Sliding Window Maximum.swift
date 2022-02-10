@@ -1,3 +1,31 @@
+class Solution {
+    func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
+        var deque = Deque<Int>()
+        
+        func add(_ idx: Int) {
+            while let last = deque.lastVal, nums[last] < nums[idx] {
+                deque.removeLast()
+            }
+            deque.append(idx)
+        }
+        
+        for i in 0..<(k - 1) { add(i) }
+        
+        var res = [Int]()
+        for i in (k - 1)..<nums.count {
+            add(i)
+            res += [nums[deque.firstVal!]]
+            
+            if i - k + 1 == deque.firstVal {
+                deque.removeFirst()
+            }
+        }
+        
+        return res
+        
+    }
+}
+
 class Deque<T> {
     private class Node<T> {
         var val: T
