@@ -1,52 +1,53 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public var val: Int
+ *     public var next: ListNode?
+ *     public init() { self.val = 0; self.next = nil; }
+ *     public init(_ val: Int) { self.val = val; self.next = nil; }
+ *     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+ * }
+ */
 class Solution {
-    func getSkyline(_ buildings: [[Int]]) -> [[Int]] {
-        var tmp:[(pos:Int, height:Int, idx: Int, isStart: Bool)] = []
-        for i in 0..<buildings.count {
-            let start = buildings[i][0]
-            let end = buildings[i][1]
-            let height = buildings[i][2]
+    func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
+       // # heap
+        var heap = HashHeap<ListNode>(true)
+        
+        for node in lists {
+            guard let node = node else { continue }
+            heap.push(node)
             
-            tmp += [(start, height, i, true)]
-            tmp += [(end, height, i, false)]
         }
         
-        var maxHeap = HashHeap<Int>(false)
-        var intervals:[(start: Int, end: Int, height: Int)] = []
-        var lastPos: Int?
-        
-        func merge(_ start: Int?, _ end: Int, _ height: Int) {
-            guard let start = start, start != end && height != 0 else { return }
+        var dummy = ListNode()
+        var curr = dummy
+        while heap.top != nil {
+            guard let node = heap.pop() else { continue }
+            curr.next = node
+            curr = node
             
-            if let last = intervals.last, last.end == start && last.height == height {
-                intervals[intervals.count - 1] = (last.start, end, height)
-                return
+            if node.next != nil {
+                heap.push(node.next!)
             }
-            
-            intervals += [(start, end, height)]
         }
         
-        for (pos, height, idx, isStart) in tmp.sorted { ($0.pos, $0.height, $0.idx) < ($1.pos, $1.height, $1.idx) } {
-            merge(lastPos, pos, maxHeap.top ?? 0)
-            lastPos = pos
-            
-            isStart ? maxHeap.push(height, idx) : maxHeap.pop(height, idx)
-        }
-        
-        var res: [[Int]] = []
-        
-        for (start, end, height) in intervals {
-            if let last = res.last, last[0] == start && last[1] == 0 {
-                res.removeLast()
-            }
-            
-            res += [[start, height]]
-            res += [[end, 0]]
-        }
-        
-        return res
+        return dummy.next
     }
 }
-
+// https://stackoverflow.com/questions/34705786/swift-how-to-implement-hashable-protocol-based-on-object-reference
+extension ListNode: Comparable, Equatable, Hashable  {
+    static public func <(lhs:ListNode, rhs:ListNode) -> Bool {
+        lhs.val < rhs.val
+    }
+    static public func ==(lhs:ListNode, rhs:ListNode) -> Bool {
+        lhs === rhs
+    }
+    
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(ObjectIdentifier(self))
+    }
+}
+   
 class HashHeap<T: Hashable & Comparable> {
     private struct Node: Hashable {
         var val: T

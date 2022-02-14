@@ -1,61 +1,60 @@
-class HashHeap<T: Comparable & Hashable> {
+class HashHeap<T: Hashable & Comparable> {
     struct Node: Hashable {
-        let val:T
-        let idx: Int
+        let val: T
+        let identifier: Int
         
-        init(_ val: T, _ idx: Int) {
+        init(_ val: T, _ identifier: Int = -1) {
             self.val = val
-            self.idx = idx
+            self.identifier = identifier
         }
     }
-    
-    private let isMinHeap: Bool
-    private var heap: [Node] = []
-    private var map: [Node: Int] = [:]    
-    
+    private var heap = [Node]()
+    private var map = [Node:Int] ()
     var top: Node? { heap.first }
-    private var size: Int { heap.count }
+    var size: Int { heap.count }
+    private let isMinHeap: Bool
     
-    init(_ isMinHeap: Bool) {
-        self.isMinHeap = isMinHeap
-    }
+    init(_ isMinHeap: Bool) { self.isMinHeap = isMinHeap}
     
     func push(_ node: Node) {
         heap += [node]
         map[node] = size - 1
-        siftup(size - 1)
+        siftUp(size - 1)
     }
     
-    func pop(_ node: Node?){
-        let node = node == nil ? top : node
-        guard let idx = map[node!] else { return }
+    func pop(_ node: Node? = nil) -> Node? {
+        guard let node = node ?? heap.first else { return nil }
+        guard let idx = map[node] else { return nil }
         swap(idx, size - 1)
         
-        map[node!] = nil
         heap.removeLast()
+        map[node] = nil
         
         if idx != size {
-            siftup(idx)
-            siftdown(idx)
+            siftUp(idx)
+            siftDown(idx)
         }
         
-    }
-    private func siftup(_ idx: Int) {
-        guard idx != 0 else { return }
-        let parent = (idx - 1) / 2
-        guard parent != findParent([parent, idx]) else { return }
-        swap(parent, idx)
-        siftup(parent)
-
+        return node
     }
     
-    private func siftdown(_ idx: Int) {
+    private func siftUp(_ idx: Int) {
+        guard idx > 0 else { return }
+        let parent = (idx - 1) / 2
+        if parent != findParent([idx, parent]) {
+            swap(parent, idx)
+            siftUp(parent)
+        }
+    }
+    
+    private func siftDown(_ idx: Int) {
         guard idx * 2 < size else { return }
-        guard 
+        if 
             let parent = findParent([idx, idx * 2 + 1, idx * 2 + 2]),
-            parent != idx else { return }
-        swap(parent, idx)
-        siftdown(parent)
+            parent != idx {
+                swap(parent, idx)
+                siftDown(parent)
+            }
     }
     
     private func swap(_ i: Int, _ j: Int) {
@@ -63,12 +62,9 @@ class HashHeap<T: Comparable & Hashable> {
         heap.swapAt(i, j)
     }
     
-    private func findParent(_ candidates: [Int]) -> Int? {
-        let sorted = candidates.filter{ 
-            $0 < heap.count 
-        }.sorted {
-            heap[$0].val <= heap[$1].val
-        }
+    private func findParent(_ nums: [Int]) -> Int? {
+        let sorted = nums.filter { $0 < size }.sorted { heap[$0].val < heap[$1].val }
         return isMinHeap ? sorted.first : sorted.last
     }
+    
 }
