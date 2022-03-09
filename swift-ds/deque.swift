@@ -31,7 +31,7 @@ class Deque<T> {
     func append(_ val: T) {
         var node = Node(val)
         count += 1
-        
+        ``
         if let lastN = lastNode {
             lastN.next = node
             node.prev = lastNode
